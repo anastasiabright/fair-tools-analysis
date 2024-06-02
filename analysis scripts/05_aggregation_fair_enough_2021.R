@@ -1,0 +1,309 @@
+#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Aggregate and manipulate results from Fair Enough Assessment ----
+#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Prepare R environment----
+#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+cat("\014") # Clear your console
+rm(list = ls()) # Clear your environment
+
+library(purrr)
+library(dplyr)
+library(jsonlite)
+library(stringr)
+library(tidyr)
+library(hexView)
+
+# Load data
+source("R/01_rdm_ids_2021.R")
+load("./output/Rdata/fair-enough data/fair_enough_list_2021_2024_02_25.Rdata")
+
+#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Aggregate and manipulate Fair Enough overall scores ----
+#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# Check depth of nested fair_enough_list_2021
+pluck_depth(fair_enough_list_2021) # 16
+
+
+fair_enough_summary <- map_dfr(
+  seq_along(fair_enough_list_2021),
+  ~ {
+ if ("score" %in% names(fair_enough_list_2021[[.x]])) {
+      scores <- list(
+        enough_score = fair_enough_list_2021[[.x]][["score"]],
+        enough_score_total = fair_enough_list_2021[[.x]][["score_max"]],
+        enough_score_percent = fair_enough_list_2021[[.x]][["score_percent"]]
+      )
+    } else {
+      scores <- list(
+        enough_xml_document = inherits(fair_enough_list_2021[[.x]][["doc"]], "externalptr")
+        #xml_node = fair_enough_list_2021[[.x]][["node"]]
+      )
+    }
+    
+    # Filter out NULL or list elements
+    scores <- scores[!sapply(scores, is.null) & !sapply(scores, is.list)]
+    
+    if (length(scores) > 0) {
+      scores_df <- data.frame(scores)
+      scores_df <- scores_df %>% mutate(guid = fair_enough_list_2021[[.x]][["subject"]])
+    } else {
+      scores_df <- NULL
+    }
+    
+    return(scores_df)
+  }
+)
+
+
+#write.csv(fair_enough_summary, "fair_enough_summary_2021_2024_03_31.csv", row.names = F)
+
+save(fair_enough_summary, file = "output/Rdata/fair-enough data/fair_enough_summary_general_scores_2024_05_10.Rdata")
+
+#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Aggregate and manipulate FAIR Enough individual metrics scores ----
+#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+load("./output/Rdata/fair-enough data/fair_enough_each_metric.Rdata")
+
+extract_values <- function(entry) {
+  if (
+    !is.null(entry[["http://semanticscience.org/resource/SIO_000332"]]) &&
+    length(entry[["http://semanticscience.org/resource/SIO_000332"]]) > 0 &&
+    !is.null(entry[["http://semanticscience.org/resource/SIO_000332"]][[1]][["@id"]]) &&
+    !is.null(entry[["http://semanticscience.org/resource/SIO_000300"]]) &&
+    length(entry[["http://semanticscience.org/resource/SIO_000300"]]) > 0 &&
+    !is.null(entry[["http://semanticscience.org/resource/SIO_000300"]][[1]][["@value"]]) &&
+    !is.null(entry[["http://schema.org/comment"]]) &&
+    length(entry[["http://schema.org/comment"]]) > 0 &&
+    !is.null(entry[["http://schema.org/comment"]][[1]][["@value"]])
+  ) {
+    
+    id_value <- entry[["http://semanticscience.org/resource/SIO_000332"]][[1]][["@id"]]
+    value_value <- entry[["http://semanticscience.org/resource/SIO_000300"]][[1]][["@value"]]
+    comment_value <- entry[["http://schema.org/comment"]][[1]][["@value"]]
+    df <- data.frame(
+      ID = id_value,
+      Value = value_value,
+      Comment = comment_value
+    )
+    
+    return(df)
+  } else {
+    
+    return(data.frame(ID = NA, Value = NA, Comment = NA))
+  }
+}
+
+decode_json <- function(hex_data) {
+  data_char <- rawToChar(as.raw(hex_data))
+  tryCatch(
+    {
+      json_data <- jsonlite::fromJSON(data_char)
+
+      return(json_data)
+    },
+    error = function(e) {
+      cat("Error decoding JSON data:", e$message, "\n")
+       return(NULL)
+    }
+  )
+}
+
+
+test1 <- decode_json(fair_enough_scores[[1]])
+test2 <- decode_json(fair_enough_scores[[7]]) # server error evaluating this dataset
+
+full_scores_list <- lapply(fair_enough_scores, decode_json)
+full_scores_df <- map_dfr(
+  seq_along(full_scores_list),
+  ~ {
+    if ("score" %in% names(full_scores_list[[.x]])) {
+      scores <- list(
+        enough_score = full_scores_list[[.x]][["score"]],
+        enough_score_total = full_scores_list[[.x]][["score_max"]],
+        enough_score_percent = full_scores_list[[.x]][["score_percent"]]
+      )
+    } else {
+      scores <- list(
+        enough_xml_document = inherits(full_scores_list[[.x]][["doc"]], "externalptr")
+        #xml_node = fair_enough_list_2021[[.x]][["node"]]
+      )
+    }
+    scores <- scores[!sapply(scores, is.null) & !sapply(scores, is.list)]
+    
+    if (length(scores) > 0) {
+      scores_df <- data.frame(scores)
+      scores_df <- scores_df %>% mutate(guid = full_scores_list[[.x]][["subject"]])
+    } else {
+      scores_df <- NULL
+    }
+    
+    return(scores_df)
+  }
+)
+
+process_metric_metadata <- function(data, list_name, new_column_name) {
+  decoded_json <- lapply(data, decode_json)
+  extracted_values <- lapply(decoded_json, extract_values)
+  combined_df <- do.call(rbind, extracted_values)
+  renamed_df <- combined_df |> 
+  #  rename(Gen2_FM_F1B_metadata = Value)
+    rename({{ new_column_name }} := Value)
+  
+  selected_df <- renamed_df |> 
+  #  select(ID, Gen2_FM_F1B_metadata)
+    select(ID, {{ new_column_name }}) #Comment
+  
+  return(selected_df)
+}
+
+F1_metadata_identifier_persistence_df <- process_metric_metadata(F1_metadata_identifier_persistence, 
+                                                                 "F1_metadata_identifier_persistence", 
+                                                                 "enough_Gen2_FM_F1B_metadata")
+
+F1_data_identifier_persistence_df <- process_metric_metadata(F1_data_identifier_persistence,
+                                                                    "F1_data_identifier_persistence",
+                                                                    "enough_Gen2_FM_F1B_data")
+F1_unique_identifier_df <- process_metric_metadata(F1_unique_identifier,
+                                                  "F1_unique_identifier",
+                                                  "enough_Gen2_FM_F1A")
+
+F2_structured_metadata_df <- process_metric_metadata(F2_structured_metadata,
+                                                     "F2_structured_metadata",
+                                                     "enough_Gen2_FM_F2A")
+
+F2_grounded_metadata_df <- process_metric_metadata(F2_grounded_metadata,
+                                                   "F2_grounded_metadata",
+                                                   "enough_Gen2_FM_F2B")
+
+F3_metadata_identifier_in_metadata_df <- process_metric_metadata(F3_metadata_identifier_in_metadata,
+                                                                 "F3_metadata_identifier_in_metadata",
+                                                                 "enough_Gen2_FM_F3_metadata")
+
+F3_data_identifier_in_metadata_df <- process_metric_metadata(F3_data_identifier_in_metadata,
+                                                             "F3_data_identifier_in_metadata",
+                                                             "enough_Gen2_FM_F3_data")
+F4_searchable_df <- process_metric_metadata(F4_searchable,
+                                            "F4_searchable",
+                                            "enough_Gen2_FM_F4")
+
+A1.1_metadata_protocol_df <- process_metric_metadata(A1.1_metadata_protocol,
+                                    "A1.1_metadata_protocol",
+                                    "enough_Gen2_FM_A1.1_metadata")
+
+A1.1_data_protocol_df <- process_metric_metadata(A1.1_data_protocol,
+                                                 "A1.1_data_protocol",
+                                                 "enough_Gen2_FM_A1.1_data")
+
+A1.2_metadata_authorization_df <- process_metric_metadata(A1.2_metadata_authorization,
+                                                          "A1.2_metadata_authorization",
+                                                          "enough_Gen2_FM_A1.2_metadata")
+
+A1.2_data_authorization_df <- process_metric_metadata(A1.2_data_authorization,
+                                                      "A1.2_data_authorization",
+                                                      "enough_Gen2_FM_A1.2_data")
+
+A2_metadata_persistence_df <- process_metric_metadata(A2_metadata_persistence,
+                                                      "A2_metadata_persistence",
+                                                      "enough_Gen2_FM_A2")
+
+I1_data_kr_language_strong_df <- process_metric_metadata(I1_data_kr_language_strong,
+                                        "I1_data_kr_language_strong",
+                                        "enough_Gen2_FM_I1B_data")
+
+I1_metadata_kr_language_strong_df <- process_metric_metadata(I1_metadata_kr_language_strong,
+                                                             "I1_metadata_kr_language_strong",
+                                                             "enough_Gen2_FM_I1B_metadata")
+
+I1_metadata_kr_language_weak_df <- process_metric_metadata(I1_metadata_kr_language_weak,
+                                                           "I1_metadata_kr_language_weak",
+                                                           "enough_Gen2_FM_I1A_metadata")
+
+I1_data_kr_language_weak_df <- process_metric_metadata(I1_data_kr_language_weak,
+                                                       "I1_data_kr_language_weak",
+                                                       "enough_Gen2_FM_I1A_data")
+
+I2_metadata_uses_fair_vocabularies_strong_df <- process_metric_metadata(I2_metadata_uses_fair_vocabularies_strong,
+                                                                        "I2_metadata_uses_fair_vocabularies_strong",
+                                                                        "enough_Gen2_FM_I2B")
+
+I2_metadata_uses_fair_vocabularies_weak_df <- process_metric_metadata(I2_metadata_uses_fair_vocabularies_weak,
+                                                                      "I2_metadata_uses_fair_vocabularies_weak",
+                                                                      "enough_Gen2_FM_I2A")
+
+I3_metadata_contains_outward_links_df <- process_metric_metadata(I3_metadata_contains_outward_links,
+                                                                 "I3_metadata_contains_outward_links",
+                                                                 "enough_Gen2_FM_I3")
+
+R1.1_metadata_includes_license_strong_df <- process_metric_metadata(R1.1_metadata_includes_license_strong,
+                                                                    "R1.1_metadata_includes_license_strong",
+                                                                    "enough_Gen2_FM_R1.1_metadata")
+
+R1.1_metadata_includes_license_weak_df <- process_metric_metadata(R1.1_metadata_includes_license_weak,
+                                                                  "R1.1_metadata_includes_license_weak",
+                                                                  "enough_Gen2_FM_R1.1_data")
+
+fair_enough_df <- bind_cols(#select(F1_data_identifier_persistence_df, ID, 2),
+  #F1_data_identifier_persistence_df, 
+                            select(F1_metadata_identifier_persistence_df, ID,2),
+                            select(F1_unique_identifier_df,2), 
+                            select(F2_grounded_metadata_df,2),
+                            select(F2_structured_metadata_df,2),
+                            select(F3_data_identifier_in_metadata_df,2),
+                            select(F3_metadata_identifier_in_metadata_df,2),
+                            select(F4_searchable_df,2),
+                            select(A1.1_data_protocol_df,2),
+                            select(A1.1_metadata_protocol_df,2),
+                            select(A1.2_data_authorization_df,2),
+                            select(A1.2_metadata_authorization_df,2),
+                            select(A2_metadata_persistence_df,2),
+                            select(I1_data_kr_language_strong_df,2),
+                            select(I1_data_kr_language_weak_df,2),
+                            select(I1_metadata_kr_language_strong_df,2),
+                            select(I1_metadata_kr_language_weak_df,2),
+                            select(I2_metadata_uses_fair_vocabularies_strong_df,2),
+                            select(I2_metadata_uses_fair_vocabularies_weak_df,2),
+                            select(I3_metadata_contains_outward_links_df,2),
+                            select(R1.1_metadata_includes_license_strong_df,2),
+                            select(R1.1_metadata_includes_license_weak_df,2)
+                            )
+
+save.image("./output/Rdata/fair-enough data/aggregation_fair_enough_each_metric_2024_05_10.Rdata")
+write.csv(fair_enough_df, "./output/fair_enough_df_20240510.csv", quote = T )
+
+#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Combine full scores and individual metrics ----
+#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+load("output/Rdata/fair-enough data/fair_enough_summary_general_scores_2024_05_10.Rdata")
+fair_enough_df_full <- bind_cols(fair_enough_summary,fair_enough_df) |>
+  select(-c(guid)) |>
+  relocate(ID, .before = enough_score) |>
+  mutate_at(vars(6:26), as.numeric)
+
+
+fair_enough_df_full$enough_score_metrics_count <- rowSums(fair_enough_df_full[6:26])
+fair_enough_df_full <- fair_enough_df_full |>
+  relocate(enough_score_metrics_count, .after = enough_score_percent) |>
+  mutate(enough_score_metrics_percent = round((enough_score_metrics_count / 22)*100, digits = 2), .after = enough_score_metrics_count)
+
+fair_enough_df_full <- fair_enough_df_full |>
+  mutate(fair_enough_f1 = round((enough_Gen2_FM_F1A+enough_Gen2_FM_F1B_metadata)/2*100, 2),
+         fair_enough_f2 = round((enough_Gen2_FM_F2A + enough_Gen2_FM_F2B)/2*100, 2),
+         fair_enough_f3 = round((enough_Gen2_FM_F3_data + enough_Gen2_FM_F3_metadata)/2*100, 2),
+         fair_enough_f4 = round((enough_Gen2_FM_F4)*100, 2),
+         fair_enough_a1.1 = round((enough_Gen2_FM_A1.1_data+enough_Gen2_FM_A1.1_metadata)/2*100, 2),
+         fair_enough_a1.2 = round((enough_Gen2_FM_A1.2_data+enough_Gen2_FM_A1.2_metadata)/2*100, 2),
+         fair_enough_a2 = round((enough_Gen2_FM_A2)*100, 2),
+         fair_enough_i1 = round((enough_Gen2_FM_I1A_data+enough_Gen2_FM_I1B_data+enough_Gen2_FM_I1A_metadata+enough_Gen2_FM_I1B_metadata)/4*100, 2),
+         fair_enough_i2 = round((enough_Gen2_FM_I2A+enough_Gen2_FM_I2B)/2*100, 2),
+         fair_enough_i3 = round((enough_Gen2_FM_I3)/2*100, 2),
+         fair_enough_r1.1 = round((enough_Gen2_FM_R1.1_data+enough_Gen2_FM_R1.1_metadata)/2*100, 2)
+  ) 
+
+
+save(fair_enough_df_full, file= "output/Rdata/fair-enough data/fair_enough_df_combined_2024_05_11.Rdata")
+save.image("./output/Rdata/fair-enough data/aggregation_fair_enough_combined_2024_05_11.Rdata")
