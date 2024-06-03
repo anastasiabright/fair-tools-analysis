@@ -1,0 +1,45 @@
+swagger: '2.0'
+info:
+ version: 'Hvst-1.4.4:Tst-0.2.11'
+ title: "FAIR Metrics Gen2 - Searchable in major search engine"
+ x-tests_metric: 'https://purl.org/fair-metrics/Gen2_FM_F4'
+ description: >-
+   Tests whether a machine is able to discover the resource by search, using Microsoft Bing
+ x-applies_to_principle: "F4"
+ contact:
+  x-organization: "FAIR Metrics Authoring Group"
+  url: "http://fairmetrics.org"
+  name: 'Mark D Wilkinson'
+  x-role: "responsible developer"
+  email: markw@illuminae.com
+  x-id: '0000-0001-6960-357X'
+host: tests:8080
+basePath: /tests/
+schemes:
+  - http
+paths:
+ gen2_searchable:
+  post:
+   parameters:
+    - name: content
+      in: body
+      required: true
+      schema:
+        $ref: '#/definitions/schemas'
+   consumes:
+     - application/json
+   produces:  
+     - application/json
+   responses:
+     "200":
+       description: >-
+        The response is a binary (1/0), success or failure
+definitions:
+  schemas:
+    required:
+     - subject
+    properties:
+        subject:
+          type: string
+          description: >-
+            the GUID being tested

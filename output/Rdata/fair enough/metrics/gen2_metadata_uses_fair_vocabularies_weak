@@ -1,0 +1,45 @@
+swagger: '2.0'
+info:
+ version: 'Hvst-1.4.4:Tst-0.3.0'
+ title: "FAIR Metrics Gen2 - Metadata uses FAIR vocabularies (weak)"
+ x-tests_metric: 'https://purl.org/fair-metrics/Gen2_FM_I2A'
+ description: >-
+   Maturity Indicator to test if the linked data metadata uses terms that resolve.  One predicate from each hostname is tested as 'representative' of the remainder from that hostname, in alphabetical order.  This tests only if they resolve, not if they resolve to FAIR data, therefore is a somewhat weak test. 
+ x-applies_to_principle: "I2"
+ contact:
+  x-organization: "FAIR Metrics Authoring Group"
+  url: "http://fairmetrics.org"
+  name: 'Mark D Wilkinson'
+  x-role: "responsible developer"
+  email: markw@illuminae.com
+  x-id: '0000-0001-6960-357X'
+host: tests:8080
+basePath: /tests/
+schemes:
+  - http
+paths:
+ gen2_metadata_uses_fair_vocabularies_weak:
+  post:
+   parameters:
+    - name: content
+      in: body
+      required: true
+      schema:
+        $ref: '#/definitions/schemas'
+   consumes:
+     - application/json
+   produces:  
+     - application/json
+   responses:
+     "200":
+       description: >-
+        The response is a binary (1/0), success or failure
+definitions:
+  schemas:
+    required:
+     - subject
+    properties:
+        subject:
+          type: string
+          description: >-
+            the GUID being tested

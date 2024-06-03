@@ -1,0 +1,45 @@
+swagger: '2.0'
+info:
+ version: 'Hvst-1.4.4:Tst-0.4.4'
+ title: "FAIR Metrics Gen2- Metadata Identifier Explicitly In Metadata"
+ x-tests_metric: 'https://purl.org/fair-metrics/Gen2_FM_F3'
+ description: >-
+   Metric to test if the metadata contains the unique identifier to the metadata itself.  This is done using a variety of 'scraping' tools, including DOI metadata resolution, the use of the 'extruct' Python tool, and others.  The test is executed by searching for the predicates 'http[s]://purl.org/dc/terms/identifier','http[s]://schema.org/identifier 
+ x-applies_to_principle: "F3"
+ contact:
+  x-organization: "FAIR Metrics Authoring Group"
+  url: "http://fairmetrics.org"
+  name: 'Mark D Wilkinson'
+  x-role: "responsible developer"
+  email: markw@illuminae.com
+  x-id: '0000-0001-6960-357X'
+host: tests:8080
+basePath: /tests/
+schemes:
+  - http
+paths:
+ gen2_metadata_identifier_in_metadata:
+  post:
+   parameters:
+    - name: content
+      in: body
+      required: true
+      schema:
+        $ref: '#/definitions/schemas'
+   consumes:
+     - application/json
+   produces:  
+     - application/json
+   responses:
+     "200":
+       description: >-
+        The response is a binary (1/0), success or failure
+definitions:
+  schemas:
+    required:
+     - subject
+    properties:
+        subject:
+          type: string
+          description: >-
+            the GUID being tested

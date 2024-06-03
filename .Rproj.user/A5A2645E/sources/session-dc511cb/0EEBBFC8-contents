@@ -1,0 +1,72 @@
+library(dplyr)
+library(plotly)
+
+load("./output/Rdata/fair eva/fair_eva_df_zenodo.Rdata")
+load("./output/Rdata/fuji/aggregated_fuji_results_all_2021_2024_05_11.Rdata") # 474
+load("./output/Rdata/fair enough/fair_enough_df_combined_2024_05_11.Rdata") # 474
+load("./output/Rdata/fair checker/fair_checker_df_2024_05_11.Rdata")
+
+#load("zenodo_analysis.Rdata")
+
+# 26 instead of 39
+enough_zenodo <- fair_enough_df_full[fair_enough_df_full$guid %in% eva_zenodo$guid & 
+                                       !is.na(fair_enough_df_full$enough_score_metrics_count),]
+fuji_zenodo <- fuji_results_all[fuji_results_all$best_identifier %in% enough_zenodo$guid,]
+checker_zenodo <- fair_checker_summary_wide_full[fair_checker_summary_wide_full$target_uri %in%
+                                                   enough_zenodo$guid,]
+eva_zenodo <- eva_zenodo[eva_zenodo$guid %in% enough_zenodo$guid,]
+
+
+all <- bind_cols(fuji_zenodo, enough_zenodo, checker_zenodo, eva_zenodo)
+
+all <- all |>
+  select(-c(`article...108`)) |>
+  rename(article = `article...1`)
+
+all_overlapping <- all |>
+  select(c(article, best_identifier, repository, repository_type, fuji_percent, 
+           fuji_percent_f,fuji_percent_f1, fuji_percent_f2, 
+           fuji_percent_i1, fuji_percent_i2, fuji_percent_i3, 
+           fuji_percent_r1_1, enough_score_metrics_percent, enough_Gen2_FM_F1A, 
+           fair_enough_f1, fair_enough_f2, fair_enough_i1, fair_enough_i2, 
+           fair_enough_i3, fair_enough_r1.1,
+           fair_checker_f1, fair_checker_f2, fair_checker_i1, fair_checker_i2, 
+           fair_checker_i3, fair_checker_r1.1, fair_checker_score,
+           eva_f1, eva_f2, eva_i1, eva_i2, eva_i3, eva_r1.1, total_score
+            ))
+
+write.csv2(all_overlapping, "./output/csv/df_zenodo_analysis.csv", row.names = F)
+
+all_long <- all_overlapping |>
+  pivot_longer(cols = c("fuji_percent", "enough_score_metrics_percent", "fair_checker_score", "total_score"),
+               names_to = "assessment_tool",
+               values_to = "score")
+
+
+
+summary_all <- all_long |>
+  drop_na(score) |>
+  group_by(assessment_tool) |>
+  summarize(mean = round(mean(score), 2),
+            median = median(score),
+            min = min(score),
+            max = max(score),
+            sd = round(sd(score), digits = 2),
+            count = n())
+
+
+plot_overlap_fuji <- plot_ly(all_overlapping, y = ~fuji_percent, type = "violin", name = "FUJI") |>
+  layout(yaxis = list(title = "Score in %"),showlegend = FALSE)
+
+plot_overlap_enough <- plot_ly(all_overlapping, y = ~enough_score_metrics_percent, type = "violin", name = "FAIR Enough") |>
+  layout(yaxis = list(title = "Score in %"),showlegend = FALSE)
+
+plot_overlap_checker <- plot_ly(all_overlapping, y = ~fair_checker_score, type = "violin", name = "FAIR-Checker") |>
+  layout(yaxis = list(title = "Score in %"),showlegend = FALSE)
+
+plot_overlap_eva <- plot_ly(all_overlapping, y = ~total_score, type = "violin", name = "FAIR EVA") |>
+  layout(yaxis = list(title = "Score in %"), showlegend = FALSE)
+
+subplot(plot_overlap_fuji, plot_overlap_enough, plot_overlap_checker, plot_overlap_eva, shareY = T) 
+
+save.image("./output/Rdata/zenodo_analysis.Rdata")

@@ -1,0 +1,45 @@
+swagger: '2.0'
+info:
+ version: 'Hvst-1.4.4:Tst-0.2.1'
+ title: "FAIR Metrics Gen2 - Uses open free protocol for metadata retrieval"
+ x-tests_metric: 'https://purl.org/fair-metrics/Gen2_FM_A1.1'
+ description: >-
+   Metadata may be retrieved by an open and free protocol.  Tests metadata GUID for its resolution protocol.  Currently passes InChI Keys, DOIs, Handles, and URLs.  Recognition of other identifiers will be added upon request by the community.
+ x-applies_to_principle: "A1.1"
+ contact:
+  x-organization: "FAIR Metrics Authoring Group"
+  url: "http://fairmetrics.org"
+  name: 'Mark D Wilkinson'
+  x-role: "responsible developer"
+  email: markw@illuminae.com
+  x-id: '0000-0001-6960-357X'
+host: tests:8080
+basePath: /tests/
+schemes:
+  - http
+paths:
+ gen2_metadata_protocol:
+  post:
+   parameters:
+    - name: content
+      in: body
+      required: true
+      schema:
+        $ref: '#/definitions/schemas'
+   consumes:
+     - application/json
+   produces:  
+     - application/json
+   responses:
+     "200":
+       description: >-
+        The response is a binary (1/0), success or failure
+definitions:
+  schemas:
+    required:
+     - subject
+    properties:
+        subject:
+          type: string
+          description: >-
+            the GUID being tested
