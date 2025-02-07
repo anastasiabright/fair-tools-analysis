@@ -11,8 +11,7 @@ load("output/Rdata/selected_articles_overlapping_indicators.Rdata")
 #+ F1
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 selected_articles_overlap_f1 <- selected_articles_overlap |>
-  select(best_identifier, fuji_percent_f1, fair_enough_f1,
-         fair_checker_f1) |>
+  select(best_identifier, fuji_percent_f1, fair_enough_f1, fair_checker_f1) |>
   mutate(fuji_percent_f1 = fuji_percent_f1/100,
          fair_enough_f1 = fair_enough_f1/100,
          fair_checker_f1 = fair_checker_f1/100)

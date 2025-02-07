@@ -1,0 +1,3306 @@
+"article";"id";"repository";"license_name";"repository_type";"repository_re3data";"fuji_percent";"fuji_percent_f";"fuji_percent_a";"fuji_percent_i";"fuji_percent_r";"fuji_percent_f1";"fuji_percent_f2";"fuji_percent_f3";"fuji_percent_f4";"fuji_percent_a1";"fuji_percent_i1";"fuji_percent_i2";"fuji_percent_i3";"fuji_percent_r1";"fuji_percent_r1_1";"fuji_percent_r1_2";"fuji_percent_r1_3";"fuji_FsF_F1_01D";"fuji_FsF_F1_02D";"fuji_FsF_F2_01M";"fuji_FsF_F3_01M";"fuji_FsF_F4_01M";"fuji_FsF_A1_01M";"fuji_FsF_A1_02M";"fuji_FsF_A1_03D";"fuji_FsF_I1_01M";"fuji_FsF_I2_01M";"fuji_FsF_I3_01M";"fuji_FsF_R1_01MD";"fuji_FsF_R1.1_01M";"fuji_FsF_R1.2_01M";"fuji_FsF_R1.3_01M";"fuji_FsF_R1.3_02D";"fair_enough_score";"fair_enough_score_total";"fair_enough_score_percent";"fair_enough_score_metrics_count";"fair_enough_score_metrics_percent";"fair_enough_xml_document";"fair_enough_Gen2_FM_F1A";"fair_enough_Gen2_FM_F1A_Comment";"fair_enough_Gen2_FM_F1B_metadata";"fair_enough_Gen2_FM_F1B_metadata_Comment";"fair_enough_Gen2_FM_F2B";"fair_enough_Gen2_FM_F2B_Comment";"fair_enough_Gen2_FM_F2A";"fair_enough_Gen2_FM_F2A_Comment";"fair_enough_Gen2_FM_F3_data";"fair_enough_Gen2_FM_F3_data_Comment";"fair_enough_Gen2_FM_F3_metadata";"fair_enough_Gen2_FM_F3_metadata_Comment";"fair_enough_Gen2_FM_F4";"fair_enough_Gen2_FM_F4_Comment";"fair_enough_Gen2_FM_A1.1_data";"fair_enough_Gen2_FM_A1.1_data_Comment";"fair_enough_Gen2_FM_A1.1_metadata";"fair_enough_Gen2_FM_A1.1_metadata_Comment";"fair_enough_Gen2_FM_A1.2_data";"fair_enough_Gen2_FM_A1.2_data_Comment";"fair_enough_Gen2_FM_A1.2_metadata";"fair_enough_Gen2_FM_A1.2_metadata_Comment";"fair_enough_Gen2_FM_A2";"fair_enough_Gen2_FM_A2_Comment";"fair_enough_Gen2_FM_I1B_data";"fair_enough_Gen2_FM_I1B_data_Comment";"fair_enough_Gen2_FM_I1A_data";"fair_enough_Gen2_FM_I1A_data_Comment";"fair_enough_Gen2_FM_I1B_metadata";"fair_enough_Gen2_FM_I1B_metadata_Comment";"fair_enough_Gen2_FM_I1A_metadata";"fair_enough_Gen2_FM_I1A_metadata_Comment";"fair_enough_Gen2_FM_I2B";"fair_enough_Gen2_FM_I2B_Comment";"fair_enough_Gen2_FM_I2A";"fair_enough_Gen2_FM_I2A_Comment";"fair_enough_Gen2_FM_I3";"fair_enough_Gen2_FM_I3_Comment";"fair_enough_Gen2_FM_R1.1_metadata";"fair_enough_Gen2_FM_R1.1_metadata_Comment";"fair_enough_Gen2_FM_R1.1_data";"fair_enough_Gen2_FM_R1.1_data_Comment";"fair_enough_f1";"fair_enough_f2";"fair_enough_f3";"fair_enough_f4";"fair_enough_a1.1";"fair_enough_a1.2";"fair_enough_a2";"fair_enough_i1";"fair_enough_i2";"fair_enough_i3";"fair_enough_r1.1";"fair_checker_score";"fair_checker_percent_f";"fair_checker_percent_a";"fair_checker_percent_i";"fair_checker_percent_r";"fair_checker_f1";"fair_checker_f2";"fair_checker_a1.1";"fair_checker_a1.2";"fair_checker_i1";"fair_checker_i2";"fair_checker_i3";"fair_checker_r1.1";"fair_checker_r1.2";"fair_checker_r1.3";"fair_checker_F1A";"recommendation_F1A";"comment_F1A";"fair_checker_F1B";"recommendation_F1B";"comment_F1B";"fair_checker_F2A";"recommendation_F2A";"comment_F2A";"fair_checker_F2B";"recommendation_F2B";"comment_F2B";"fair_checker_A1.1";"recommendation_A1.1";"comment_A1.1";"fair_checker_A1.2";"recommendation_A1.2";"comment_A1.2";"fair_checker_I1";"recommendation_I1";"comment_I1";"fair_checker_I2";"recommendation_I2";"comment_I2";"fair_checker_I3";"recommendation_I3";"comment_I3";"fair_checker_R1.1";"recommendation_R1.1";"comment_R1.1";"fair_checker_R1.2";"recommendation_R1.2";"comment_R1.2";"fair_checker_R1.3";"recommendation_R1.3";"comment_R1.3";"recommendation_NA";"comment_NA"
+"10.1093/scan/nsab109";"https://osf.io/r7g9q/";"OSF";"CC BY";"general-purpose repository";"Open Science Framework";37,5;42,86;33,33;25;40;50;50;0;50;33,33;50;0;0;25;100;50;0;1;0;1;0;1;0;1;0;1;0;0;1;2;1;0;0;11;22;50;7;31,82;NA;1;"INFO: TEST VERSION 'Hvst-1.4.4:Tst-0.2.2'
+
+SUCCESS: Found an identifier of type 'uri'";0;"INFO: TEST VERSION 'Hvst-1.4.4:Tst-0.2.3'
+
+INFO: END OF HARVESTING
+
+INFO: The metadata GUID appears to be a URL.  Testing known URL persistence schemas (purl, oclc, fdlp, purlz, w3id, ark, doi(as URL)).
+
+FAILURE: The metadata GUID does not conform with any known permanent-URL system.";1;"INFO: TEST VERSION 'Hvst-1.4.4:Tst-0.2.2'
+
+INFO: Found a URI.
+
+INFO:  Attempting to resolve https://osf.io/r7g9q/ using HTTP Headers {""Accept""=>""text/turtle, application/ld+json, application/rdf+xml, text/xhtml+xml, application/n3, application/rdf+n3, application/turtle, application/x-turtle, text/n3, text/turtle, text/rdf+n3, text/rdf+turtle, application/n-triples""}.
+
+INFO: following redirection using this header led to the following URL: https://osf.io/r7g9q/.  Using the output from this URL for the next few tests...
+INFO: Link Header and Meta Link parsing complete.  Back in main thread.
+
+INFO: Found html text/html type of content when resolving https://osf.io/r7g9q/ using HTTP Accept header {""Accept""=>""text/turtle, application/ld+json, application/rdf+xml, text/xhtml+xml, application/n3, application/rdf+n3, application/turtle, application/x-turtle, text/n3, text/turtle, text/rdf+n3, text/rdf+turtle, application/n-triples""}.
+
+INFO: parsing as HTML. 
+
+INFO: Now attempting to use the extruct parser. 
+
+INFO:  Using 'extruct' to try to extract metadata from return value (message body) of https://osf.io/r7g9q/.
+
+INFO: the extruct tool found parseable data at https://osf.io/r7g9q/
+
+INFO: The response message body component appears to contain JSON::LD::Format.
+
+INFO: The response message body component appears to contain JSON::LD::Format.
+
+INFO: Now attempting to use the Kellogg's Distiller parser. 
+
+INFO: Note that, if the Distiller fails, you can view the output of its parse by visiting http://rdf.greggkellogg.net/distiller?command=serialize&url=https%3A%2F%2Fosf.io%2Fr7g9q%2F. 
+
+INFO: Using 'Kellog's Distiller' to try to extract metadata from return value (message body).
+
+INFO: The message body is being examined by Distiller
+
+INFO: The Distiller found parseable data.  Parsing as RDF
+
+CRITICAL: The Evaluator found what it believed to be RDF (sample:  {  ""@context"": {    ""as"": ""https://www.w3.org/ns/activitystreams#"",    ""cc"": ""http://creativecommons.org/ns#"",    ""csvw"": ""http://www.w3.org/ns/csvw#"",    ""ctag"": ""http://commontag.org/ns#"",    ""dc"": ""http://purl.org/dc/terms/"",    ""dc11"": ""http://purl.org/dc/elements/1.1/"",    ""dcat"": ""http:), but it could not find a parser.  Please report this error, along with the GUID of the resource, to the maintainer of the system.
+
+INFO:  Attempting to resolve https://osf.io/r7g9q/ using HTTP Headers text/xhtml,text/xml.
+
+INFO: following redirection using this header led to the following URL: https://osf.io/r7g9q/.  Using the output from this URL for the next few tests...
+INFO: Link Header and Meta Link parsing complete.  Back in main thread.
+
+INFO: Found html text/html type of content when resolving https://osf.io/r7g9q/ using HTTP Accept header {""Accept""=>""text/xhtml,text/xml""}.
+
+INFO: parsing as HTML. 
+
+INFO: Now attempting to use the extruct parser. 
+
+INFO:  Using 'extruct' to try to extract metadata from return value (message body) of https://osf.io/r7g9q/.
+
+INFO: the extruct tool found parseable data at https://osf.io/r7g9q/
+
+INFO: Now attempting to use the Kellogg's Distiller parser. 
+
+INFO: Note that, if the Distiller fails, you can view the output of its parse by visiting http://rdf.greggkellogg.net/distiller?command=serialize&url=https%3A%2F%2Fosf.io%2Fr7g9q%2F. 
+
+INFO: Using 'Kellog's Distiller' to try to extract metadata from return value (message body).
+
+INFO: The message body is being examined by Distiller
+
+INFO: The Distiller found parseable data.  Parsing as RDF
+
+CRITICAL: The Evaluator found what it believed to be RDF (sample:  {  ""@context"": {    ""as"": ""https://www.w3.org/ns/activitystreams#"",    ""cc"": ""http://creativecommons.org/ns#"",    ""csvw"": ""http://www.w3.org/ns/csvw#"",    ""ctag"": ""http://commontag.org/ns#"",    ""dc"": ""http://purl.org/dc/terms/"",    ""dc11"": ""http://purl.org/dc/elements/1.1/"",    ""dcat"": ""http:), but it could not find a parser.  Please report this error, along with the GUID of the resource, to the maintainer of the system.
+
+INFO:  Attempting to resolve https://osf.io/r7g9q/ using HTTP Headers application/json.
+
+INFO: following redirection using this header led to the following URL: https://osf.io/r7g9q/.  Using the output from this URL for the next few tests...
+INFO: Link Header and Meta Link parsing complete.  Back in main thread.
+
+INFO: Found html text/html type of content when resolving https://osf.io/r7g9q/ using HTTP Accept header {""Accept""=>""application/json""}.
+
+INFO: parsing as HTML. 
+
+INFO: Now attempting to use the extruct parser. 
+
+INFO:  Using 'extruct' to try to extract metadata from return value (message body) of https://osf.io/r7g9q/.
+
+INFO: the extruct tool found parseable data at https://osf.io/r7g9q/
+
+INFO: Now attempting to use the Kellogg's Distiller parser. 
+
+INFO: Note that, if the Distiller fails, you can view the output of its parse by visiting http://rdf.greggkellogg.net/distiller?command=serialize&url=https%3A%2F%2Fosf.io%2Fr7g9q%2F. 
+
+INFO: Cached data is already parsed.  Returning
+
+INFO:  Attempting to resolve https://osf.io/r7g9q/ using HTTP Headers 'Accept: */*'.
+
+INFO: following redirection using this header led to the following URL: https://osf.io/r7g9q/.  Using the output from this URL for the next few tests...
+INFO: Link Header and Meta Link parsing complete.  Back in main thread.
+
+INFO: Found html text/html type of content when resolving https://osf.io/r7g9q/ using HTTP Accept header {""Accept""=>""*/*""}.
+
+INFO: parsing as HTML. 
+
+INFO: Now attempting to use the extruct parser. 
+
+INFO:  Using 'extruct' to try to extract metadata from return value (message body) of https://osf.io/r7g9q/.
+
+INFO: the extruct tool found parseable data at https://osf.io/r7g9q/
+
+INFO: Now attempting to use the Kellogg's Distiller parser. 
+
+INFO: Note that, if the Distiller fails, you can view the output of its parse by visiting http://rdf.greggkellogg.net/distiller?command=serialize&url=https%3A%2F%2Fosf.io%2Fr7g9q%2F. 
+
+INFO: Cached data is already parsed.  Returning
+
+INFO: END OF HARVESTING
+
+SUCCESS: found linked-data style structured metadata.";1;"INFO: TEST VERSION 'Hvst-1.4.4:Tst-0.2.2'
+
+INFO: Found a URI.
+
+INFO:  Attempting to resolve https://osf.io/r7g9q/ using HTTP Headers {""Accept""=>""text/turtle, application/ld+json, application/rdf+xml, text/xhtml+xml, application/n3, application/rdf+n3, application/turtle, application/x-turtle, text/n3, text/turtle, text/rdf+n3, text/rdf+turtle, application/n-triples""}.
+
+INFO: following redirection using this header led to the following URL: https://osf.io/r7g9q/.  Using the output from this URL for the next few tests...
+INFO: Link Header and Meta Link parsing complete.  Back in main thread.
+
+INFO: Found html text/html type of content when resolving https://osf.io/r7g9q/ using HTTP Accept header {""Accept""=>""text/turtle, application/ld+json, application/rdf+xml, text/xhtml+xml, application/n3, application/rdf+n3, application/turtle, application/x-turtle, text/n3, text/turtle, text/rdf+n3, text/rdf+turtle, application/n-triples""}.
+
+INFO: parsing as HTML. 
+
+INFO: Now attempting to use the extruct parser. 
+
+INFO:  Using 'extruct' to try to extract metadata from return value (message body) of https://osf.io/r7g9q/.
+
+INFO: the extruct tool found parseable data at https://osf.io/r7g9q/
+
+INFO: The response message body component appears to contain JSON::LD::Format.
+
+INFO: The response message body component appears to contain JSON::LD::Format.
+
+INFO: Now attempting to use the Kellogg's Distiller parser. 
+
+INFO: Note that, if the Distiller fails, you can view the output of its parse by visiting http://rdf.greggkellogg.net/distiller?command=serialize&url=https%3A%2F%2Fosf.io%2Fr7g9q%2F. 
+
+INFO: Using 'Kellog's Distiller' to try to extract metadata from return value (message body).
+
+INFO: The message body is being examined by Distiller
+
+INFO: The Distiller found parseable data.  Parsing as RDF
+
+CRITICAL: The Evaluator found what it believed to be RDF (sample:  {  ""@context"": {    ""as"": ""https://www.w3.org/ns/activitystreams#"",    ""cc"": ""http://creativecommons.org/ns#"",    ""csvw"": ""http://www.w3.org/ns/csvw#"",    ""ctag"": ""http://commontag.org/ns#"",    ""dc"": ""http://purl.org/dc/terms/"",    ""dc11"": ""http://purl.org/dc/elements/1.1/"",    ""dcat"": ""http:), but it could not find a parser.  Please report this error, along with the GUID of the resource, to the maintainer of the system.
+
+INFO:  Attempting to resolve https://osf.io/r7g9q/ using HTTP Headers text/xhtml,text/xml.
+
+INFO: following redirection using this header led to the following URL: https://osf.io/r7g9q/.  Using the output from this URL for the next few tests...
+INFO: Link Header and Meta Link parsing complete.  Back in main thread.
+
+INFO: Found html text/html type of content when resolving https://osf.io/r7g9q/ using HTTP Accept header {""Accept""=>""text/xhtml,text/xml""}.
+
+INFO: parsing as HTML. 
+
+INFO: Now attempting to use the extruct parser. 
+
+INFO:  Using 'extruct' to try to extract metadata from return value (message body) of https://osf.io/r7g9q/.
+
+INFO: the extruct tool found parseable data at https://osf.io/r7g9q/
+
+INFO: Now attempting to use the Kellogg's Distiller parser. 
+
+INFO: Note that, if the Distiller fails, you can view the output of its parse by visiting http://rdf.greggkellogg.net/distiller?command=serialize&url=https%3A%2F%2Fosf.io%2Fr7g9q%2F. 
+
+INFO: Using 'Kellog's Distiller' to try to extract metadata from return value (message body).
+
+INFO: The message body is being examined by Distiller
+
+INFO: The Distiller found parseable data.  Parsing as RDF
+
+CRITICAL: The Evaluator found what it believed to be RDF (sample:  {  ""@context"": {    ""as"": ""https://www.w3.org/ns/activitystreams#"",    ""cc"": ""http://creativecommons.org/ns#"",    ""csvw"": ""http://www.w3.org/ns/csvw#"",    ""ctag"": ""http://commontag.org/ns#"",    ""dc"": ""http://purl.org/dc/terms/"",    ""dc11"": ""http://purl.org/dc/elements/1.1/"",    ""dcat"": ""http:), but it could not find a parser.  Please report this error, along with the GUID of the resource, to the maintainer of the system.
+
+INFO:  Attempting to resolve https://osf.io/r7g9q/ using HTTP Headers application/json.
+
+INFO: following redirection using this header led to the following URL: https://osf.io/r7g9q/.  Using the output from this URL for the next few tests...
+INFO: Link Header and Meta Link parsing complete.  Back in main thread.
+
+INFO: Found html text/html type of content when resolving https://osf.io/r7g9q/ using HTTP Accept header {""Accept""=>""application/json""}.
+
+INFO: parsing as HTML. 
+
+INFO: Now attempting to use the extruct parser. 
+
+INFO:  Using 'extruct' to try to extract metadata from return value (message body) of https://osf.io/r7g9q/.
+
+INFO: the extruct tool found parseable data at https://osf.io/r7g9q/
+
+INFO: Now attempting to use the Kellogg's Distiller parser. 
+
+INFO: Note that, if the Distiller fails, you can view the output of its parse by visiting http://rdf.greggkellogg.net/distiller?command=serialize&url=https%3A%2F%2Fosf.io%2Fr7g9q%2F. 
+
+INFO: Using 'Kellog's Distiller' to try to extract metadata from return value (message body).
+
+INFO: The message body is being examined by Distiller
+
+INFO: The Distiller found parseable data.  Parsing as RDF
+
+CRITICAL: The Evaluator found what it believed to be RDF (sample:  {  ""@context"": {    ""as"": ""https://www.w3.org/ns/activitystreams#"",    ""cc"": ""http://creativecommons.org/ns#"",    ""csvw"": ""http://www.w3.org/ns/csvw#"",    ""ctag"": ""http://commontag.org/ns#"",    ""dc"": ""http://purl.org/dc/terms/"",    ""dc11"": ""http://purl.org/dc/elements/1.1/"",    ""dcat"": ""http:), but it could not find a parser.  Please report this error, along with the GUID of the resource, to the maintainer of the system.
+
+INFO:  Attempting to resolve https://osf.io/r7g9q/ using HTTP Headers 'Accept: */*'.
+
+INFO: following redirection using this header led to the following URL: https://osf.io/r7g9q/.  Using the output from this URL for the next few tests...
+INFO: Link Header and Meta Link parsing complete.  Back in main thread.
+
+INFO: Found html text/html type of content when resolving https://osf.io/r7g9q/ using HTTP Accept header {""Accept""=>""*/*""}.
+
+INFO: parsing as HTML. 
+
+INFO: Now attempting to use the extruct parser. 
+
+INFO:  Using 'extruct' to try to extract metadata from return value (message body) of https://osf.io/r7g9q/.
+
+INFO: the extruct tool found parseable data at https://osf.io/r7g9q/
+
+INFO: Now attempting to use the Kellogg's Distiller parser. 
+
+INFO: Note that, if the Distiller fails, you can view the output of its parse by visiting http://rdf.greggkellogg.net/distiller?command=serialize&url=https%3A%2F%2Fosf.io%2Fr7g9q%2F. 
+
+INFO: Using 'Kellog's Distiller' to try to extract metadata from return value (message body).
+
+INFO: The message body is being examined by Distiller
+
+INFO: The Distiller found parseable data.  Parsing as RDF
+
+CRITICAL: The Evaluator found what it believed to be RDF (sample:  {  ""@context"": {    ""as"": ""https://www.w3.org/ns/activitystreams#"",    ""cc"": ""http://creativecommons.org/ns#"",    ""csvw"": ""http://www.w3.org/ns/csvw#"",    ""ctag"": ""http://commontag.org/ns#"",    ""dc"": ""http://purl.org/dc/terms/"",    ""dc11"": ""http://purl.org/dc/elements/1.1/"",    ""dcat"": ""http:), but it could not find a parser.  Please report this error, along with the GUID of the resource, to the maintainer of the system.
+
+INFO: END OF HARVESTING
+
+SUCCESS: found key/value style structured metadata.
+
+SUCCESS: found linked-data style structured metadata.";0;"INFO: TEST VERSION 'Hvst-1.4.4:Tst-0.2.1'
+
+INFO: Found a URI.
+
+INFO:  Attempting to resolve https://osf.io/r7g9q/ using HTTP Headers {""Accept""=>""text/turtle, application/ld+json, application/rdf+xml, text/xhtml+xml, application/n3, application/rdf+n3, application/turtle, application/x-turtle, text/n3, text/turtle, text/rdf+n3, text/rdf+turtle, application/n-triples""}.
+
+INFO: following redirection using this header led to the following URL: https://osf.io/r7g9q/.  Using the output from this URL for the next few tests...
+INFO: Link Header and Meta Link parsing complete.  Back in main thread.
+
+INFO: Found html text/html type of content when resolving https://osf.io/r7g9q/ using HTTP Accept header {""Accept""=>""text/turtle, application/ld+json, application/rdf+xml, text/xhtml+xml, application/n3, application/rdf+n3, application/turtle, application/x-turtle, text/n3, text/turtle, text/rdf+n3, text/rdf+turtle, application/n-triples""}.
+
+INFO: parsing as HTML. 
+
+INFO: Now attempting to use the extruct parser. 
+
+INFO:  Using 'extruct' to try to extract metadata from return value (message body) of https://osf.io/r7g9q/.
+
+INFO: the extruct tool found parseable data at https://osf.io/r7g9q/
+
+INFO: The response message body component appears to contain JSON::LD::Format.
+
+INFO: The response message body component appears to contain JSON::LD::Format.
+
+INFO: Now attempting to use the Kellogg's Distiller parser. 
+
+INFO: Note that, if the Distiller fails, you can view the output of its parse by visiting http://rdf.greggkellogg.net/distiller?command=serialize&url=https%3A%2F%2Fosf.io%2Fr7g9q%2F. 
+
+INFO: Using 'Kellog's Distiller' to try to extract metadata from return value (message body).
+
+INFO: The message body is being examined by Distiller
+
+INFO: The Distiller found parseable data.  Parsing as RDF
+
+CRITICAL: The Evaluator found what it believed to be RDF (sample:  {  ""@context"": {    ""as"": ""https://www.w3.org/ns/activitystreams#"",    ""cc"": ""http://creativecommons.org/ns#"",    ""csvw"": ""http://www.w3.org/ns/csvw#"",    ""ctag"": ""http://commontag.org/ns#"",    ""dc"": ""http://purl.org/dc/terms/"",    ""dc11"": ""http://purl.org/dc/elements/1.1/"",    ""dcat"": ""http:), but it could not find a parser.  Please report this error, along with the GUID of the resource, to the maintainer of the system.
+
+INFO:  Attempting to resolve https://osf.io/r7g9q/ using HTTP Headers text/xhtml,text/xml.
+
+INFO: following redirection using this header led to the following URL: https://osf.io/r7g9q/.  Using the output from this URL for the next few tests...
+INFO: Link Header and Meta Link parsing complete.  Back in main thread.
+
+INFO: Found html text/html type of content when resolving https://osf.io/r7g9q/ using HTTP Accept header {""Accept""=>""text/xhtml,text/xml""}.
+
+INFO: parsing as HTML. 
+
+INFO: Now attempting to use the extruct parser. 
+
+INFO:  Using 'extruct' to try to extract metadata from return value (message body) of https://osf.io/r7g9q/.
+
+INFO: the extruct tool found parseable data at https://osf.io/r7g9q/
+
+INFO: Now attempting to use the Kellogg's Distiller parser. 
+
+INFO: Note that, if the Distiller fails, you can view the output of its parse by visiting http://rdf.greggkellogg.net/distiller?command=serialize&url=https%3A%2F%2Fosf.io%2Fr7g9q%2F. 
+
+INFO: Using 'Kellog's Distiller' to try to extract metadata from return value (message body).
+
+INFO: The message body is being examined by Distiller
+
+INFO: The Distiller found parseable data.  Parsing as RDF
+
+CRITICAL: The Evaluator found what it believed to be RDF (sample:  {  ""@context"": {    ""as"": ""https://www.w3.org/ns/activitystreams#"",    ""cc"": ""http://creativecommons.org/ns#"",    ""csvw"": ""http://www.w3.org/ns/csvw#"",    ""ctag"": ""http://commontag.org/ns#"",    ""dc"": ""http://purl.org/dc/terms/"",    ""dc11"": ""http://purl.org/dc/elements/1.1/"",    ""dcat"": ""http:), but it could not find a parser.  Please report this error, along with the GUID of the resource, to the maintainer of the system.
+
+INFO:  Attempting to resolve https://osf.io/r7g9q/ using HTTP Headers application/json.
+
+INFO: following redirection using this header led to the following URL: https://osf.io/r7g9q/.  Using the output from this URL for the next few tests...
+INFO: Link Header and Meta Link parsing complete.  Back in main thread.
+
+INFO: Found html text/html type of content when resolving https://osf.io/r7g9q/ using HTTP Accept header {""Accept""=>""application/json""}.
+
+INFO: parsing as HTML. 
+
+INFO: Now attempting to use the extruct parser. 
+
+INFO:  Using 'extruct' to try to extract metadata from return value (message body) of https://osf.io/r7g9q/.
+
+INFO: the extruct tool found parseable data at https://osf.io/r7g9q/
+
+INFO: Now attempting to use the Kellogg's Distiller parser. 
+
+INFO: Note that, if the Distiller fails, you can view the output of its parse by visiting http://rdf.greggkellogg.net/distiller?command=serialize&url=https%3A%2F%2Fosf.io%2Fr7g9q%2F. 
+
+INFO: Using 'Kellog's Distiller' to try to extract metadata from return value (message body).
+
+INFO: The message body is being examined by Distiller
+
+INFO: The Distiller found parseable data.  Parsing as RDF
+
+CRITICAL: The Evaluator found what it believed to be RDF (sample:  {  ""@context"": {    ""as"": ""https://www.w3.org/ns/activitystreams#"",    ""cc"": ""http://creativecommons.org/ns#"",    ""csvw"": ""http://www.w3.org/ns/csvw#"",    ""ctag"": ""http://commontag.org/ns#"",    ""dc"": ""http://purl.org/dc/terms/"",    ""dc11"": ""http://purl.org/dc/elements/1.1/"",    ""dcat"": ""http:), but it could not find a parser.  Please report this error, along with the GUID of the resource, to the maintainer of the system.
+
+INFO:  Attempting to resolve https://osf.io/r7g9q/ using HTTP Headers 'Accept: */*'.
+
+INFO: following redirection using this header led to the following URL: https://osf.io/r7g9q/.  Using the output from this URL for the next few tests...
+INFO: Link Header and Meta Link parsing complete.  Back in main thread.
+
+INFO: Found html text/html type of content when resolving https://osf.io/r7g9q/ using HTTP Accept header {""Accept""=>""*/*""}.
+
+INFO: parsing as HTML. 
+
+INFO: Now attempting to use the extruct parser. 
+
+INFO:  Using 'extruct' to try to extract metadata from return value (message body) of https://osf.io/r7g9q/.
+
+INFO: the extruct tool found parseable data at https://osf.io/r7g9q/
+
+INFO: Now attempting to use the Kellogg's Distiller parser. 
+
+INFO: Note that, if the Distiller fails, you can view the output of its parse by visiting http://rdf.greggkellogg.net/distiller?command=serialize&url=https%3A%2F%2Fosf.io%2Fr7g9q%2F. 
+
+INFO: Using 'Kellog's Distiller' to try to extract metadata from return value (message body).
+
+INFO: The message body is being examined by Distiller
+
+INFO: The Distiller found parseable data.  Parsing as RDF
+
+CRITICAL: The Evaluator found what it believed to be RDF (sample:  {  ""@context"": {    ""as"": ""https://www.w3.org/ns/activitystreams#"",    ""cc"": ""http://creativecommons.org/ns#"",    ""csvw"": ""http://www.w3.org/ns/csvw#"",    ""ctag"": ""http://commontag.org/ns#"",    ""dc"": ""http://purl.org/dc/terms/"",    ""dc11"": ""http://purl.org/dc/elements/1.1/"",    ""dcat"": ""http:), but it could not find a parser.  Please report this error, along with the GUID of the resource, to the maintainer of the system.
+
+INFO: END OF HARVESTING
+
+INFO: Searching metadata for likely identifiers to the data record
+
+INFO: Searching hash-style metadata for keys indicating a pointer to data.
+
+INFO: Searching for key: contains.
+
+INFO: Searching for key: primaryTopic.
+
+INFO: Searching for key: IAO_0000136.
+
+INFO: Searching for key: IAO:0000136.
+
+INFO: Searching for key: contains.
+
+INFO: Searching for key: primaryTopic.
+
+INFO: Searching for key: mainEntity.
+
+INFO: Searching for key: codeRepository.
+
+INFO: Searching for key: distribution.
+
+INFO: Searching for key: mainEntity.
+
+INFO: Searching for key: codeRepository.
+
+INFO: Searching for key: distribution.
+
+INFO: Searching for key: distribution.
+
+INFO: Searching for key: distribution.
+
+INFO: Searching for key: dataset.
+
+INFO: Searching for key: dataset.
+
+INFO: Searching for key: downloadURL.
+
+INFO: Searching for key: downloadURL.
+
+INFO: Searching for key: accessURL.
+
+INFO: Searching for key: accessURL.
+
+INFO: Searching for key: SIO_000332.
+
+INFO: Searching for key: is-about.
+
+INFO: Searching for key: SIO_000332.
+
+INFO: Searching for key: is-about.
+
+INFO: Searching for key: IAO_0000136.
+
+INFO: Searching hash-style metadata for keys indicating a pointer to data.
+
+INFO: Searching for key: contains.
+
+INFO: Searching for key: primaryTopic.
+
+INFO: Searching for key: IAO_0000136.
+
+INFO: Searching for key: IAO:0000136.
+
+INFO: Searching for key: contains.
+
+INFO: Searching for key: primaryTopic.
+
+INFO: Searching for key: mainEntity.
+
+INFO: Searching for key: codeRepository.
+
+INFO: Searching for key: distribution.
+
+INFO: Searching for key: mainEntity.
+
+INFO: Searching for key: codeRepository.
+
+INFO: Searching for key: distribution.
+
+INFO: Searching for key: distribution.
+
+INFO: Searching for key: distribution.
+
+INFO: Searching for key: dataset.
+
+INFO: Searching for key: dataset.
+
+INFO: Searching for key: downloadURL.
+
+INFO: Searching for key: downloadURL.
+
+INFO: Searching for key: accessURL.
+
+INFO: Searching for key: accessURL.
+
+INFO: Searching for key: SIO_000332.
+
+INFO: Searching for key: is-about.
+
+INFO: Searching for key: SIO_000332.
+
+INFO: Searching for key: is-about.
+
+INFO: Searching for key: IAO_0000136.
+
+INFO: Searching hash-style metadata for keys indicating a pointer to data.
+
+INFO: Searching for key: contains.
+
+INFO: Searching for key: primaryTopic.
+
+INFO: Searching for key: IAO_0000136.
+
+INFO: Searching for key: IAO:0000136.
+
+INFO: Searching for key: contains.
+
+INFO: Searching for key: primaryTopic.
+
+INFO: Searching for key: mainEntity.
+
+INFO: Searching for key: codeRepository.
+
+INFO: Searching for key: distribution.
+
+INFO: Searching for key: mainEntity.
+
+INFO: Searching for key: codeRepository.
+
+INFO: Searching for key: distribution.
+
+INFO: Searching for key: distribution.
+
+INFO: Searching for key: distribution.
+
+INFO: Searching for key: dataset.
+
+INFO: Searching for key: dataset.
+
+INFO: Searching for key: downloadURL.
+
+INFO: Searching for key: downloadURL.
+
+INFO: Searching for key: accessURL.
+
+INFO: Searching for key: accessURL.
+
+INFO: Searching for key: SIO_000332.
+
+INFO: Searching for key: is-about.
+
+INFO: Searching for key: SIO_000332.
+
+INFO: Searching for key: is-about.
+
+INFO: Searching for key: IAO_0000136.
+
+INFO: Searching Linked Data metadata for predicates indicating a pointer to data.
+
+INFO: SPARQLing for http://www.w3.org/ns/ldp#contains.
+
+INFO: SPARQLing for http://xmlns.com/foaf/0.1/primaryTopic.
+
+INFO: SPARQLing for http://purl.obolibrary.org/obo/IAO_0000136.
+
+INFO: SPARQLing for http://purl.obolibrary.org/obo/IAO:0000136.
+
+INFO: SPARQLing for https://www.w3.org/ns/ldp#contains.
+
+INFO: SPARQLing for https://xmlns.com/foaf/0.1/primaryTopic.
+
+INFO: SPARQLing for http://schema.org/mainEntity.
+
+INFO: SPARQLing for http://schema.org/codeRepository.
+
+INFO: SPARQLing for http://schema.org/distribution.
+
+INFO: SPARQLing for https://schema.org/mainEntity.
+
+INFO: SPARQLing for https://schema.org/codeRepository.
+
+INFO: SPARQLing for https://schema.org/distribution.
+
+INFO: SPARQLing for http://www.w3.org/ns/dcat#distribution.
+
+INFO: SPARQLing for https://www.w3.org/ns/dcat#distribution.
+
+INFO: SPARQLing for http://www.w3.org/ns/dcat#dataset.
+
+INFO: SPARQLing for https://www.w3.org/ns/dcat#dataset.
+
+INFO: SPARQLing for http://www.w3.org/ns/dcat#downloadURL.
+
+INFO: SPARQLing for https://www.w3.org/ns/dcat#downloadURL.
+
+INFO: SPARQLing for http://www.w3.org/ns/dcat#accessURL.
+
+INFO: SPARQLing for https://www.w3.org/ns/dcat#accessURL.
+
+INFO: SPARQLing for http://semanticscience.org/resource/SIO_000332.
+
+INFO: SPARQLing for http://semanticscience.org/resource/is-about.
+
+INFO: SPARQLing for https://semanticscience.org/resource/SIO_000332.
+
+INFO: SPARQLing for https://semanticscience.org/resource/is-about.
+
+INFO: SPARQLing for https://purl.obolibrary.org/obo/IAO_0000136.
+
+INFO: No data identifier found in this chunk of metadata.
+
+FAILURE: Was unable to locate the data identifier in the metadata using any (common) property/predicate reserved for this purpose.
+Tested the following [""http://www.w3.org/ns/ldp#contains"", ""http://xmlns.com/foaf/0.1/primaryTopic"", ""http://purl.obolibrary.org/obo/IAO_0000136"", ""http://purl.obolibrary.org/obo/IAO:0000136"", ""https://www.w3.org/ns/ldp#contains"", ""https://xmlns.com/foaf/0.1/primaryTopic"", ""http://schema.org/mainEntity"", ""http://schema.org/codeRepository"", ""http://schema.org/distribution"", ""https://schema.org/mainEntity"", ""https://schema.org/codeRepository"", ""https://schema.org/distribution"", ""http://www.w3.org/ns/dcat#distribution"", ""https://www.w3.org/ns/dcat#distribution"", ""http://www.w3.org/ns/dcat#dataset"", ""https://www.w3.org/ns/dcat#dataset"", ""http://www.w3.org/ns/dcat#downloadURL"", ""https://www.w3.org/ns/dcat#downloadURL"", ""http://www.w3.org/ns/dcat#accessURL"", ""https://www.w3.org/ns/dcat#accessURL"", ""http://semanticscience.org/resource/SIO_000332"", ""http://semanticscience.org/resource/is-about"", ""https://semanticscience.org/resource/SIO_000332"", ""https://semanticscience.org/resource/is-about"", ""https://purl.obolibrary.org/obo/IAO_0000136""](or their plain JSON hash-key equivalents)";0;"INFO: TEST VERSION 'Hvst-1.4.4:Tst-0.4.4'
+
+INFO: Found a URI.
+
+INFO:  Attempting to resolve https://osf.io/r7g9q/ using HTTP Headers {""Accept""=>""text/turtle, application/ld+json, application/rdf+xml, text/xhtml+xml, application/n3, application/rdf+n3, application/turtle, application/x-turtle, text/n3, text/turtle, text/rdf+n3, text/rdf+turtle, application/n-triples""}.
+
+INFO: following redirection using this header led to the following URL: https://osf.io/r7g9q/.  Using the output from this URL for the next few tests...
+INFO: Link Header and Meta Link parsing complete.  Back in main thread.
+
+INFO: Found html text/html type of content when resolving https://osf.io/r7g9q/ using HTTP Accept header {""Accept""=>""text/turtle, application/ld+json, application/rdf+xml, text/xhtml+xml, application/n3, application/rdf+n3, application/turtle, application/x-turtle, text/n3, text/turtle, text/rdf+n3, text/rdf+turtle, application/n-triples""}.
+
+INFO: parsing as HTML. 
+
+INFO: Now attempting to use the extruct parser. 
+
+INFO:  Using 'extruct' to try to extract metadata from return value (message body) of https://osf.io/r7g9q/.
+
+INFO: the extruct tool found parseable data at https://osf.io/r7g9q/
+
+INFO: The response message body component appears to contain JSON::LD::Format.
+
+INFO: The response message body component appears to contain JSON::LD::Format.
+
+INFO: Now attempting to use the Kellogg's Distiller parser. 
+
+INFO: Note that, if the Distiller fails, you can view the output of its parse by visiting http://rdf.greggkellogg.net/distiller?command=serialize&url=https%3A%2F%2Fosf.io%2Fr7g9q%2F. 
+
+INFO: Using 'Kellog's Distiller' to try to extract metadata from return value (message body).
+
+INFO: The message body is being examined by Distiller
+
+INFO: The Distiller found parseable data.  Parsing as RDF
+
+CRITICAL: The Evaluator found what it believed to be RDF (sample:  {  ""@context"": {    ""as"": ""https://www.w3.org/ns/activitystreams#"",    ""cc"": ""http://creativecommons.org/ns#"",    ""csvw"": ""http://www.w3.org/ns/csvw#"",    ""ctag"": ""http://commontag.org/ns#"",    ""dc"": ""http://purl.org/dc/terms/"",    ""dc11"": ""http://purl.org/dc/elements/1.1/"",    ""dcat"": ""http:), but it could not find a parser.  Please report this error, along with the GUID of the resource, to the maintainer of the system.
+
+INFO:  Attempting to resolve https://osf.io/r7g9q/ using HTTP Headers text/xhtml,text/xml.
+
+INFO: following redirection using this header led to the following URL: https://osf.io/r7g9q/.  Using the output from this URL for the next few tests...
+INFO: Link Header and Meta Link parsing complete.  Back in main thread.
+
+INFO: Found html text/html type of content when resolving https://osf.io/r7g9q/ using HTTP Accept header {""Accept""=>""text/xhtml,text/xml""}.
+
+INFO: parsing as HTML. 
+
+INFO: Now attempting to use the extruct parser. 
+
+INFO:  Using 'extruct' to try to extract metadata from return value (message body) of https://osf.io/r7g9q/.
+
+INFO: the extruct tool found parseable data at https://osf.io/r7g9q/
+
+INFO: Now attempting to use the Kellogg's Distiller parser. 
+
+INFO: Note that, if the Distiller fails, you can view the output of its parse by visiting http://rdf.greggkellogg.net/distiller?command=serialize&url=https%3A%2F%2Fosf.io%2Fr7g9q%2F. 
+
+INFO: Using 'Kellog's Distiller' to try to extract metadata from return value (message body).
+
+INFO: The message body is being examined by Distiller
+
+INFO: The Distiller found parseable data.  Parsing as RDF
+
+CRITICAL: The Evaluator found what it believed to be RDF (sample:  {  ""@context"": {    ""as"": ""https://www.w3.org/ns/activitystreams#"",    ""cc"": ""http://creativecommons.org/ns#"",    ""csvw"": ""http://www.w3.org/ns/csvw#"",    ""ctag"": ""http://commontag.org/ns#"",    ""dc"": ""http://purl.org/dc/terms/"",    ""dc11"": ""http://purl.org/dc/elements/1.1/"",    ""dcat"": ""http:), but it could not find a parser.  Please report this error, along with the GUID of the resource, to the maintainer of the system.
+
+INFO:  Attempting to resolve https://osf.io/r7g9q/ using HTTP Headers application/json.
+
+INFO: following redirection using this header led to the following URL: https://osf.io/r7g9q/.  Using the output from this URL for the next few tests...
+INFO: Link Header and Meta Link parsing complete.  Back in main thread.
+
+INFO: Found html text/html type of content when resolving https://osf.io/r7g9q/ using HTTP Accept header {""Accept""=>""application/json""}.
+
+INFO: parsing as HTML. 
+
+INFO: Now attempting to use the extruct parser. 
+
+INFO:  Using 'extruct' to try to extract metadata from return value (message body) of https://osf.io/r7g9q/.
+
+INFO: the extruct tool found parseable data at https://osf.io/r7g9q/
+
+INFO: Now attempting to use the Kellogg's Distiller parser. 
+
+INFO: Note that, if the Distiller fails, you can view the output of its parse by visiting http://rdf.greggkellogg.net/distiller?command=serialize&url=https%3A%2F%2Fosf.io%2Fr7g9q%2F. 
+
+INFO: Cached data is already parsed.  Returning
+
+INFO:  Attempting to resolve https://osf.io/r7g9q/ using HTTP Headers 'Accept: */*'.
+
+INFO: following redirection using this header led to the following URL: https://osf.io/r7g9q/.  Using the output from this URL for the next few tests...
+INFO: Link Header and Meta Link parsing complete.  Back in main thread.
+
+INFO: Found html text/html type of content when resolving https://osf.io/r7g9q/ using HTTP Accept header {""Accept""=>""*/*""}.
+
+INFO: parsing as HTML. 
+
+INFO: Now attempting to use the extruct parser. 
+
+INFO:  Using 'extruct' to try to extract metadata from return value (message body) of https://osf.io/r7g9q/.
+
+INFO: the extruct tool found parseable data at https://osf.io/r7g9q/
+
+INFO: Now attempting to use the Kellogg's Distiller parser. 
+
+INFO: Note that, if the Distiller fails, you can view the output of its parse by visiting http://rdf.greggkellogg.net/distiller?command=serialize&url=https%3A%2F%2Fosf.io%2Fr7g9q%2F. 
+
+INFO: Using 'Kellog's Distiller' to try to extract metadata from return value (message body).
+
+INFO: The message body is being examined by Distiller
+
+INFO: The Distiller found parseable data.  Parsing as RDF
+
+CRITICAL: The Evaluator found what it believed to be RDF (sample:  {  ""@context"": {    ""as"": ""https://www.w3.org/ns/activitystreams#"",    ""cc"": ""http://creativecommons.org/ns#"",    ""csvw"": ""http://www.w3.org/ns/csvw#"",    ""ctag"": ""http://commontag.org/ns#"",    ""dc"": ""http://purl.org/dc/terms/"",    ""dc11"": ""http://purl.org/dc/elements/1.1/"",    ""dcat"": ""http:), but it could not find a parser.  Please report this error, along with the GUID of the resource, to the maintainer of the system.
+
+INFO: END OF HARVESTING
+
+INFO: Linked Data Found.  Now searching for the metadata identifier using appropriate linked data predicates ([""http://purl.org/dc/elements/1.1/identifier"", ""https://purl.org/dc/elements/1.1/identifier"", ""http://purl.org/dc/terms/identifier"", ""http://schema.org/identifier"", ""https://purl.org/dc/terms/identifier"", ""https://schema.org/identifier""]).
+
+INFO: found identifier 'https://osf.io/r7g9q' using Schema.org identifier as with a string or URI value.
+
+INFO: found identifier 'https://osf.io/r7g9q' using Schema.org identifier as with a string or URI value.
+
+INFO: found identifier 'https://osf.io/r7g9q' using Schema.org identifier as with a string or URI value.
+
+INFO: found identifier 'https://osf.io/r7g9q' using Schema.org identifier as with a string or URI value.
+
+FAILURE: While (apparent) metadata record identifiers were found ([""https://osf.io/r7g9q"", ""https://osf.io/r7g9q"", ""https://osf.io/r7g9q"", ""https://osf.io/r7g9q""]) none of them matched the initial GUID provided to the test (https://osf.io/r7g9q/).  Exact identifier match is required.";0;"INFO: TEST VERSION 'Hvst-1.4.4:Tst-0.2.11'
+
+INFO: Found a URI.
+
+INFO:  Attempting to resolve https://osf.io/r7g9q/ using HTTP Headers {""Accept""=>""text/turtle, application/ld+json, application/rdf+xml, text/xhtml+xml, application/n3, application/rdf+n3, application/turtle, application/x-turtle, text/n3, text/turtle, text/rdf+n3, text/rdf+turtle, application/n-triples""}.
+
+INFO: following redirection using this header led to the following URL: https://osf.io/r7g9q/.  Using the output from this URL for the next few tests...
+INFO: Link Header and Meta Link parsing complete.  Back in main thread.
+
+INFO: Found html text/html type of content when resolving https://osf.io/r7g9q/ using HTTP Accept header {""Accept""=>""text/turtle, application/ld+json, application/rdf+xml, text/xhtml+xml, application/n3, application/rdf+n3, application/turtle, application/x-turtle, text/n3, text/turtle, text/rdf+n3, text/rdf+turtle, application/n-triples""}.
+
+INFO: parsing as HTML. 
+
+INFO: Now attempting to use the extruct parser. 
+
+INFO:  Using 'extruct' to try to extract metadata from return value (message body) of https://osf.io/r7g9q/.
+
+INFO: the extruct tool found parseable data at https://osf.io/r7g9q/
+
+INFO: The response message body component appears to contain JSON::LD::Format.
+
+INFO: The response message body component appears to contain JSON::LD::Format.
+
+INFO: Now attempting to use the Kellogg's Distiller parser. 
+
+INFO: Note that, if the Distiller fails, you can view the output of its parse by visiting http://rdf.greggkellogg.net/distiller?command=serialize&url=https%3A%2F%2Fosf.io%2Fr7g9q%2F. 
+
+INFO: Using 'Kellog's Distiller' to try to extract metadata from return value (message body).
+
+INFO: The message body is being examined by Distiller
+
+INFO: The Distiller found parseable data.  Parsing as RDF
+
+CRITICAL: The Evaluator found what it believed to be RDF (sample:  {  ""@context"": {    ""as"": ""https://www.w3.org/ns/activitystreams#"",    ""cc"": ""http://creativecommons.org/ns#"",    ""csvw"": ""http://www.w3.org/ns/csvw#"",    ""ctag"": ""http://commontag.org/ns#"",    ""dc"": ""http://purl.org/dc/terms/"",    ""dc11"": ""http://purl.org/dc/elements/1.1/"",    ""dcat"": ""http:), but it could not find a parser.  Please report this error, along with the GUID of the resource, to the maintainer of the system.
+
+INFO:  Attempting to resolve https://osf.io/r7g9q/ using HTTP Headers text/xhtml,text/xml.
+
+INFO: following redirection using this header led to the following URL: https://osf.io/r7g9q/.  Using the output from this URL for the next few tests...
+INFO: Link Header and Meta Link parsing complete.  Back in main thread.
+
+INFO: Found html text/html type of content when resolving https://osf.io/r7g9q/ using HTTP Accept header {""Accept""=>""text/xhtml,text/xml""}.
+
+INFO: parsing as HTML. 
+
+INFO: Now attempting to use the extruct parser. 
+
+INFO:  Using 'extruct' to try to extract metadata from return value (message body) of https://osf.io/r7g9q/.
+
+INFO: the extruct tool found parseable data at https://osf.io/r7g9q/
+
+INFO: Now attempting to use the Kellogg's Distiller parser. 
+
+INFO: Note that, if the Distiller fails, you can view the output of its parse by visiting http://rdf.greggkellogg.net/distiller?command=serialize&url=https%3A%2F%2Fosf.io%2Fr7g9q%2F. 
+
+INFO: Using 'Kellog's Distiller' to try to extract metadata from return value (message body).
+
+INFO: The message body is being examined by Distiller
+
+INFO: The Distiller found parseable data.  Parsing as RDF
+
+CRITICAL: The Evaluator found what it believed to be RDF (sample:  {  ""@context"": {    ""as"": ""https://www.w3.org/ns/activitystreams#"",    ""cc"": ""http://creativecommons.org/ns#"",    ""csvw"": ""http://www.w3.org/ns/csvw#"",    ""ctag"": ""http://commontag.org/ns#"",    ""dc"": ""http://purl.org/dc/terms/"",    ""dc11"": ""http://purl.org/dc/elements/1.1/"",    ""dcat"": ""http:), but it could not find a parser.  Please report this error, along with the GUID of the resource, to the maintainer of the system.
+
+INFO:  Attempting to resolve https://osf.io/r7g9q/ using HTTP Headers application/json.
+
+INFO: following redirection using this header led to the following URL: https://osf.io/r7g9q/.  Using the output from this URL for the next few tests...
+INFO: Link Header and Meta Link parsing complete.  Back in main thread.
+
+INFO: Found html text/html type of content when resolving https://osf.io/r7g9q/ using HTTP Accept header {""Accept""=>""application/json""}.
+
+INFO: parsing as HTML. 
+
+INFO: Now attempting to use the extruct parser. 
+
+INFO:  Using 'extruct' to try to extract metadata from return value (message body) of https://osf.io/r7g9q/.
+
+INFO: the extruct tool found parseable data at https://osf.io/r7g9q/
+
+INFO: Now attempting to use the Kellogg's Distiller parser. 
+
+INFO: Note that, if the Distiller fails, you can view the output of its parse by visiting http://rdf.greggkellogg.net/distiller?command=serialize&url=https%3A%2F%2Fosf.io%2Fr7g9q%2F. 
+
+INFO: Cached data is already parsed.  Returning
+
+INFO:  Attempting to resolve https://osf.io/r7g9q/ using HTTP Headers 'Accept: */*'.
+
+INFO: following redirection using this header led to the following URL: https://osf.io/r7g9q/.  Using the output from this URL for the next few tests...
+INFO: Link Header and Meta Link parsing complete.  Back in main thread.
+
+INFO: Found html text/html type of content when resolving https://osf.io/r7g9q/ using HTTP Accept header {""Accept""=>""*/*""}.
+
+INFO: parsing as HTML. 
+
+INFO: Now attempting to use the extruct parser. 
+
+INFO:  Using 'extruct' to try to extract metadata from return value (message body) of https://osf.io/r7g9q/.
+
+INFO: the extruct tool found parseable data at https://osf.io/r7g9q/
+
+INFO: Now attempting to use the Kellogg's Distiller parser. 
+
+INFO: Note that, if the Distiller fails, you can view the output of its parse by visiting http://rdf.greggkellogg.net/distiller?command=serialize&url=https%3A%2F%2Fosf.io%2Fr7g9q%2F. 
+
+INFO: Using 'Kellog's Distiller' to try to extract metadata from return value (message body).
+
+INFO: The message body is being examined by Distiller
+
+INFO: The Distiller found parseable data.  Parsing as RDF
+
+CRITICAL: The Evaluator found what it believed to be RDF (sample:  {  ""@context"": {    ""as"": ""https://www.w3.org/ns/activitystreams#"",    ""cc"": ""http://creativecommons.org/ns#"",    ""csvw"": ""http://www.w3.org/ns/csvw#"",    ""ctag"": ""http://commontag.org/ns#"",    ""dc"": ""http://purl.org/dc/terms/"",    ""dc11"": ""http://purl.org/dc/elements/1.1/"",    ""dcat"": ""http:), but it could not find a parser.  Please report this error, along with the GUID of the resource, to the maintainer of the system.
+
+INFO: END OF HARVESTING
+
+INFO: testing any hash-style metadata for a key matching 'title' in any case.
+
+INFO: found title 
+        Motherhood and Theory of Mind: how does motherhood interact with understanding children and adults using ToM?
+.  Searching Bing
+
+WARN:  Bing search for 
+        Motherhood and Theory of Mind: how does motherhood interact with understanding children and adults using ToM?
+ found no results.
+
+WARN: could not find any human-readeable keywords in hash-style metadata.
+
+INFO: Testing Linked Data-formatted metadata for any predicate that contains 'title' in any case.
+ 
+INFO: found title predicate.
+ 
+INFO: found possible Title:  
+        Motherhood and Theory of Mind: how does motherhood interact with understanding children and adults using ToM?
+.
+ 
+INFO: Calling Bing search using 
+        Motherhood and Theory of Mind: how does motherhood interact with understanding children and adults using ToM?
+.
+ 
+INFO: No search results from Bing using the title of the record
+  
+INFO: found a 'name' predicate; presuming this is a pointer to a title.
+ 
+INFO: found possible Title:  Motherhood and Theory of Mind: how does motherhood interact with understanding children and adults using ToM?.
+ 
+INFO: Calling Bing search using Motherhood and Theory of Mind: how does motherhood interact with understanding children and adults using ToM?.
+ 
+INFO: No search results from Bing
+  
+INFO: found possible Title:  Catherine Hindi Attar.
+ 
+INFO: Calling Bing search using Catherine Hindi Attar.
+ 
+INFO: No search results from Bing
+  
+INFO: found possible Title:  Stefanie Kunas.
+ 
+INFO: Calling Bing search using Stefanie Kunas.
+ 
+INFO: No search results from Bing
+  
+INFO: found possible Title:  Isabel Dziobek.
+ 
+INFO: Calling Bing search using Isabel Dziobek.
+ 
+INFO: No search results from Bing
+  
+INFO: found possible Title:  Felix Bermpohl.
+ 
+INFO: Calling Bing search using Felix Bermpohl.
+ 
+INFO: No search results from Bing
+  
+INFO: found possible Title:  Irene Sophia Plank.
+ 
+INFO: Calling Bing search using Irene Sophia Plank.
+ 
+INFO: No search results from Bing
+  
+INFO: found possible Title:  CC-By Attribution 4.0 International.
+ 
+INFO: Calling Bing search using CC-By Attribution 4.0 International.
+ 
+INFO: No search results from Bing
+  
+INFO: found possible Title:  Center For Open Science.
+ 
+INFO: Calling Bing search using Center For Open Science.
+ 
+INFO: No search results from Bing
+  
+INFO: found possible Title:  OSF.
+ 
+INFO: Calling Bing search using OSF.
+ 
+INFO: No search results from Bing
+  
+INFO: Testing Linked Data-formatted metadata for any predicate that contains 'keyword' in any case.
+ 
+FAILURE: Was unable to discover the metadata record by search in Bing using any method";0;"INFO: TEST VERSION 'Hvst-1.4.4:Tst-0.2.1'
+
+INFO: Found a URI.
+
+INFO:  Attempting to resolve https://osf.io/r7g9q/ using HTTP Headers {""Accept""=>""text/turtle, application/ld+json, application/rdf+xml, text/xhtml+xml, application/n3, application/rdf+n3, application/turtle, application/x-turtle, text/n3, text/turtle, text/rdf+n3, text/rdf+turtle, application/n-triples""}.
+
+INFO: following redirection using this header led to the following URL: https://osf.io/r7g9q/.  Using the output from this URL for the next few tests...
+INFO: Link Header and Meta Link parsing complete.  Back in main thread.
+
+INFO: Found html text/html type of content when resolving https://osf.io/r7g9q/ using HTTP Accept header {""Accept""=>""text/turtle, application/ld+json, application/rdf+xml, text/xhtml+xml, application/n3, application/rdf+n3, application/turtle, application/x-turtle, text/n3, text/turtle, text/rdf+n3, text/rdf+turtle, application/n-triples""}.
+
+INFO: parsing as HTML. 
+
+INFO: Now attempting to use the extruct parser. 
+
+INFO:  Using 'extruct' to try to extract metadata from return value (message body) of https://osf.io/r7g9q/.
+
+INFO: the extruct tool found parseable data at https://osf.io/r7g9q/
+
+INFO: The response message body component appears to contain JSON::LD::Format.
+
+INFO: The response message body component appears to contain JSON::LD::Format.
+
+INFO: Now attempting to use the Kellogg's Distiller parser. 
+
+INFO: Note that, if the Distiller fails, you can view the output of its parse by visiting http://rdf.greggkellogg.net/distiller?command=serialize&url=https%3A%2F%2Fosf.io%2Fr7g9q%2F. 
+
+INFO: Using 'Kellog's Distiller' to try to extract metadata from return value (message body).
+
+INFO: The message body is being examined by Distiller
+
+INFO: The Distiller found parseable data.  Parsing as RDF
+
+CRITICAL: The Evaluator found what it believed to be RDF (sample:  {  ""@context"": {    ""as"": ""https://www.w3.org/ns/activitystreams#"",    ""cc"": ""http://creativecommons.org/ns#"",    ""csvw"": ""http://www.w3.org/ns/csvw#"",    ""ctag"": ""http://commontag.org/ns#"",    ""dc"": ""http://purl.org/dc/terms/"",    ""dc11"": ""http://purl.org/dc/elements/1.1/"",    ""dcat"": ""http:), but it could not find a parser.  Please report this error, along with the GUID of the resource, to the maintainer of the system.
+
+INFO:  Attempting to resolve https://osf.io/r7g9q/ using HTTP Headers text/xhtml,text/xml.
+
+INFO: following redirection using this header led to the following URL: https://osf.io/r7g9q/.  Using the output from this URL for the next few tests...
+INFO: Link Header and Meta Link parsing complete.  Back in main thread.
+
+INFO: Found html text/html type of content when resolving https://osf.io/r7g9q/ using HTTP Accept header {""Accept""=>""text/xhtml,text/xml""}.
+
+INFO: parsing as HTML. 
+
+INFO: Now attempting to use the extruct parser. 
+
+INFO:  Using 'extruct' to try to extract metadata from return value (message body) of https://osf.io/r7g9q/.
+
+INFO: the extruct tool found parseable data at https://osf.io/r7g9q/
+
+INFO: Now attempting to use the Kellogg's Distiller parser. 
+
+INFO: Note that, if the Distiller fails, you can view the output of its parse by visiting http://rdf.greggkellogg.net/distiller?command=serialize&url=https%3A%2F%2Fosf.io%2Fr7g9q%2F. 
+
+INFO: Cached data is already parsed.  Returning
+
+INFO:  Attempting to resolve https://osf.io/r7g9q/ using HTTP Headers application/json.
+
+INFO: following redirection using this header led to the following URL: https://osf.io/r7g9q/.  Using the output from this URL for the next few tests...
+INFO: Link Header and Meta Link parsing complete.  Back in main thread.
+
+INFO: Found html text/html type of content when resolving https://osf.io/r7g9q/ using HTTP Accept header {""Accept""=>""application/json""}.
+
+INFO: parsing as HTML. 
+
+INFO: Now attempting to use the extruct parser. 
+
+INFO:  Using 'extruct' to try to extract metadata from return value (message body) of https://osf.io/r7g9q/.
+
+INFO: the extruct tool found parseable data at https://osf.io/r7g9q/
+
+INFO: Now attempting to use the Kellogg's Distiller parser. 
+
+INFO: Note that, if the Distiller fails, you can view the output of its parse by visiting http://rdf.greggkellogg.net/distiller?command=serialize&url=https%3A%2F%2Fosf.io%2Fr7g9q%2F. 
+
+INFO: Cached data is already parsed.  Returning
+
+INFO:  Attempting to resolve https://osf.io/r7g9q/ using HTTP Headers 'Accept: */*'.
+
+INFO: following redirection using this header led to the following URL: https://osf.io/r7g9q/.  Using the output from this URL for the next few tests...
+INFO: Link Header and Meta Link parsing complete.  Back in main thread.
+
+INFO: Found html text/html type of content when resolving https://osf.io/r7g9q/ using HTTP Accept header {""Accept""=>""*/*""}.
+
+INFO: parsing as HTML. 
+
+INFO: Now attempting to use the extruct parser. 
+
+INFO:  Using 'extruct' to try to extract metadata from return value (message body) of https://osf.io/r7g9q/.
+
+INFO: the extruct tool found parseable data at https://osf.io/r7g9q/
+
+INFO: Now attempting to use the Kellogg's Distiller parser. 
+
+INFO: Note that, if the Distiller fails, you can view the output of its parse by visiting http://rdf.greggkellogg.net/distiller?command=serialize&url=https%3A%2F%2Fosf.io%2Fr7g9q%2F. 
+
+INFO: Using 'Kellog's Distiller' to try to extract metadata from return value (message body).
+
+INFO: The message body is being examined by Distiller
+
+INFO: The Distiller found parseable data.  Parsing as RDF
+
+CRITICAL: The Evaluator found what it believed to be RDF (sample:  {  ""@context"": {    ""as"": ""https://www.w3.org/ns/activitystreams#"",    ""cc"": ""http://creativecommons.org/ns#"",    ""csvw"": ""http://www.w3.org/ns/csvw#"",    ""ctag"": ""http://commontag.org/ns#"",    ""dc"": ""http://purl.org/dc/terms/"",    ""dc11"": ""http://purl.org/dc/elements/1.1/"",    ""dcat"": ""http:), but it could not find a parser.  Please report this error, along with the GUID of the resource, to the maintainer of the system.
+
+INFO: END OF HARVESTING
+
+INFO: Searching hash-style metadata for keys indicating a pointer to data.
+
+INFO: Searching for key: contains.
+
+INFO: Searching for key: primaryTopic.
+
+INFO: Searching for key: IAO_0000136.
+
+INFO: Searching for key: IAO:0000136.
+
+INFO: Searching for key: contains.
+
+INFO: Searching for key: primaryTopic.
+
+INFO: Searching for key: mainEntity.
+
+INFO: Searching for key: codeRepository.
+
+INFO: Searching for key: distribution.
+
+INFO: Searching for key: mainEntity.
+
+INFO: Searching for key: codeRepository.
+
+INFO: Searching for key: distribution.
+
+INFO: Searching for key: distribution.
+
+INFO: Searching for key: distribution.
+
+INFO: Searching for key: dataset.
+
+INFO: Searching for key: dataset.
+
+INFO: Searching for key: downloadURL.
+
+INFO: Searching for key: downloadURL.
+
+INFO: Searching for key: accessURL.
+
+INFO: Searching for key: accessURL.
+
+INFO: Searching for key: SIO_000332.
+
+INFO: Searching for key: is-about.
+
+INFO: Searching for key: SIO_000332.
+
+INFO: Searching for key: is-about.
+
+INFO: Searching for key: IAO_0000136.
+
+INFO: Searching hash-style metadata for keys indicating a pointer to data.
+
+INFO: Searching for key: contains.
+
+INFO: Searching for key: primaryTopic.
+
+INFO: Searching for key: IAO_0000136.
+
+INFO: Searching for key: IAO:0000136.
+
+INFO: Searching for key: contains.
+
+INFO: Searching for key: primaryTopic.
+
+INFO: Searching for key: mainEntity.
+
+INFO: Searching for key: codeRepository.
+
+INFO: Searching for key: distribution.
+
+INFO: Searching for key: mainEntity.
+
+INFO: Searching for key: codeRepository.
+
+INFO: Searching for key: distribution.
+
+INFO: Searching for key: distribution.
+
+INFO: Searching for key: distribution.
+
+INFO: Searching for key: dataset.
+
+INFO: Searching for key: dataset.
+
+INFO: Searching for key: downloadURL.
+
+INFO: Searching for key: downloadURL.
+
+INFO: Searching for key: accessURL.
+
+INFO: Searching for key: accessURL.
+
+INFO: Searching for key: SIO_000332.
+
+INFO: Searching for key: is-about.
+
+INFO: Searching for key: SIO_000332.
+
+INFO: Searching for key: is-about.
+
+INFO: Searching for key: IAO_0000136.
+
+INFO: Searching hash-style metadata for keys indicating a pointer to data.
+
+INFO: Searching for key: contains.
+
+INFO: Searching for key: primaryTopic.
+
+INFO: Searching for key: IAO_0000136.
+
+INFO: Searching for key: IAO:0000136.
+
+INFO: Searching for key: contains.
+
+INFO: Searching for key: primaryTopic.
+
+INFO: Searching for key: mainEntity.
+
+INFO: Searching for key: codeRepository.
+
+INFO: Searching for key: distribution.
+
+INFO: Searching for key: mainEntity.
+
+INFO: Searching for key: codeRepository.
+
+INFO: Searching for key: distribution.
+
+INFO: Searching for key: distribution.
+
+INFO: Searching for key: distribution.
+
+INFO: Searching for key: dataset.
+
+INFO: Searching for key: dataset.
+
+INFO: Searching for key: downloadURL.
+
+INFO: Searching for key: downloadURL.
+
+INFO: Searching for key: accessURL.
+
+INFO: Searching for key: accessURL.
+
+INFO: Searching for key: SIO_000332.
+
+INFO: Searching for key: is-about.
+
+INFO: Searching for key: SIO_000332.
+
+INFO: Searching for key: is-about.
+
+INFO: Searching for key: IAO_0000136.
+
+INFO: Searching Linked Data metadata for predicates indicating a pointer to data.
+
+INFO: SPARQLing for http://www.w3.org/ns/ldp#contains.
+
+INFO: SPARQLing for http://xmlns.com/foaf/0.1/primaryTopic.
+
+INFO: SPARQLing for http://purl.obolibrary.org/obo/IAO_0000136.
+
+INFO: SPARQLing for http://purl.obolibrary.org/obo/IAO:0000136.
+
+INFO: SPARQLing for https://www.w3.org/ns/ldp#contains.
+
+INFO: SPARQLing for https://xmlns.com/foaf/0.1/primaryTopic.
+
+INFO: SPARQLing for http://schema.org/mainEntity.
+
+INFO: SPARQLing for http://schema.org/codeRepository.
+
+INFO: SPARQLing for http://schema.org/distribution.
+
+INFO: SPARQLing for https://schema.org/mainEntity.
+
+INFO: SPARQLing for https://schema.org/codeRepository.
+
+INFO: SPARQLing for https://schema.org/distribution.
+
+INFO: SPARQLing for http://www.w3.org/ns/dcat#distribution.
+
+INFO: SPARQLing for https://www.w3.org/ns/dcat#distribution.
+
+INFO: SPARQLing for http://www.w3.org/ns/dcat#dataset.
+
+INFO: SPARQLing for https://www.w3.org/ns/dcat#dataset.
+
+INFO: SPARQLing for http://www.w3.org/ns/dcat#downloadURL.
+
+INFO: SPARQLing for https://www.w3.org/ns/dcat#downloadURL.
+
+INFO: SPARQLing for http://www.w3.org/ns/dcat#accessURL.
+
+INFO: SPARQLing for https://www.w3.org/ns/dcat#accessURL.
+
+INFO: SPARQLing for http://semanticscience.org/resource/SIO_000332.
+
+INFO: SPARQLing for http://semanticscience.org/resource/is-about.
+
+INFO: SPARQLing for https://semanticscience.org/resource/SIO_000332.
+
+INFO: SPARQLing for https://semanticscience.org/resource/is-about.
+
+INFO: SPARQLing for https://purl.obolibrary.org/obo/IAO_0000136.
+
+INFO: No data identifier found in this chunk of metadata.
+
+FAILURE: Was unable to locate the data identifier in the metadata using any (common) property/predicate reserved for this purpose.  Tested http://www.w3.org/ns/ldp#contains & http://xmlns.com/foaf/0.1/primaryTopic & http://purl.obolibrary.org/obo/IAO_0000136 & http://purl.obolibrary.org/obo/IAO:0000136 & https://www.w3.org/ns/ldp#contains & https://xmlns.com/foaf/0.1/primaryTopic & http://schema.org/mainEntity & http://schema.org/codeRepository & http://schema.org/distribution & https://schema.org/mainEntity & https://schema.org/codeRepository & https://schema.org/distribution & http://www.w3.org/ns/dcat#distribution & https://www.w3.org/ns/dcat#distribution & http://www.w3.org/ns/dcat#dataset & https://www.w3.org/ns/dcat#dataset & http://www.w3.org/ns/dcat#downloadURL & https://www.w3.org/ns/dcat#downloadURL & http://www.w3.org/ns/dcat#accessURL & https://www.w3.org/ns/dcat#accessURL & http://semanticscience.org/resource/SIO_000332 & http://semanticscience.org/resource/is-about & https://semanticscience.org/resource/SIO_000332 & https://semanticscience.org/resource/is-about & https://purl.obolibrary.org/obo/IAO_0000136 as both keys, and linked data predicates";1;"INFO: TEST VERSION 'Hvst-1.4.4:Tst-0.2.1'
+
+INFO: Found a URI.
+
+INFO:  Attempting to resolve https://osf.io/r7g9q/ using HTTP Headers {""Accept""=>""text/turtle, application/ld+json, application/rdf+xml, text/xhtml+xml, application/n3, application/rdf+n3, application/turtle, application/x-turtle, text/n3, text/turtle, text/rdf+n3, text/rdf+turtle, application/n-triples""}.
+
+INFO: following redirection using this header led to the following URL: https://osf.io/r7g9q/.  Using the output from this URL for the next few tests...
+INFO: Link Header and Meta Link parsing complete.  Back in main thread.
+
+INFO: Found html text/html type of content when resolving https://osf.io/r7g9q/ using HTTP Accept header {""Accept""=>""text/turtle, application/ld+json, application/rdf+xml, text/xhtml+xml, application/n3, application/rdf+n3, application/turtle, application/x-turtle, text/n3, text/turtle, text/rdf+n3, text/rdf+turtle, application/n-triples""}.
+
+INFO: parsing as HTML. 
+
+INFO: Now attempting to use the extruct parser. 
+
+INFO:  Using 'extruct' to try to extract metadata from return value (message body) of https://osf.io/r7g9q/.
+
+INFO: the extruct tool found parseable data at https://osf.io/r7g9q/
+
+INFO: The response message body component appears to contain JSON::LD::Format.
+
+INFO: The response message body component appears to contain JSON::LD::Format.
+
+INFO: Now attempting to use the Kellogg's Distiller parser. 
+
+INFO: Note that, if the Distiller fails, you can view the output of its parse by visiting http://rdf.greggkellogg.net/distiller?command=serialize&url=https%3A%2F%2Fosf.io%2Fr7g9q%2F. 
+
+INFO: Using 'Kellog's Distiller' to try to extract metadata from return value (message body).
+
+INFO: The message body is being examined by Distiller
+
+INFO: The Distiller found parseable data.  Parsing as RDF
+
+CRITICAL: The Evaluator found what it believed to be RDF (sample:  {  ""@context"": {    ""as"": ""https://www.w3.org/ns/activitystreams#"",    ""cc"": ""http://creativecommons.org/ns#"",    ""csvw"": ""http://www.w3.org/ns/csvw#"",    ""ctag"": ""http://commontag.org/ns#"",    ""dc"": ""http://purl.org/dc/terms/"",    ""dc11"": ""http://purl.org/dc/elements/1.1/"",    ""dcat"": ""http:), but it could not find a parser.  Please report this error, along with the GUID of the resource, to the maintainer of the system.
+
+INFO:  Attempting to resolve https://osf.io/r7g9q/ using HTTP Headers text/xhtml,text/xml.
+
+INFO: following redirection using this header led to the following URL: https://osf.io/r7g9q/.  Using the output from this URL for the next few tests...
+INFO: Link Header and Meta Link parsing complete.  Back in main thread.
+
+INFO: Found html text/html type of content when resolving https://osf.io/r7g9q/ using HTTP Accept header {""Accept""=>""text/xhtml,text/xml""}.
+
+INFO: parsing as HTML. 
+
+INFO: Now attempting to use the extruct parser. 
+
+INFO:  Using 'extruct' to try to extract metadata from return value (message body) of https://osf.io/r7g9q/.
+
+INFO: the extruct tool found parseable data at https://osf.io/r7g9q/
+
+INFO: Now attempting to use the Kellogg's Distiller parser. 
+
+INFO: Note that, if the Distiller fails, you can view the output of its parse by visiting http://rdf.greggkellogg.net/distiller?command=serialize&url=https%3A%2F%2Fosf.io%2Fr7g9q%2F. 
+
+INFO: Using 'Kellog's Distiller' to try to extract metadata from return value (message body).
+
+INFO: The message body is being examined by Distiller
+
+INFO: The Distiller found parseable data.  Parsing as RDF
+
+CRITICAL: The Evaluator found what it believed to be RDF (sample:  {  ""@context"": {    ""as"": ""https://www.w3.org/ns/activitystreams#"",    ""cc"": ""http://creativecommons.org/ns#"",    ""csvw"": ""http://www.w3.org/ns/csvw#"",    ""ctag"": ""http://commontag.org/ns#"",    ""dc"": ""http://purl.org/dc/terms/"",    ""dc11"": ""http://purl.org/dc/elements/1.1/"",    ""dcat"": ""http:), but it could not find a parser.  Please report this error, along with the GUID of the resource, to the maintainer of the system.
+
+INFO:  Attempting to resolve https://osf.io/r7g9q/ using HTTP Headers application/json.
+
+INFO: following redirection using this header led to the following URL: https://osf.io/r7g9q/.  Using the output from this URL for the next few tests...
+INFO: Link Header and Meta Link parsing complete.  Back in main thread.
+
+INFO: Found html text/html type of content when resolving https://osf.io/r7g9q/ using HTTP Accept header {""Accept""=>""application/json""}.
+
+INFO: parsing as HTML. 
+
+INFO: Now attempting to use the extruct parser. 
+
+INFO:  Using 'extruct' to try to extract metadata from return value (message body) of https://osf.io/r7g9q/.
+
+INFO: the extruct tool found parseable data at https://osf.io/r7g9q/
+
+INFO: Now attempting to use the Kellogg's Distiller parser. 
+
+INFO: Note that, if the Distiller fails, you can view the output of its parse by visiting http://rdf.greggkellogg.net/distiller?command=serialize&url=https%3A%2F%2Fosf.io%2Fr7g9q%2F. 
+
+INFO: Cached data is already parsed.  Returning
+
+INFO:  Attempting to resolve https://osf.io/r7g9q/ using HTTP Headers 'Accept: */*'.
+
+INFO: following redirection using this header led to the following URL: https://osf.io/r7g9q/.  Using the output from this URL for the next few tests...
+INFO: Link Header and Meta Link parsing complete.  Back in main thread.
+
+INFO: Found html text/html type of content when resolving https://osf.io/r7g9q/ using HTTP Accept header {""Accept""=>""*/*""}.
+
+INFO: parsing as HTML. 
+
+INFO: Now attempting to use the extruct parser. 
+
+INFO:  Using 'extruct' to try to extract metadata from return value (message body) of https://osf.io/r7g9q/.
+
+INFO: the extruct tool found parseable data at https://osf.io/r7g9q/
+
+INFO: Now attempting to use the Kellogg's Distiller parser. 
+
+INFO: Note that, if the Distiller fails, you can view the output of its parse by visiting http://rdf.greggkellogg.net/distiller?command=serialize&url=https%3A%2F%2Fosf.io%2Fr7g9q%2F. 
+
+INFO: Using 'Kellog's Distiller' to try to extract metadata from return value (message body).
+
+INFO: The message body is being examined by Distiller
+
+INFO: The Distiller found parseable data.  Parsing as RDF
+
+CRITICAL: The Evaluator found what it believed to be RDF (sample:  {  ""@context"": {    ""as"": ""https://www.w3.org/ns/activitystreams#"",    ""cc"": ""http://creativecommons.org/ns#"",    ""csvw"": ""http://www.w3.org/ns/csvw#"",    ""ctag"": ""http://commontag.org/ns#"",    ""dc"": ""http://purl.org/dc/terms/"",    ""dc11"": ""http://purl.org/dc/elements/1.1/"",    ""dcat"": ""http:), but it could not find a parser.  Please report this error, along with the GUID of the resource, to the maintainer of the system.
+
+INFO: END OF HARVESTING
+
+SUCCESS: The identifier https://osf.io/r7g9q/ is of type uri, which is resolvable by an open protocol.";0;"INFO: TEST VERSION 'Hvst-1.4.4:Tst-0.2.1'
+
+INFO: Found a URI.
+
+INFO:  Attempting to resolve https://osf.io/r7g9q/ using HTTP Headers {""Accept""=>""text/turtle, application/ld+json, application/rdf+xml, text/xhtml+xml, application/n3, application/rdf+n3, application/turtle, application/x-turtle, text/n3, text/turtle, text/rdf+n3, text/rdf+turtle, application/n-triples""}.
+
+INFO: following redirection using this header led to the following URL: https://osf.io/r7g9q/.  Using the output from this URL for the next few tests...
+INFO: Link Header and Meta Link parsing complete.  Back in main thread.
+
+INFO: Found html text/html type of content when resolving https://osf.io/r7g9q/ using HTTP Accept header {""Accept""=>""text/turtle, application/ld+json, application/rdf+xml, text/xhtml+xml, application/n3, application/rdf+n3, application/turtle, application/x-turtle, text/n3, text/turtle, text/rdf+n3, text/rdf+turtle, application/n-triples""}.
+
+INFO: parsing as HTML. 
+
+INFO: Now attempting to use the extruct parser. 
+
+INFO:  Using 'extruct' to try to extract metadata from return value (message body) of https://osf.io/r7g9q/.
+
+INFO: the extruct tool found parseable data at https://osf.io/r7g9q/
+
+INFO: The response message body component appears to contain JSON::LD::Format.
+
+INFO: The response message body component appears to contain JSON::LD::Format.
+
+INFO: Now attempting to use the Kellogg's Distiller parser. 
+
+INFO: Note that, if the Distiller fails, you can view the output of its parse by visiting http://rdf.greggkellogg.net/distiller?command=serialize&url=https%3A%2F%2Fosf.io%2Fr7g9q%2F. 
+
+INFO: Using 'Kellog's Distiller' to try to extract metadata from return value (message body).
+
+INFO: The message body is being examined by Distiller
+
+INFO: The Distiller found parseable data.  Parsing as RDF
+
+CRITICAL: The Evaluator found what it believed to be RDF (sample:  {  ""@context"": {    ""as"": ""https://www.w3.org/ns/activitystreams#"",    ""cc"": ""http://creativecommons.org/ns#"",    ""csvw"": ""http://www.w3.org/ns/csvw#"",    ""ctag"": ""http://commontag.org/ns#"",    ""dc"": ""http://purl.org/dc/terms/"",    ""dc11"": ""http://purl.org/dc/elements/1.1/"",    ""dcat"": ""http:), but it could not find a parser.  Please report this error, along with the GUID of the resource, to the maintainer of the system.
+
+INFO:  Attempting to resolve https://osf.io/r7g9q/ using HTTP Headers text/xhtml,text/xml.
+
+INFO: following redirection using this header led to the following URL: https://osf.io/r7g9q/.  Using the output from this URL for the next few tests...
+INFO: Link Header and Meta Link parsing complete.  Back in main thread.
+
+INFO: Found html text/html type of content when resolving https://osf.io/r7g9q/ using HTTP Accept header {""Accept""=>""text/xhtml,text/xml""}.
+
+INFO: parsing as HTML. 
+
+INFO: Now attempting to use the extruct parser. 
+
+INFO:  Using 'extruct' to try to extract metadata from return value (message body) of https://osf.io/r7g9q/.
+
+INFO: the extruct tool found parseable data at https://osf.io/r7g9q/
+
+INFO: Now attempting to use the Kellogg's Distiller parser. 
+
+INFO: Note that, if the Distiller fails, you can view the output of its parse by visiting http://rdf.greggkellogg.net/distiller?command=serialize&url=https%3A%2F%2Fosf.io%2Fr7g9q%2F. 
+
+INFO: Cached data is already parsed.  Returning
+
+INFO:  Attempting to resolve https://osf.io/r7g9q/ using HTTP Headers application/json.
+
+INFO: following redirection using this header led to the following URL: https://osf.io/r7g9q/.  Using the output from this URL for the next few tests...
+INFO: Link Header and Meta Link parsing complete.  Back in main thread.
+
+INFO: Found html text/html type of content when resolving https://osf.io/r7g9q/ using HTTP Accept header {""Accept""=>""application/json""}.
+
+INFO: parsing as HTML. 
+
+INFO: Now attempting to use the extruct parser. 
+
+INFO:  Using 'extruct' to try to extract metadata from return value (message body) of https://osf.io/r7g9q/.
+
+INFO: the extruct tool found parseable data at https://osf.io/r7g9q/
+
+INFO: Now attempting to use the Kellogg's Distiller parser. 
+
+INFO: Note that, if the Distiller fails, you can view the output of its parse by visiting http://rdf.greggkellogg.net/distiller?command=serialize&url=https%3A%2F%2Fosf.io%2Fr7g9q%2F. 
+
+INFO: Cached data is already parsed.  Returning
+
+INFO:  Attempting to resolve https://osf.io/r7g9q/ using HTTP Headers 'Accept: */*'.
+
+INFO: following redirection using this header led to the following URL: https://osf.io/r7g9q/.  Using the output from this URL for the next few tests...
+INFO: Link Header and Meta Link parsing complete.  Back in main thread.
+
+INFO: Found html text/html type of content when resolving https://osf.io/r7g9q/ using HTTP Accept header {""Accept""=>""*/*""}.
+
+INFO: parsing as HTML. 
+
+INFO: Now attempting to use the extruct parser. 
+
+INFO:  Using 'extruct' to try to extract metadata from return value (message body) of https://osf.io/r7g9q/.
+
+INFO: the extruct tool found parseable data at https://osf.io/r7g9q/
+
+INFO: Now attempting to use the Kellogg's Distiller parser. 
+
+INFO: Note that, if the Distiller fails, you can view the output of its parse by visiting http://rdf.greggkellogg.net/distiller?command=serialize&url=https%3A%2F%2Fosf.io%2Fr7g9q%2F. 
+
+INFO: Using 'Kellog's Distiller' to try to extract metadata from return value (message body).
+
+INFO: The message body is being examined by Distiller
+
+INFO: The Distiller found parseable data.  Parsing as RDF
+
+CRITICAL: The Evaluator found what it believed to be RDF (sample:  {  ""@context"": {    ""as"": ""https://www.w3.org/ns/activitystreams#"",    ""cc"": ""http://creativecommons.org/ns#"",    ""csvw"": ""http://www.w3.org/ns/csvw#"",    ""ctag"": ""http://commontag.org/ns#"",    ""dc"": ""http://purl.org/dc/terms/"",    ""dc11"": ""http://purl.org/dc/elements/1.1/"",    ""dcat"": ""http:), but it could not find a parser.  Please report this error, along with the GUID of the resource, to the maintainer of the system.
+
+INFO: END OF HARVESTING
+
+INFO: Searching metadata for likely identifiers to the data record
+
+INFO: Searching hash-style metadata for keys indicating a pointer to data.
+
+INFO: Searching for key: contains.
+
+INFO: Searching for key: primaryTopic.
+
+INFO: Searching for key: IAO_0000136.
+
+INFO: Searching for key: IAO:0000136.
+
+INFO: Searching for key: contains.
+
+INFO: Searching for key: primaryTopic.
+
+INFO: Searching for key: mainEntity.
+
+INFO: Searching for key: codeRepository.
+
+INFO: Searching for key: distribution.
+
+INFO: Searching for key: mainEntity.
+
+INFO: Searching for key: codeRepository.
+
+INFO: Searching for key: distribution.
+
+INFO: Searching for key: distribution.
+
+INFO: Searching for key: distribution.
+
+INFO: Searching for key: dataset.
+
+INFO: Searching for key: dataset.
+
+INFO: Searching for key: downloadURL.
+
+INFO: Searching for key: downloadURL.
+
+INFO: Searching for key: accessURL.
+
+INFO: Searching for key: accessURL.
+
+INFO: Searching for key: SIO_000332.
+
+INFO: Searching for key: is-about.
+
+INFO: Searching for key: SIO_000332.
+
+INFO: Searching for key: is-about.
+
+INFO: Searching for key: IAO_0000136.
+
+INFO: Searching hash-style metadata for keys indicating a pointer to data.
+
+INFO: Searching for key: contains.
+
+INFO: Searching for key: primaryTopic.
+
+INFO: Searching for key: IAO_0000136.
+
+INFO: Searching for key: IAO:0000136.
+
+INFO: Searching for key: contains.
+
+INFO: Searching for key: primaryTopic.
+
+INFO: Searching for key: mainEntity.
+
+INFO: Searching for key: codeRepository.
+
+INFO: Searching for key: distribution.
+
+INFO: Searching for key: mainEntity.
+
+INFO: Searching for key: codeRepository.
+
+INFO: Searching for key: distribution.
+
+INFO: Searching for key: distribution.
+
+INFO: Searching for key: distribution.
+
+INFO: Searching for key: dataset.
+
+INFO: Searching for key: dataset.
+
+INFO: Searching for key: downloadURL.
+
+INFO: Searching for key: downloadURL.
+
+INFO: Searching for key: accessURL.
+
+INFO: Searching for key: accessURL.
+
+INFO: Searching for key: SIO_000332.
+
+INFO: Searching for key: is-about.
+
+INFO: Searching for key: SIO_000332.
+
+INFO: Searching for key: is-about.
+
+INFO: Searching for key: IAO_0000136.
+
+INFO: Searching hash-style metadata for keys indicating a pointer to data.
+
+INFO: Searching for key: contains.
+
+INFO: Searching for key: primaryTopic.
+
+INFO: Searching for key: IAO_0000136.
+
+INFO: Searching for key: IAO:0000136.
+
+INFO: Searching for key: contains.
+
+INFO: Searching for key: primaryTopic.
+
+INFO: Searching for key: mainEntity.
+
+INFO: Searching for key: codeRepository.
+
+INFO: Searching for key: distribution.
+
+INFO: Searching for key: mainEntity.
+
+INFO: Searching for key: codeRepository.
+
+INFO: Searching for key: distribution.
+
+INFO: Searching for key: distribution.
+
+INFO: Searching for key: distribution.
+
+INFO: Searching for key: dataset.
+
+INFO: Searching for key: dataset.
+
+INFO: Searching for key: downloadURL.
+
+INFO: Searching for key: downloadURL.
+
+INFO: Searching for key: accessURL.
+
+INFO: Searching for key: accessURL.
+
+INFO: Searching for key: SIO_000332.
+
+INFO: Searching for key: is-about.
+
+INFO: Searching for key: SIO_000332.
+
+INFO: Searching for key: is-about.
+
+INFO: Searching for key: IAO_0000136.
+
+INFO: Searching Linked Data metadata for predicates indicating a pointer to data.
+
+INFO: SPARQLing for http://www.w3.org/ns/ldp#contains.
+
+INFO: SPARQLing for http://xmlns.com/foaf/0.1/primaryTopic.
+
+INFO: SPARQLing for http://purl.obolibrary.org/obo/IAO_0000136.
+
+INFO: SPARQLing for http://purl.obolibrary.org/obo/IAO:0000136.
+
+INFO: SPARQLing for https://www.w3.org/ns/ldp#contains.
+
+INFO: SPARQLing for https://xmlns.com/foaf/0.1/primaryTopic.
+
+INFO: SPARQLing for http://schema.org/mainEntity.
+
+INFO: SPARQLing for http://schema.org/codeRepository.
+
+INFO: SPARQLing for http://schema.org/distribution.
+
+INFO: SPARQLing for https://schema.org/mainEntity.
+
+INFO: SPARQLing for https://schema.org/codeRepository.
+
+INFO: SPARQLing for https://schema.org/distribution.
+
+INFO: SPARQLing for http://www.w3.org/ns/dcat#distribution.
+
+INFO: SPARQLing for https://www.w3.org/ns/dcat#distribution.
+
+INFO: SPARQLing for http://www.w3.org/ns/dcat#dataset.
+
+INFO: SPARQLing for https://www.w3.org/ns/dcat#dataset.
+
+INFO: SPARQLing for http://www.w3.org/ns/dcat#downloadURL.
+
+INFO: SPARQLing for https://www.w3.org/ns/dcat#downloadURL.
+
+INFO: SPARQLing for http://www.w3.org/ns/dcat#accessURL.
+
+INFO: SPARQLing for https://www.w3.org/ns/dcat#accessURL.
+
+INFO: SPARQLing for http://semanticscience.org/resource/SIO_000332.
+
+INFO: SPARQLing for http://semanticscience.org/resource/is-about.
+
+INFO: SPARQLing for https://semanticscience.org/resource/SIO_000332.
+
+INFO: SPARQLing for https://semanticscience.org/resource/is-about.
+
+INFO: SPARQLing for https://purl.obolibrary.org/obo/IAO_0000136.
+
+INFO: No data identifier found in this chunk of metadata.
+
+FAILURE: No data identifier was found in the metadata record.";0;"INFO: TEST VERSION 'Hvst-1.4.4:Tst-0.2.3'
+
+INFO: END OF HARVESTING
+
+INFO: The metadata GUID appears to be a URL.  Testing known URL persistence schemas (purl, oclc, fdlp, purlz, w3id, ark, doi(as URL)).
+
+FAILURE: The metadata GUID does not conform with any known permanent-URL system.";0;"INFO: TEST VERSION 'Hvst-1.4.4:Tst-0.2.1'
+
+INFO: Found a URI.
+
+INFO:  Attempting to resolve https://osf.io/r7g9q/ using HTTP Headers {""Accept""=>""text/turtle, application/ld+json, application/rdf+xml, text/xhtml+xml, application/n3, application/rdf+n3, application/turtle, application/x-turtle, text/n3, text/turtle, text/rdf+n3, text/rdf+turtle, application/n-triples""}.
+
+INFO: following redirection using this header led to the following URL: https://osf.io/r7g9q/.  Using the output from this URL for the next few tests...
+INFO: Link Header and Meta Link parsing complete.  Back in main thread.
+
+INFO: Found html text/html type of content when resolving https://osf.io/r7g9q/ using HTTP Accept header {""Accept""=>""text/turtle, application/ld+json, application/rdf+xml, text/xhtml+xml, application/n3, application/rdf+n3, application/turtle, application/x-turtle, text/n3, text/turtle, text/rdf+n3, text/rdf+turtle, application/n-triples""}.
+
+INFO: parsing as HTML. 
+
+INFO: Now attempting to use the extruct parser. 
+
+INFO:  Using 'extruct' to try to extract metadata from return value (message body) of https://osf.io/r7g9q/.
+
+INFO: the extruct tool found parseable data at https://osf.io/r7g9q/
+
+INFO: The response message body component appears to contain JSON::LD::Format.
+
+INFO: The response message body component appears to contain JSON::LD::Format.
+
+INFO: Now attempting to use the Kellogg's Distiller parser. 
+
+INFO: Note that, if the Distiller fails, you can view the output of its parse by visiting http://rdf.greggkellogg.net/distiller?command=serialize&url=https%3A%2F%2Fosf.io%2Fr7g9q%2F. 
+
+INFO: Using 'Kellog's Distiller' to try to extract metadata from return value (message body).
+
+INFO: The message body is being examined by Distiller
+
+INFO: The Distiller found parseable data.  Parsing as RDF
+
+CRITICAL: The Evaluator found what it believed to be RDF (sample:  {  ""@context"": {    ""as"": ""https://www.w3.org/ns/activitystreams#"",    ""cc"": ""http://creativecommons.org/ns#"",    ""csvw"": ""http://www.w3.org/ns/csvw#"",    ""ctag"": ""http://commontag.org/ns#"",    ""dc"": ""http://purl.org/dc/terms/"",    ""dc11"": ""http://purl.org/dc/elements/1.1/"",    ""dcat"": ""http:), but it could not find a parser.  Please report this error, along with the GUID of the resource, to the maintainer of the system.
+
+INFO:  Attempting to resolve https://osf.io/r7g9q/ using HTTP Headers text/xhtml,text/xml.
+
+INFO: following redirection using this header led to the following URL: https://osf.io/r7g9q/.  Using the output from this URL for the next few tests...
+INFO: Link Header and Meta Link parsing complete.  Back in main thread.
+
+INFO: Found html text/html type of content when resolving https://osf.io/r7g9q/ using HTTP Accept header {""Accept""=>""text/xhtml,text/xml""}.
+
+INFO: parsing as HTML. 
+
+INFO: Now attempting to use the extruct parser. 
+
+INFO:  Using 'extruct' to try to extract metadata from return value (message body) of https://osf.io/r7g9q/.
+
+INFO: the extruct tool found parseable data at https://osf.io/r7g9q/
+
+INFO: Now attempting to use the Kellogg's Distiller parser. 
+
+INFO: Note that, if the Distiller fails, you can view the output of its parse by visiting http://rdf.greggkellogg.net/distiller?command=serialize&url=https%3A%2F%2Fosf.io%2Fr7g9q%2F. 
+
+INFO: Cached data is already parsed.  Returning
+
+INFO:  Attempting to resolve https://osf.io/r7g9q/ using HTTP Headers application/json.
+
+INFO: following redirection using this header led to the following URL: https://osf.io/r7g9q/.  Using the output from this URL for the next few tests...
+INFO: Link Header and Meta Link parsing complete.  Back in main thread.
+
+INFO: Found html text/html type of content when resolving https://osf.io/r7g9q/ using HTTP Accept header {""Accept""=>""application/json""}.
+
+INFO: parsing as HTML. 
+
+INFO: Now attempting to use the extruct parser. 
+
+INFO:  Using 'extruct' to try to extract metadata from return value (message body) of https://osf.io/r7g9q/.
+
+INFO: the extruct tool found parseable data at https://osf.io/r7g9q/
+
+INFO: Now attempting to use the Kellogg's Distiller parser. 
+
+INFO: Note that, if the Distiller fails, you can view the output of its parse by visiting http://rdf.greggkellogg.net/distiller?command=serialize&url=https%3A%2F%2Fosf.io%2Fr7g9q%2F. 
+
+INFO: Using 'Kellog's Distiller' to try to extract metadata from return value (message body).
+
+INFO: The message body is being examined by Distiller
+
+INFO: The Distiller found parseable data.  Parsing as RDF
+
+CRITICAL: The Evaluator found what it believed to be RDF (sample:  {  ""@context"": {    ""as"": ""https://www.w3.org/ns/activitystreams#"",    ""cc"": ""http://creativecommons.org/ns#"",    ""csvw"": ""http://www.w3.org/ns/csvw#"",    ""ctag"": ""http://commontag.org/ns#"",    ""dc"": ""http://purl.org/dc/terms/"",    ""dc11"": ""http://purl.org/dc/elements/1.1/"",    ""dcat"": ""http:), but it could not find a parser.  Please report this error, along with the GUID of the resource, to the maintainer of the system.
+
+INFO:  Attempting to resolve https://osf.io/r7g9q/ using HTTP Headers 'Accept: */*'.
+
+INFO: following redirection using this header led to the following URL: https://osf.io/r7g9q/.  Using the output from this URL for the next few tests...
+INFO: Link Header and Meta Link parsing complete.  Back in main thread.
+
+INFO: Found html text/html type of content when resolving https://osf.io/r7g9q/ using HTTP Accept header {""Accept""=>""*/*""}.
+
+INFO: parsing as HTML. 
+
+INFO: Now attempting to use the extruct parser. 
+
+INFO:  Using 'extruct' to try to extract metadata from return value (message body) of https://osf.io/r7g9q/.
+
+INFO: the extruct tool found parseable data at https://osf.io/r7g9q/
+
+INFO: Now attempting to use the Kellogg's Distiller parser. 
+
+INFO: Note that, if the Distiller fails, you can view the output of its parse by visiting http://rdf.greggkellogg.net/distiller?command=serialize&url=https%3A%2F%2Fosf.io%2Fr7g9q%2F. 
+
+INFO: Cached data is already parsed.  Returning
+
+INFO: END OF HARVESTING
+
+INFO: Testing hash-style metadata for a key matching the regexp /persistencePolicy$/
+
+INFO: Found linked data.  Testing for the 'http://www.w3.org/2000/10/swap/pim/doc#persistencePolicy' predicate.
+
+WARN: Did not find the #persistencePolicy predicate in the linked data.
+
+FAILURE: was unable to find a persistence policy using any approach.";0;"INFO: TEST VERSION 'Hvst-1.4.4:Tst-0.3.1'
+
+INFO: Found a URI.
+
+INFO:  Attempting to resolve https://osf.io/r7g9q/ using HTTP Headers {""Accept""=>""text/turtle, application/ld+json, application/rdf+xml, text/xhtml+xml, application/n3, application/rdf+n3, application/turtle, application/x-turtle, text/n3, text/turtle, text/rdf+n3, text/rdf+turtle, application/n-triples""}.
+
+INFO: following redirection using this header led to the following URL: https://osf.io/r7g9q/.  Using the output from this URL for the next few tests...
+INFO: Link Header and Meta Link parsing complete.  Back in main thread.
+
+INFO: Found html text/html type of content when resolving https://osf.io/r7g9q/ using HTTP Accept header {""Accept""=>""text/turtle, application/ld+json, application/rdf+xml, text/xhtml+xml, application/n3, application/rdf+n3, application/turtle, application/x-turtle, text/n3, text/turtle, text/rdf+n3, text/rdf+turtle, application/n-triples""}.
+
+INFO: parsing as HTML. 
+
+INFO: Now attempting to use the extruct parser. 
+
+INFO:  Using 'extruct' to try to extract metadata from return value (message body) of https://osf.io/r7g9q/.
+
+INFO: the extruct tool found parseable data at https://osf.io/r7g9q/
+
+INFO: The response message body component appears to contain JSON::LD::Format.
+
+INFO: The response message body component appears to contain JSON::LD::Format.
+
+INFO: Now attempting to use the Kellogg's Distiller parser. 
+
+INFO: Note that, if the Distiller fails, you can view the output of its parse by visiting http://rdf.greggkellogg.net/distiller?command=serialize&url=https%3A%2F%2Fosf.io%2Fr7g9q%2F. 
+
+INFO: Using 'Kellog's Distiller' to try to extract metadata from return value (message body).
+
+INFO: The message body is being examined by Distiller
+
+INFO: The Distiller found parseable data.  Parsing as RDF
+
+CRITICAL: The Evaluator found what it believed to be RDF (sample:  {  ""@context"": {    ""as"": ""https://www.w3.org/ns/activitystreams#"",    ""cc"": ""http://creativecommons.org/ns#"",    ""csvw"": ""http://www.w3.org/ns/csvw#"",    ""ctag"": ""http://commontag.org/ns#"",    ""dc"": ""http://purl.org/dc/terms/"",    ""dc11"": ""http://purl.org/dc/elements/1.1/"",    ""dcat"": ""http:), but it could not find a parser.  Please report this error, along with the GUID of the resource, to the maintainer of the system.
+
+INFO:  Attempting to resolve https://osf.io/r7g9q/ using HTTP Headers text/xhtml,text/xml.
+
+INFO: following redirection using this header led to the following URL: https://osf.io/r7g9q/.  Using the output from this URL for the next few tests...
+INFO: Link Header and Meta Link parsing complete.  Back in main thread.
+
+INFO: Found html text/html type of content when resolving https://osf.io/r7g9q/ using HTTP Accept header {""Accept""=>""text/xhtml,text/xml""}.
+
+INFO: parsing as HTML. 
+
+INFO: Now attempting to use the extruct parser. 
+
+INFO:  Using 'extruct' to try to extract metadata from return value (message body) of https://osf.io/r7g9q/.
+
+INFO: the extruct tool found parseable data at https://osf.io/r7g9q/
+
+INFO: Now attempting to use the Kellogg's Distiller parser. 
+
+INFO: Note that, if the Distiller fails, you can view the output of its parse by visiting http://rdf.greggkellogg.net/distiller?command=serialize&url=https%3A%2F%2Fosf.io%2Fr7g9q%2F. 
+
+INFO: Using 'Kellog's Distiller' to try to extract metadata from return value (message body).
+
+INFO: The message body is being examined by Distiller
+
+INFO: The Distiller found parseable data.  Parsing as RDF
+
+CRITICAL: The Evaluator found what it believed to be RDF (sample:  {  ""@context"": {    ""as"": ""https://www.w3.org/ns/activitystreams#"",    ""cc"": ""http://creativecommons.org/ns#"",    ""csvw"": ""http://www.w3.org/ns/csvw#"",    ""ctag"": ""http://commontag.org/ns#"",    ""dc"": ""http://purl.org/dc/terms/"",    ""dc11"": ""http://purl.org/dc/elements/1.1/"",    ""dcat"": ""http:), but it could not find a parser.  Please report this error, along with the GUID of the resource, to the maintainer of the system.
+
+INFO:  Attempting to resolve https://osf.io/r7g9q/ using HTTP Headers application/json.
+
+INFO: following redirection using this header led to the following URL: https://osf.io/r7g9q/.  Using the output from this URL for the next few tests...
+INFO: Link Header and Meta Link parsing complete.  Back in main thread.
+
+INFO: Found html text/html type of content when resolving https://osf.io/r7g9q/ using HTTP Accept header {""Accept""=>""application/json""}.
+
+INFO: parsing as HTML. 
+
+INFO: Now attempting to use the extruct parser. 
+
+INFO:  Using 'extruct' to try to extract metadata from return value (message body) of https://osf.io/r7g9q/.
+
+INFO: the extruct tool found parseable data at https://osf.io/r7g9q/
+
+INFO: Now attempting to use the Kellogg's Distiller parser. 
+
+INFO: Note that, if the Distiller fails, you can view the output of its parse by visiting http://rdf.greggkellogg.net/distiller?command=serialize&url=https%3A%2F%2Fosf.io%2Fr7g9q%2F. 
+
+INFO: Cached data is already parsed.  Returning
+
+INFO:  Attempting to resolve https://osf.io/r7g9q/ using HTTP Headers 'Accept: */*'.
+
+INFO: following redirection using this header led to the following URL: https://osf.io/r7g9q/.  Using the output from this URL for the next few tests...
+INFO: Link Header and Meta Link parsing complete.  Back in main thread.
+
+INFO: Found html text/html type of content when resolving https://osf.io/r7g9q/ using HTTP Accept header {""Accept""=>""*/*""}.
+
+INFO: parsing as HTML. 
+
+INFO: Now attempting to use the extruct parser. 
+
+INFO:  Using 'extruct' to try to extract metadata from return value (message body) of https://osf.io/r7g9q/.
+
+INFO: the extruct tool found parseable data at https://osf.io/r7g9q/
+
+INFO: Now attempting to use the Kellogg's Distiller parser. 
+
+INFO: Note that, if the Distiller fails, you can view the output of its parse by visiting http://rdf.greggkellogg.net/distiller?command=serialize&url=https%3A%2F%2Fosf.io%2Fr7g9q%2F. 
+
+INFO: Cached data is already parsed.  Returning
+
+INFO: END OF HARVESTING
+
+INFO: Searching metadata for likely identifiers to the data record
+
+INFO: Searching hash-style metadata for keys indicating a pointer to data.
+
+INFO: Searching for key: contains.
+
+INFO: Searching for key: primaryTopic.
+
+INFO: Searching for key: IAO_0000136.
+
+INFO: Searching for key: IAO:0000136.
+
+INFO: Searching for key: contains.
+
+INFO: Searching for key: primaryTopic.
+
+INFO: Searching for key: mainEntity.
+
+INFO: Searching for key: codeRepository.
+
+INFO: Searching for key: distribution.
+
+INFO: Searching for key: mainEntity.
+
+INFO: Searching for key: codeRepository.
+
+INFO: Searching for key: distribution.
+
+INFO: Searching for key: distribution.
+
+INFO: Searching for key: distribution.
+
+INFO: Searching for key: dataset.
+
+INFO: Searching for key: dataset.
+
+INFO: Searching for key: downloadURL.
+
+INFO: Searching for key: downloadURL.
+
+INFO: Searching for key: accessURL.
+
+INFO: Searching for key: accessURL.
+
+INFO: Searching for key: SIO_000332.
+
+INFO: Searching for key: is-about.
+
+INFO: Searching for key: SIO_000332.
+
+INFO: Searching for key: is-about.
+
+INFO: Searching for key: IAO_0000136.
+
+INFO: Searching hash-style metadata for keys indicating a pointer to data.
+
+INFO: Searching for key: contains.
+
+INFO: Searching for key: primaryTopic.
+
+INFO: Searching for key: IAO_0000136.
+
+INFO: Searching for key: IAO:0000136.
+
+INFO: Searching for key: contains.
+
+INFO: Searching for key: primaryTopic.
+
+INFO: Searching for key: mainEntity.
+
+INFO: Searching for key: codeRepository.
+
+INFO: Searching for key: distribution.
+
+INFO: Searching for key: mainEntity.
+
+INFO: Searching for key: codeRepository.
+
+INFO: Searching for key: distribution.
+
+INFO: Searching for key: distribution.
+
+INFO: Searching for key: distribution.
+
+INFO: Searching for key: dataset.
+
+INFO: Searching for key: dataset.
+
+INFO: Searching for key: downloadURL.
+
+INFO: Searching for key: downloadURL.
+
+INFO: Searching for key: accessURL.
+
+INFO: Searching for key: accessURL.
+
+INFO: Searching for key: SIO_000332.
+
+INFO: Searching for key: is-about.
+
+INFO: Searching for key: SIO_000332.
+
+INFO: Searching for key: is-about.
+
+INFO: Searching for key: IAO_0000136.
+
+INFO: Searching hash-style metadata for keys indicating a pointer to data.
+
+INFO: Searching for key: contains.
+
+INFO: Searching for key: primaryTopic.
+
+INFO: Searching for key: IAO_0000136.
+
+INFO: Searching for key: IAO:0000136.
+
+INFO: Searching for key: contains.
+
+INFO: Searching for key: primaryTopic.
+
+INFO: Searching for key: mainEntity.
+
+INFO: Searching for key: codeRepository.
+
+INFO: Searching for key: distribution.
+
+INFO: Searching for key: mainEntity.
+
+INFO: Searching for key: codeRepository.
+
+INFO: Searching for key: distribution.
+
+INFO: Searching for key: distribution.
+
+INFO: Searching for key: distribution.
+
+INFO: Searching for key: dataset.
+
+INFO: Searching for key: dataset.
+
+INFO: Searching for key: downloadURL.
+
+INFO: Searching for key: downloadURL.
+
+INFO: Searching for key: accessURL.
+
+INFO: Searching for key: accessURL.
+
+INFO: Searching for key: SIO_000332.
+
+INFO: Searching for key: is-about.
+
+INFO: Searching for key: SIO_000332.
+
+INFO: Searching for key: is-about.
+
+INFO: Searching for key: IAO_0000136.
+
+INFO: Searching Linked Data metadata for predicates indicating a pointer to data.
+
+INFO: SPARQLing for http://www.w3.org/ns/ldp#contains.
+
+INFO: SPARQLing for http://xmlns.com/foaf/0.1/primaryTopic.
+
+INFO: SPARQLing for http://purl.obolibrary.org/obo/IAO_0000136.
+
+INFO: SPARQLing for http://purl.obolibrary.org/obo/IAO:0000136.
+
+INFO: SPARQLing for https://www.w3.org/ns/ldp#contains.
+
+INFO: SPARQLing for https://xmlns.com/foaf/0.1/primaryTopic.
+
+INFO: SPARQLing for http://schema.org/mainEntity.
+
+INFO: SPARQLing for http://schema.org/codeRepository.
+
+INFO: SPARQLing for http://schema.org/distribution.
+
+INFO: SPARQLing for https://schema.org/mainEntity.
+
+INFO: SPARQLing for https://schema.org/codeRepository.
+
+INFO: SPARQLing for https://schema.org/distribution.
+
+INFO: SPARQLing for http://www.w3.org/ns/dcat#distribution.
+
+INFO: SPARQLing for https://www.w3.org/ns/dcat#distribution.
+
+INFO: SPARQLing for http://www.w3.org/ns/dcat#dataset.
+
+INFO: SPARQLing for https://www.w3.org/ns/dcat#dataset.
+
+INFO: SPARQLing for http://www.w3.org/ns/dcat#downloadURL.
+
+INFO: SPARQLing for https://www.w3.org/ns/dcat#downloadURL.
+
+INFO: SPARQLing for http://www.w3.org/ns/dcat#accessURL.
+
+INFO: SPARQLing for https://www.w3.org/ns/dcat#accessURL.
+
+INFO: SPARQLing for http://semanticscience.org/resource/SIO_000332.
+
+INFO: SPARQLing for http://semanticscience.org/resource/is-about.
+
+INFO: SPARQLing for https://semanticscience.org/resource/SIO_000332.
+
+INFO: SPARQLing for https://semanticscience.org/resource/is-about.
+
+INFO: SPARQLing for https://purl.obolibrary.org/obo/IAO_0000136.
+
+INFO: No data identifier found in this chunk of metadata.
+
+FAILURE: Was unable to locate the data identifier in the metadata using any (common) property/predicate reserved for this purpose.  Tested the following [""http://www.w3.org/ns/ldp#contains"", ""http://xmlns.com/foaf/0.1/primaryTopic"", ""http://purl.obolibrary.org/obo/IAO_0000136"", ""http://purl.obolibrary.org/obo/IAO:0000136"", ""https://www.w3.org/ns/ldp#contains"", ""https://xmlns.com/foaf/0.1/primaryTopic"", ""http://schema.org/mainEntity"", ""http://schema.org/codeRepository"", ""http://schema.org/distribution"", ""https://schema.org/mainEntity"", ""https://schema.org/codeRepository"", ""https://schema.org/distribution"", ""http://www.w3.org/ns/dcat#distribution"", ""https://www.w3.org/ns/dcat#distribution"", ""http://www.w3.org/ns/dcat#dataset"", ""https://www.w3.org/ns/dcat#dataset"", ""http://www.w3.org/ns/dcat#downloadURL"", ""https://www.w3.org/ns/dcat#downloadURL"", ""http://www.w3.org/ns/dcat#accessURL"", ""https://www.w3.org/ns/dcat#accessURL"", ""http://semanticscience.org/resource/SIO_000332"", ""http://semanticscience.org/resource/is-about"", ""https://semanticscience.org/resource/SIO_000332"", ""https://semanticscience.org/resource/is-about"", ""https://purl.obolibrary.org/obo/IAO_0000136""]
+
+FAILURE: the data could not be found, or does not appear to be in a recognized knowledge representation language.";0;"INFO: TEST VERSION 'Hvst-1.4.4:Tst-0.3.1'
+
+INFO: Found a URI.
+
+INFO:  Attempting to resolve https://osf.io/r7g9q/ using HTTP Headers {""Accept""=>""text/turtle, application/ld+json, application/rdf+xml, text/xhtml+xml, application/n3, application/rdf+n3, application/turtle, application/x-turtle, text/n3, text/turtle, text/rdf+n3, text/rdf+turtle, application/n-triples""}.
+
+INFO: following redirection using this header led to the following URL: https://osf.io/r7g9q/.  Using the output from this URL for the next few tests...
+INFO: Link Header and Meta Link parsing complete.  Back in main thread.
+
+INFO: Found html text/html type of content when resolving https://osf.io/r7g9q/ using HTTP Accept header {""Accept""=>""text/turtle, application/ld+json, application/rdf+xml, text/xhtml+xml, application/n3, application/rdf+n3, application/turtle, application/x-turtle, text/n3, text/turtle, text/rdf+n3, text/rdf+turtle, application/n-triples""}.
+
+INFO: parsing as HTML. 
+
+INFO: Now attempting to use the extruct parser. 
+
+INFO:  Using 'extruct' to try to extract metadata from return value (message body) of https://osf.io/r7g9q/.
+
+INFO: the extruct tool found parseable data at https://osf.io/r7g9q/
+
+INFO: The response message body component appears to contain JSON::LD::Format.
+
+INFO: The response message body component appears to contain JSON::LD::Format.
+
+INFO: Now attempting to use the Kellogg's Distiller parser. 
+
+INFO: Note that, if the Distiller fails, you can view the output of its parse by visiting http://rdf.greggkellogg.net/distiller?command=serialize&url=https%3A%2F%2Fosf.io%2Fr7g9q%2F. 
+
+INFO: Using 'Kellog's Distiller' to try to extract metadata from return value (message body).
+
+INFO: The message body is being examined by Distiller
+
+INFO: The Distiller found parseable data.  Parsing as RDF
+
+CRITICAL: The Evaluator found what it believed to be RDF (sample:  {  ""@context"": {    ""as"": ""https://www.w3.org/ns/activitystreams#"",    ""cc"": ""http://creativecommons.org/ns#"",    ""csvw"": ""http://www.w3.org/ns/csvw#"",    ""ctag"": ""http://commontag.org/ns#"",    ""dc"": ""http://purl.org/dc/terms/"",    ""dc11"": ""http://purl.org/dc/elements/1.1/"",    ""dcat"": ""http:), but it could not find a parser.  Please report this error, along with the GUID of the resource, to the maintainer of the system.
+
+INFO:  Attempting to resolve https://osf.io/r7g9q/ using HTTP Headers text/xhtml,text/xml.
+
+INFO: following redirection using this header led to the following URL: https://osf.io/r7g9q/.  Using the output from this URL for the next few tests...
+INFO: Link Header and Meta Link parsing complete.  Back in main thread.
+
+INFO: Found html text/html type of content when resolving https://osf.io/r7g9q/ using HTTP Accept header {""Accept""=>""text/xhtml,text/xml""}.
+
+INFO: parsing as HTML. 
+
+INFO: Now attempting to use the extruct parser. 
+
+INFO:  Using 'extruct' to try to extract metadata from return value (message body) of https://osf.io/r7g9q/.
+
+INFO: the extruct tool found parseable data at https://osf.io/r7g9q/
+
+INFO: Now attempting to use the Kellogg's Distiller parser. 
+
+INFO: Note that, if the Distiller fails, you can view the output of its parse by visiting http://rdf.greggkellogg.net/distiller?command=serialize&url=https%3A%2F%2Fosf.io%2Fr7g9q%2F. 
+
+INFO: Using 'Kellog's Distiller' to try to extract metadata from return value (message body).
+
+INFO: The message body is being examined by Distiller
+
+INFO: The Distiller found parseable data.  Parsing as RDF
+
+CRITICAL: The Evaluator found what it believed to be RDF (sample:  {  ""@context"": {    ""as"": ""https://www.w3.org/ns/activitystreams#"",    ""cc"": ""http://creativecommons.org/ns#"",    ""csvw"": ""http://www.w3.org/ns/csvw#"",    ""ctag"": ""http://commontag.org/ns#"",    ""dc"": ""http://purl.org/dc/terms/"",    ""dc11"": ""http://purl.org/dc/elements/1.1/"",    ""dcat"": ""http:), but it could not find a parser.  Please report this error, along with the GUID of the resource, to the maintainer of the system.
+
+INFO:  Attempting to resolve https://osf.io/r7g9q/ using HTTP Headers application/json.
+
+INFO: following redirection using this header led to the following URL: https://osf.io/r7g9q/.  Using the output from this URL for the next few tests...
+INFO: Link Header and Meta Link parsing complete.  Back in main thread.
+
+INFO: Found html text/html type of content when resolving https://osf.io/r7g9q/ using HTTP Accept header {""Accept""=>""application/json""}.
+
+INFO: parsing as HTML. 
+
+INFO: Now attempting to use the extruct parser. 
+
+INFO:  Using 'extruct' to try to extract metadata from return value (message body) of https://osf.io/r7g9q/.
+
+INFO: the extruct tool found parseable data at https://osf.io/r7g9q/
+
+INFO: Now attempting to use the Kellogg's Distiller parser. 
+
+INFO: Note that, if the Distiller fails, you can view the output of its parse by visiting http://rdf.greggkellogg.net/distiller?command=serialize&url=https%3A%2F%2Fosf.io%2Fr7g9q%2F. 
+
+INFO: Cached data is already parsed.  Returning
+
+INFO:  Attempting to resolve https://osf.io/r7g9q/ using HTTP Headers 'Accept: */*'.
+
+INFO: following redirection using this header led to the following URL: https://osf.io/r7g9q/.  Using the output from this URL for the next few tests...
+INFO: Link Header and Meta Link parsing complete.  Back in main thread.
+
+INFO: Found html text/html type of content when resolving https://osf.io/r7g9q/ using HTTP Accept header {""Accept""=>""*/*""}.
+
+INFO: parsing as HTML. 
+
+INFO: Now attempting to use the extruct parser. 
+
+INFO:  Using 'extruct' to try to extract metadata from return value (message body) of https://osf.io/r7g9q/.
+
+INFO: the extruct tool found parseable data at https://osf.io/r7g9q/
+
+INFO: Now attempting to use the Kellogg's Distiller parser. 
+
+INFO: Note that, if the Distiller fails, you can view the output of its parse by visiting http://rdf.greggkellogg.net/distiller?command=serialize&url=https%3A%2F%2Fosf.io%2Fr7g9q%2F. 
+
+INFO: Cached data is already parsed.  Returning
+
+INFO: END OF HARVESTING
+
+INFO: Searching metadata for likely identifiers to the data record
+
+INFO: Searching hash-style metadata for keys indicating a pointer to data.
+
+INFO: Searching for key: contains.
+
+INFO: Searching for key: primaryTopic.
+
+INFO: Searching for key: IAO_0000136.
+
+INFO: Searching for key: IAO:0000136.
+
+INFO: Searching for key: contains.
+
+INFO: Searching for key: primaryTopic.
+
+INFO: Searching for key: mainEntity.
+
+INFO: Searching for key: codeRepository.
+
+INFO: Searching for key: distribution.
+
+INFO: Searching for key: mainEntity.
+
+INFO: Searching for key: codeRepository.
+
+INFO: Searching for key: distribution.
+
+INFO: Searching for key: distribution.
+
+INFO: Searching for key: distribution.
+
+INFO: Searching for key: dataset.
+
+INFO: Searching for key: dataset.
+
+INFO: Searching for key: downloadURL.
+
+INFO: Searching for key: downloadURL.
+
+INFO: Searching for key: accessURL.
+
+INFO: Searching for key: accessURL.
+
+INFO: Searching for key: SIO_000332.
+
+INFO: Searching for key: is-about.
+
+INFO: Searching for key: SIO_000332.
+
+INFO: Searching for key: is-about.
+
+INFO: Searching for key: IAO_0000136.
+
+INFO: Searching hash-style metadata for keys indicating a pointer to data.
+
+INFO: Searching for key: contains.
+
+INFO: Searching for key: primaryTopic.
+
+INFO: Searching for key: IAO_0000136.
+
+INFO: Searching for key: IAO:0000136.
+
+INFO: Searching for key: contains.
+
+INFO: Searching for key: primaryTopic.
+
+INFO: Searching for key: mainEntity.
+
+INFO: Searching for key: codeRepository.
+
+INFO: Searching for key: distribution.
+
+INFO: Searching for key: mainEntity.
+
+INFO: Searching for key: codeRepository.
+
+INFO: Searching for key: distribution.
+
+INFO: Searching for key: distribution.
+
+INFO: Searching for key: distribution.
+
+INFO: Searching for key: dataset.
+
+INFO: Searching for key: dataset.
+
+INFO: Searching for key: downloadURL.
+
+INFO: Searching for key: downloadURL.
+
+INFO: Searching for key: accessURL.
+
+INFO: Searching for key: accessURL.
+
+INFO: Searching for key: SIO_000332.
+
+INFO: Searching for key: is-about.
+
+INFO: Searching for key: SIO_000332.
+
+INFO: Searching for key: is-about.
+
+INFO: Searching for key: IAO_0000136.
+
+INFO: Searching hash-style metadata for keys indicating a pointer to data.
+
+INFO: Searching for key: contains.
+
+INFO: Searching for key: primaryTopic.
+
+INFO: Searching for key: IAO_0000136.
+
+INFO: Searching for key: IAO:0000136.
+
+INFO: Searching for key: contains.
+
+INFO: Searching for key: primaryTopic.
+
+INFO: Searching for key: mainEntity.
+
+INFO: Searching for key: codeRepository.
+
+INFO: Searching for key: distribution.
+
+INFO: Searching for key: mainEntity.
+
+INFO: Searching for key: codeRepository.
+
+INFO: Searching for key: distribution.
+
+INFO: Searching for key: distribution.
+
+INFO: Searching for key: distribution.
+
+INFO: Searching for key: dataset.
+
+INFO: Searching for key: dataset.
+
+INFO: Searching for key: downloadURL.
+
+INFO: Searching for key: downloadURL.
+
+INFO: Searching for key: accessURL.
+
+INFO: Searching for key: accessURL.
+
+INFO: Searching for key: SIO_000332.
+
+INFO: Searching for key: is-about.
+
+INFO: Searching for key: SIO_000332.
+
+INFO: Searching for key: is-about.
+
+INFO: Searching for key: IAO_0000136.
+
+INFO: Searching Linked Data metadata for predicates indicating a pointer to data.
+
+INFO: SPARQLing for http://www.w3.org/ns/ldp#contains.
+
+INFO: SPARQLing for http://xmlns.com/foaf/0.1/primaryTopic.
+
+INFO: SPARQLing for http://purl.obolibrary.org/obo/IAO_0000136.
+
+INFO: SPARQLing for http://purl.obolibrary.org/obo/IAO:0000136.
+
+INFO: SPARQLing for https://www.w3.org/ns/ldp#contains.
+
+INFO: SPARQLing for https://xmlns.com/foaf/0.1/primaryTopic.
+
+INFO: SPARQLing for http://schema.org/mainEntity.
+
+INFO: SPARQLing for http://schema.org/codeRepository.
+
+INFO: SPARQLing for http://schema.org/distribution.
+
+INFO: SPARQLing for https://schema.org/mainEntity.
+
+INFO: SPARQLing for https://schema.org/codeRepository.
+
+INFO: SPARQLing for https://schema.org/distribution.
+
+INFO: SPARQLing for http://www.w3.org/ns/dcat#distribution.
+
+INFO: SPARQLing for https://www.w3.org/ns/dcat#distribution.
+
+INFO: SPARQLing for http://www.w3.org/ns/dcat#dataset.
+
+INFO: SPARQLing for https://www.w3.org/ns/dcat#dataset.
+
+INFO: SPARQLing for http://www.w3.org/ns/dcat#downloadURL.
+
+INFO: SPARQLing for https://www.w3.org/ns/dcat#downloadURL.
+
+INFO: SPARQLing for http://www.w3.org/ns/dcat#accessURL.
+
+INFO: SPARQLing for https://www.w3.org/ns/dcat#accessURL.
+
+INFO: SPARQLing for http://semanticscience.org/resource/SIO_000332.
+
+INFO: SPARQLing for http://semanticscience.org/resource/is-about.
+
+INFO: SPARQLing for https://semanticscience.org/resource/SIO_000332.
+
+INFO: SPARQLing for https://semanticscience.org/resource/is-about.
+
+INFO: SPARQLing for https://purl.obolibrary.org/obo/IAO_0000136.
+
+INFO: No data identifier found in this chunk of metadata.
+
+WARN: Was unable to locate the data identifier in the metadata using any (common) property/predicate reserved for this purpose.  Tested the following [""http://www.w3.org/ns/ldp#contains"", ""http://xmlns.com/foaf/0.1/primaryTopic"", ""http://purl.obolibrary.org/obo/IAO_0000136"", ""http://purl.obolibrary.org/obo/IAO:0000136"", ""https://www.w3.org/ns/ldp#contains"", ""https://xmlns.com/foaf/0.1/primaryTopic"", ""http://schema.org/mainEntity"", ""http://schema.org/codeRepository"", ""http://schema.org/distribution"", ""https://schema.org/mainEntity"", ""https://schema.org/codeRepository"", ""https://schema.org/distribution"", ""http://www.w3.org/ns/dcat#distribution"", ""https://www.w3.org/ns/dcat#distribution"", ""http://www.w3.org/ns/dcat#dataset"", ""https://www.w3.org/ns/dcat#dataset"", ""http://www.w3.org/ns/dcat#downloadURL"", ""https://www.w3.org/ns/dcat#downloadURL"", ""http://www.w3.org/ns/dcat#accessURL"", ""https://www.w3.org/ns/dcat#accessURL"", ""http://semanticscience.org/resource/SIO_000332"", ""http://semanticscience.org/resource/is-about"", ""https://semanticscience.org/resource/SIO_000332"", ""https://semanticscience.org/resource/is-about"", ""https://purl.obolibrary.org/obo/IAO_0000136""]
+
+FAILURE: the data could not be found, or does not appear to be in a recognized knowledge representation language.";1;"INFO: TEST VERSION 'Hvst-1.4.4:Tst-0.2.1'
+
+INFO: Found a URI.
+
+INFO:  Attempting to resolve https://osf.io/r7g9q/ using HTTP Headers {""Accept""=>""text/turtle, application/ld+json, application/rdf+xml, text/xhtml+xml, application/n3, application/rdf+n3, application/turtle, application/x-turtle, text/n3, text/turtle, text/rdf+n3, text/rdf+turtle, application/n-triples""}.
+
+INFO: following redirection using this header led to the following URL: https://osf.io/r7g9q/.  Using the output from this URL for the next few tests...
+INFO: Link Header and Meta Link parsing complete.  Back in main thread.
+
+INFO: Found html text/html type of content when resolving https://osf.io/r7g9q/ using HTTP Accept header {""Accept""=>""text/turtle, application/ld+json, application/rdf+xml, text/xhtml+xml, application/n3, application/rdf+n3, application/turtle, application/x-turtle, text/n3, text/turtle, text/rdf+n3, text/rdf+turtle, application/n-triples""}.
+
+INFO: parsing as HTML. 
+
+INFO: Now attempting to use the extruct parser. 
+
+INFO:  Using 'extruct' to try to extract metadata from return value (message body) of https://osf.io/r7g9q/.
+
+INFO: the extruct tool found parseable data at https://osf.io/r7g9q/
+
+INFO: The response message body component appears to contain JSON::LD::Format.
+
+INFO: The response message body component appears to contain JSON::LD::Format.
+
+INFO: Now attempting to use the Kellogg's Distiller parser. 
+
+INFO: Note that, if the Distiller fails, you can view the output of its parse by visiting http://rdf.greggkellogg.net/distiller?command=serialize&url=https%3A%2F%2Fosf.io%2Fr7g9q%2F. 
+
+INFO: Using 'Kellog's Distiller' to try to extract metadata from return value (message body).
+
+INFO: The message body is being examined by Distiller
+
+INFO: The Distiller found parseable data.  Parsing as RDF
+
+CRITICAL: The Evaluator found what it believed to be RDF (sample:  {  ""@context"": {    ""as"": ""https://www.w3.org/ns/activitystreams#"",    ""cc"": ""http://creativecommons.org/ns#"",    ""csvw"": ""http://www.w3.org/ns/csvw#"",    ""ctag"": ""http://commontag.org/ns#"",    ""dc"": ""http://purl.org/dc/terms/"",    ""dc11"": ""http://purl.org/dc/elements/1.1/"",    ""dcat"": ""http:), but it could not find a parser.  Please report this error, along with the GUID of the resource, to the maintainer of the system.
+
+INFO:  Attempting to resolve https://osf.io/r7g9q/ using HTTP Headers text/xhtml,text/xml.
+
+INFO: following redirection using this header led to the following URL: https://osf.io/r7g9q/.  Using the output from this URL for the next few tests...
+INFO: Link Header and Meta Link parsing complete.  Back in main thread.
+
+INFO: Found html text/html type of content when resolving https://osf.io/r7g9q/ using HTTP Accept header {""Accept""=>""text/xhtml,text/xml""}.
+
+INFO: parsing as HTML. 
+
+INFO: Now attempting to use the extruct parser. 
+
+INFO:  Using 'extruct' to try to extract metadata from return value (message body) of https://osf.io/r7g9q/.
+
+INFO: the extruct tool found parseable data at https://osf.io/r7g9q/
+
+INFO: Now attempting to use the Kellogg's Distiller parser. 
+
+INFO: Note that, if the Distiller fails, you can view the output of its parse by visiting http://rdf.greggkellogg.net/distiller?command=serialize&url=https%3A%2F%2Fosf.io%2Fr7g9q%2F. 
+
+INFO: Using 'Kellog's Distiller' to try to extract metadata from return value (message body).
+
+INFO: The message body is being examined by Distiller
+
+INFO: The Distiller found parseable data.  Parsing as RDF
+
+CRITICAL: The Evaluator found what it believed to be RDF (sample:  {  ""@context"": {    ""as"": ""https://www.w3.org/ns/activitystreams#"",    ""cc"": ""http://creativecommons.org/ns#"",    ""csvw"": ""http://www.w3.org/ns/csvw#"",    ""ctag"": ""http://commontag.org/ns#"",    ""dc"": ""http://purl.org/dc/terms/"",    ""dc11"": ""http://purl.org/dc/elements/1.1/"",    ""dcat"": ""http:), but it could not find a parser.  Please report this error, along with the GUID of the resource, to the maintainer of the system.
+
+INFO:  Attempting to resolve https://osf.io/r7g9q/ using HTTP Headers application/json.
+
+INFO: following redirection using this header led to the following URL: https://osf.io/r7g9q/.  Using the output from this URL for the next few tests...
+INFO: Link Header and Meta Link parsing complete.  Back in main thread.
+
+INFO: Found html text/html type of content when resolving https://osf.io/r7g9q/ using HTTP Accept header {""Accept""=>""application/json""}.
+
+INFO: parsing as HTML. 
+
+INFO: Now attempting to use the extruct parser. 
+
+INFO:  Using 'extruct' to try to extract metadata from return value (message body) of https://osf.io/r7g9q/.
+
+INFO: the extruct tool found parseable data at https://osf.io/r7g9q/
+
+INFO: Now attempting to use the Kellogg's Distiller parser. 
+
+INFO: Note that, if the Distiller fails, you can view the output of its parse by visiting http://rdf.greggkellogg.net/distiller?command=serialize&url=https%3A%2F%2Fosf.io%2Fr7g9q%2F. 
+
+INFO: Using 'Kellog's Distiller' to try to extract metadata from return value (message body).
+
+INFO: The message body is being examined by Distiller
+
+INFO: The Distiller found parseable data.  Parsing as RDF
+
+CRITICAL: The Evaluator found what it believed to be RDF (sample:  {  ""@context"": {    ""as"": ""https://www.w3.org/ns/activitystreams#"",    ""cc"": ""http://creativecommons.org/ns#"",    ""csvw"": ""http://www.w3.org/ns/csvw#"",    ""ctag"": ""http://commontag.org/ns#"",    ""dc"": ""http://purl.org/dc/terms/"",    ""dc11"": ""http://purl.org/dc/elements/1.1/"",    ""dcat"": ""http:), but it could not find a parser.  Please report this error, along with the GUID of the resource, to the maintainer of the system.
+
+INFO:  Attempting to resolve https://osf.io/r7g9q/ using HTTP Headers 'Accept: */*'.
+
+INFO: following redirection using this header led to the following URL: https://osf.io/r7g9q/.  Using the output from this URL for the next few tests...
+INFO: Link Header and Meta Link parsing complete.  Back in main thread.
+
+INFO: Found html text/html type of content when resolving https://osf.io/r7g9q/ using HTTP Accept header {""Accept""=>""*/*""}.
+
+INFO: parsing as HTML. 
+
+INFO: Now attempting to use the extruct parser. 
+
+INFO:  Using 'extruct' to try to extract metadata from return value (message body) of https://osf.io/r7g9q/.
+
+INFO: the extruct tool found parseable data at https://osf.io/r7g9q/
+
+INFO: Now attempting to use the Kellogg's Distiller parser. 
+
+INFO: Note that, if the Distiller fails, you can view the output of its parse by visiting http://rdf.greggkellogg.net/distiller?command=serialize&url=https%3A%2F%2Fosf.io%2Fr7g9q%2F. 
+
+INFO: Cached data is already parsed.  Returning
+
+INFO: END OF HARVESTING
+
+SUCCESS: Linked data was found.";1;"INFO: TEST VERSION 'Hvst-1.4.4:Tst-0.2.1'
+
+INFO: Found a URI.
+
+INFO:  Attempting to resolve https://osf.io/r7g9q/ using HTTP Headers {""Accept""=>""text/turtle, application/ld+json, application/rdf+xml, text/xhtml+xml, application/n3, application/rdf+n3, application/turtle, application/x-turtle, text/n3, text/turtle, text/rdf+n3, text/rdf+turtle, application/n-triples""}.
+
+INFO: following redirection using this header led to the following URL: https://osf.io/r7g9q/.  Using the output from this URL for the next few tests...
+INFO: Link Header and Meta Link parsing complete.  Back in main thread.
+
+INFO: Found html text/html type of content when resolving https://osf.io/r7g9q/ using HTTP Accept header {""Accept""=>""text/turtle, application/ld+json, application/rdf+xml, text/xhtml+xml, application/n3, application/rdf+n3, application/turtle, application/x-turtle, text/n3, text/turtle, text/rdf+n3, text/rdf+turtle, application/n-triples""}.
+
+INFO: parsing as HTML. 
+
+INFO: Now attempting to use the extruct parser. 
+
+INFO:  Using 'extruct' to try to extract metadata from return value (message body) of https://osf.io/r7g9q/.
+
+INFO: the extruct tool found parseable data at https://osf.io/r7g9q/
+
+INFO: The response message body component appears to contain JSON::LD::Format.
+
+INFO: The response message body component appears to contain JSON::LD::Format.
+
+INFO: Now attempting to use the Kellogg's Distiller parser. 
+
+INFO: Note that, if the Distiller fails, you can view the output of its parse by visiting http://rdf.greggkellogg.net/distiller?command=serialize&url=https%3A%2F%2Fosf.io%2Fr7g9q%2F. 
+
+INFO: Using 'Kellog's Distiller' to try to extract metadata from return value (message body).
+
+INFO: The message body is being examined by Distiller
+
+INFO: The Distiller found parseable data.  Parsing as RDF
+
+CRITICAL: The Evaluator found what it believed to be RDF (sample:  {  ""@context"": {    ""as"": ""https://www.w3.org/ns/activitystreams#"",    ""cc"": ""http://creativecommons.org/ns#"",    ""csvw"": ""http://www.w3.org/ns/csvw#"",    ""ctag"": ""http://commontag.org/ns#"",    ""dc"": ""http://purl.org/dc/terms/"",    ""dc11"": ""http://purl.org/dc/elements/1.1/"",    ""dcat"": ""http:), but it could not find a parser.  Please report this error, along with the GUID of the resource, to the maintainer of the system.
+
+INFO:  Attempting to resolve https://osf.io/r7g9q/ using HTTP Headers text/xhtml,text/xml.
+
+INFO: following redirection using this header led to the following URL: https://osf.io/r7g9q/.  Using the output from this URL for the next few tests...
+INFO: Link Header and Meta Link parsing complete.  Back in main thread.
+
+INFO: Found html text/html type of content when resolving https://osf.io/r7g9q/ using HTTP Accept header {""Accept""=>""text/xhtml,text/xml""}.
+
+INFO: parsing as HTML. 
+
+INFO: Now attempting to use the extruct parser. 
+
+INFO:  Using 'extruct' to try to extract metadata from return value (message body) of https://osf.io/r7g9q/.
+
+INFO: the extruct tool found parseable data at https://osf.io/r7g9q/
+
+INFO: Now attempting to use the Kellogg's Distiller parser. 
+
+INFO: Note that, if the Distiller fails, you can view the output of its parse by visiting http://rdf.greggkellogg.net/distiller?command=serialize&url=https%3A%2F%2Fosf.io%2Fr7g9q%2F. 
+
+INFO: Using 'Kellog's Distiller' to try to extract metadata from return value (message body).
+
+INFO: The message body is being examined by Distiller
+
+INFO: The Distiller found parseable data.  Parsing as RDF
+
+CRITICAL: The Evaluator found what it believed to be RDF (sample:  {  ""@context"": {    ""as"": ""https://www.w3.org/ns/activitystreams#"",    ""cc"": ""http://creativecommons.org/ns#"",    ""csvw"": ""http://www.w3.org/ns/csvw#"",    ""ctag"": ""http://commontag.org/ns#"",    ""dc"": ""http://purl.org/dc/terms/"",    ""dc11"": ""http://purl.org/dc/elements/1.1/"",    ""dcat"": ""http:), but it could not find a parser.  Please report this error, along with the GUID of the resource, to the maintainer of the system.
+
+INFO:  Attempting to resolve https://osf.io/r7g9q/ using HTTP Headers application/json.
+
+INFO: following redirection using this header led to the following URL: https://osf.io/r7g9q/.  Using the output from this URL for the next few tests...
+INFO: Link Header and Meta Link parsing complete.  Back in main thread.
+
+INFO: Found html text/html type of content when resolving https://osf.io/r7g9q/ using HTTP Accept header {""Accept""=>""application/json""}.
+
+INFO: parsing as HTML. 
+
+INFO: Now attempting to use the extruct parser. 
+
+INFO:  Using 'extruct' to try to extract metadata from return value (message body) of https://osf.io/r7g9q/.
+
+INFO: the extruct tool found parseable data at https://osf.io/r7g9q/
+
+INFO: Now attempting to use the Kellogg's Distiller parser. 
+
+INFO: Note that, if the Distiller fails, you can view the output of its parse by visiting http://rdf.greggkellogg.net/distiller?command=serialize&url=https%3A%2F%2Fosf.io%2Fr7g9q%2F. 
+
+INFO: Cached data is already parsed.  Returning
+
+INFO:  Attempting to resolve https://osf.io/r7g9q/ using HTTP Headers 'Accept: */*'.
+
+INFO: following redirection using this header led to the following URL: https://osf.io/r7g9q/.  Using the output from this URL for the next few tests...
+INFO: Link Header and Meta Link parsing complete.  Back in main thread.
+
+INFO: Found html text/html type of content when resolving https://osf.io/r7g9q/ using HTTP Accept header {""Accept""=>""*/*""}.
+
+INFO: parsing as HTML. 
+
+INFO: Now attempting to use the extruct parser. 
+
+INFO:  Using 'extruct' to try to extract metadata from return value (message body) of https://osf.io/r7g9q/.
+
+INFO: the extruct tool found parseable data at https://osf.io/r7g9q/
+
+INFO: Now attempting to use the Kellogg's Distiller parser. 
+
+INFO: Note that, if the Distiller fails, you can view the output of its parse by visiting http://rdf.greggkellogg.net/distiller?command=serialize&url=https%3A%2F%2Fosf.io%2Fr7g9q%2F. 
+
+INFO: Cached data is already parsed.  Returning
+
+INFO: END OF HARVESTING
+
+SUCCESS: Found structured data.
+
+SUCCESS: Found linked data (this may or may not have originated from the author).";0;"INFO: TEST VERSION 'Hvst-1.4.4:Tst-0.3.1'
+
+INFO: Found a URI.
+
+INFO:  Attempting to resolve https://osf.io/r7g9q/ using HTTP Headers {""Accept""=>""text/turtle, application/ld+json, application/rdf+xml, text/xhtml+xml, application/n3, application/rdf+n3, application/turtle, application/x-turtle, text/n3, text/turtle, text/rdf+n3, text/rdf+turtle, application/n-triples""}.
+
+INFO: following redirection using this header led to the following URL: https://osf.io/r7g9q/.  Using the output from this URL for the next few tests...
+INFO: Link Header and Meta Link parsing complete.  Back in main thread.
+
+INFO: Found html text/html type of content when resolving https://osf.io/r7g9q/ using HTTP Accept header {""Accept""=>""text/turtle, application/ld+json, application/rdf+xml, text/xhtml+xml, application/n3, application/rdf+n3, application/turtle, application/x-turtle, text/n3, text/turtle, text/rdf+n3, text/rdf+turtle, application/n-triples""}.
+
+INFO: parsing as HTML. 
+
+INFO: Now attempting to use the extruct parser. 
+
+INFO:  Using 'extruct' to try to extract metadata from return value (message body) of https://osf.io/r7g9q/.
+
+INFO: the extruct tool found parseable data at https://osf.io/r7g9q/
+
+INFO: The response message body component appears to contain JSON::LD::Format.
+
+INFO: The response message body component appears to contain JSON::LD::Format.
+
+INFO: Now attempting to use the Kellogg's Distiller parser. 
+
+INFO: Note that, if the Distiller fails, you can view the output of its parse by visiting http://rdf.greggkellogg.net/distiller?command=serialize&url=https%3A%2F%2Fosf.io%2Fr7g9q%2F. 
+
+INFO: Using 'Kellog's Distiller' to try to extract metadata from return value (message body).
+
+INFO: The message body is being examined by Distiller
+
+INFO: The Distiller found parseable data.  Parsing as RDF
+
+CRITICAL: The Evaluator found what it believed to be RDF (sample:  {  ""@context"": {    ""as"": ""https://www.w3.org/ns/activitystreams#"",    ""cc"": ""http://creativecommons.org/ns#"",    ""csvw"": ""http://www.w3.org/ns/csvw#"",    ""ctag"": ""http://commontag.org/ns#"",    ""dc"": ""http://purl.org/dc/terms/"",    ""dc11"": ""http://purl.org/dc/elements/1.1/"",    ""dcat"": ""http:), but it could not find a parser.  Please report this error, along with the GUID of the resource, to the maintainer of the system.
+
+INFO:  Attempting to resolve https://osf.io/r7g9q/ using HTTP Headers text/xhtml,text/xml.
+
+INFO: following redirection using this header led to the following URL: https://osf.io/r7g9q/.  Using the output from this URL for the next few tests...
+INFO: Link Header and Meta Link parsing complete.  Back in main thread.
+
+INFO: Found html text/html type of content when resolving https://osf.io/r7g9q/ using HTTP Accept header {""Accept""=>""text/xhtml,text/xml""}.
+
+INFO: parsing as HTML. 
+
+INFO: Now attempting to use the extruct parser. 
+
+INFO:  Using 'extruct' to try to extract metadata from return value (message body) of https://osf.io/r7g9q/.
+
+INFO: the extruct tool found parseable data at https://osf.io/r7g9q/
+
+INFO: Now attempting to use the Kellogg's Distiller parser. 
+
+INFO: Note that, if the Distiller fails, you can view the output of its parse by visiting http://rdf.greggkellogg.net/distiller?command=serialize&url=https%3A%2F%2Fosf.io%2Fr7g9q%2F. 
+
+INFO: Cached data is already parsed.  Returning
+
+INFO:  Attempting to resolve https://osf.io/r7g9q/ using HTTP Headers application/json.
+
+INFO: following redirection using this header led to the following URL: https://osf.io/r7g9q/.  Using the output from this URL for the next few tests...
+INFO: Link Header and Meta Link parsing complete.  Back in main thread.
+
+INFO: Found html text/html type of content when resolving https://osf.io/r7g9q/ using HTTP Accept header {""Accept""=>""application/json""}.
+
+INFO: parsing as HTML. 
+
+INFO: Now attempting to use the extruct parser. 
+
+INFO:  Using 'extruct' to try to extract metadata from return value (message body) of https://osf.io/r7g9q/.
+
+INFO: the extruct tool found parseable data at https://osf.io/r7g9q/
+
+INFO: Now attempting to use the Kellogg's Distiller parser. 
+
+INFO: Note that, if the Distiller fails, you can view the output of its parse by visiting http://rdf.greggkellogg.net/distiller?command=serialize&url=https%3A%2F%2Fosf.io%2Fr7g9q%2F. 
+
+INFO: Using 'Kellog's Distiller' to try to extract metadata from return value (message body).
+
+INFO: The message body is being examined by Distiller
+
+INFO: The Distiller found parseable data.  Parsing as RDF
+
+CRITICAL: The Evaluator found what it believed to be RDF (sample:  {  ""@context"": {    ""as"": ""https://www.w3.org/ns/activitystreams#"",    ""cc"": ""http://creativecommons.org/ns#"",    ""csvw"": ""http://www.w3.org/ns/csvw#"",    ""ctag"": ""http://commontag.org/ns#"",    ""dc"": ""http://purl.org/dc/terms/"",    ""dc11"": ""http://purl.org/dc/elements/1.1/"",    ""dcat"": ""http:), but it could not find a parser.  Please report this error, along with the GUID of the resource, to the maintainer of the system.
+
+INFO:  Attempting to resolve https://osf.io/r7g9q/ using HTTP Headers 'Accept: */*'.
+
+INFO: following redirection using this header led to the following URL: https://osf.io/r7g9q/.  Using the output from this URL for the next few tests...
+INFO: Link Header and Meta Link parsing complete.  Back in main thread.
+
+INFO: Found html text/html type of content when resolving https://osf.io/r7g9q/ using HTTP Accept header {""Accept""=>""*/*""}.
+
+INFO: parsing as HTML. 
+
+INFO: Now attempting to use the extruct parser. 
+
+INFO:  Using 'extruct' to try to extract metadata from return value (message body) of https://osf.io/r7g9q/.
+
+INFO: the extruct tool found parseable data at https://osf.io/r7g9q/
+
+INFO: Now attempting to use the Kellogg's Distiller parser. 
+
+INFO: Note that, if the Distiller fails, you can view the output of its parse by visiting http://rdf.greggkellogg.net/distiller?command=serialize&url=https%3A%2F%2Fosf.io%2Fr7g9q%2F. 
+
+INFO: Cached data is already parsed.  Returning
+
+INFO: END OF HARVESTING
+
+INFO: Linked data was found.  Test proceeding
+
+INFO:  Testing resolution of predicates from the domain schema.org
+
+INFO:  testing resolution of predicate http://schema.org/creator
+
+INFO:  predicate http://schema.org/creator resolved to linked data.
+
+INFO: If linked data was found in the previous line, it will now be tested by the following SPARQL query: 'select * where {<http://schema.org/creator> ?p ?o}' 
+
+WARN:  predicate http://schema.org/creator was not found as the SUBJECT of a triple, indicating that it did not resolve to its definition.
+
+INFO:  Testing resolution of predicates from the domain ogp.me
+
+INFO:  testing resolution of predicate http://ogp.me/ns#description
+
+WARN:  predicate http://ogp.me/ns#description did not resolve to linked data.
+
+INFO: If linked data was found in the previous line, it will now be tested by the following SPARQL query: 'select * where {<http://ogp.me/ns#description> ?p ?o}' 
+
+WARN:  predicate http://ogp.me/ns#description was not found as the SUBJECT of a triple, indicating that it did not resolve to its definition.
+
+FAILURE: 0 of a total of 19 predicates discovered in the metadata resolved to Linked Data data.  The minimum to pass this test is 2/3 (with a minimum of 3 predicates in total).";0;"INFO: TEST VERSION 'Hvst-1.4.4:Tst-0.3.0'
+
+INFO: Found a URI.
+
+INFO:  Attempting to resolve https://osf.io/r7g9q/ using HTTP Headers {""Accept""=>""text/turtle, application/ld+json, application/rdf+xml, text/xhtml+xml, application/n3, application/rdf+n3, application/turtle, application/x-turtle, text/n3, text/turtle, text/rdf+n3, text/rdf+turtle, application/n-triples""}.
+
+INFO: following redirection using this header led to the following URL: https://osf.io/r7g9q/.  Using the output from this URL for the next few tests...
+INFO: Link Header and Meta Link parsing complete.  Back in main thread.
+
+INFO: Found html text/html type of content when resolving https://osf.io/r7g9q/ using HTTP Accept header {""Accept""=>""text/turtle, application/ld+json, application/rdf+xml, text/xhtml+xml, application/n3, application/rdf+n3, application/turtle, application/x-turtle, text/n3, text/turtle, text/rdf+n3, text/rdf+turtle, application/n-triples""}.
+
+INFO: parsing as HTML. 
+
+INFO: Now attempting to use the extruct parser. 
+
+INFO:  Using 'extruct' to try to extract metadata from return value (message body) of https://osf.io/r7g9q/.
+
+INFO: the extruct tool found parseable data at https://osf.io/r7g9q/
+
+INFO: The response message body component appears to contain JSON::LD::Format.
+
+INFO: The response message body component appears to contain JSON::LD::Format.
+
+INFO: Now attempting to use the Kellogg's Distiller parser. 
+
+INFO: Note that, if the Distiller fails, you can view the output of its parse by visiting http://rdf.greggkellogg.net/distiller?command=serialize&url=https%3A%2F%2Fosf.io%2Fr7g9q%2F. 
+
+INFO: Using 'Kellog's Distiller' to try to extract metadata from return value (message body).
+
+INFO: The message body is being examined by Distiller
+
+INFO: The Distiller found parseable data.  Parsing as RDF
+
+CRITICAL: The Evaluator found what it believed to be RDF (sample:  {  ""@context"": {    ""as"": ""https://www.w3.org/ns/activitystreams#"",    ""cc"": ""http://creativecommons.org/ns#"",    ""csvw"": ""http://www.w3.org/ns/csvw#"",    ""ctag"": ""http://commontag.org/ns#"",    ""dc"": ""http://purl.org/dc/terms/"",    ""dc11"": ""http://purl.org/dc/elements/1.1/"",    ""dcat"": ""http:), but it could not find a parser.  Please report this error, along with the GUID of the resource, to the maintainer of the system.
+
+INFO:  Attempting to resolve https://osf.io/r7g9q/ using HTTP Headers text/xhtml,text/xml.
+
+INFO: following redirection using this header led to the following URL: https://osf.io/r7g9q/.  Using the output from this URL for the next few tests...
+INFO: Link Header and Meta Link parsing complete.  Back in main thread.
+
+INFO: Found html text/html type of content when resolving https://osf.io/r7g9q/ using HTTP Accept header {""Accept""=>""text/xhtml,text/xml""}.
+
+INFO: parsing as HTML. 
+
+INFO: Now attempting to use the extruct parser. 
+
+INFO:  Using 'extruct' to try to extract metadata from return value (message body) of https://osf.io/r7g9q/.
+
+INFO: the extruct tool found parseable data at https://osf.io/r7g9q/
+
+INFO: Now attempting to use the Kellogg's Distiller parser. 
+
+INFO: Note that, if the Distiller fails, you can view the output of its parse by visiting http://rdf.greggkellogg.net/distiller?command=serialize&url=https%3A%2F%2Fosf.io%2Fr7g9q%2F. 
+
+INFO: Using 'Kellog's Distiller' to try to extract metadata from return value (message body).
+
+INFO: The message body is being examined by Distiller
+
+INFO: The Distiller found parseable data.  Parsing as RDF
+
+CRITICAL: The Evaluator found what it believed to be RDF (sample:  {  ""@context"": {    ""as"": ""https://www.w3.org/ns/activitystreams#"",    ""cc"": ""http://creativecommons.org/ns#"",    ""csvw"": ""http://www.w3.org/ns/csvw#"",    ""ctag"": ""http://commontag.org/ns#"",    ""dc"": ""http://purl.org/dc/terms/"",    ""dc11"": ""http://purl.org/dc/elements/1.1/"",    ""dcat"": ""http:), but it could not find a parser.  Please report this error, along with the GUID of the resource, to the maintainer of the system.
+
+INFO:  Attempting to resolve https://osf.io/r7g9q/ using HTTP Headers application/json.
+
+INFO: following redirection using this header led to the following URL: https://osf.io/r7g9q/.  Using the output from this URL for the next few tests...
+INFO: Link Header and Meta Link parsing complete.  Back in main thread.
+
+INFO: Found html text/html type of content when resolving https://osf.io/r7g9q/ using HTTP Accept header {""Accept""=>""application/json""}.
+
+INFO: parsing as HTML. 
+
+INFO: Now attempting to use the extruct parser. 
+
+INFO:  Using 'extruct' to try to extract metadata from return value (message body) of https://osf.io/r7g9q/.
+
+INFO: the extruct tool found parseable data at https://osf.io/r7g9q/
+
+INFO: Now attempting to use the Kellogg's Distiller parser. 
+
+INFO: Note that, if the Distiller fails, you can view the output of its parse by visiting http://rdf.greggkellogg.net/distiller?command=serialize&url=https%3A%2F%2Fosf.io%2Fr7g9q%2F. 
+
+INFO: Using 'Kellog's Distiller' to try to extract metadata from return value (message body).
+
+INFO: The message body is being examined by Distiller
+
+INFO: The Distiller found parseable data.  Parsing as RDF
+
+CRITICAL: The Evaluator found what it believed to be RDF (sample:  {  ""@context"": {    ""as"": ""https://www.w3.org/ns/activitystreams#"",    ""cc"": ""http://creativecommons.org/ns#"",    ""csvw"": ""http://www.w3.org/ns/csvw#"",    ""ctag"": ""http://commontag.org/ns#"",    ""dc"": ""http://purl.org/dc/terms/"",    ""dc11"": ""http://purl.org/dc/elements/1.1/"",    ""dcat"": ""http:), but it could not find a parser.  Please report this error, along with the GUID of the resource, to the maintainer of the system.
+
+INFO:  Attempting to resolve https://osf.io/r7g9q/ using HTTP Headers 'Accept: */*'.
+
+INFO: following redirection using this header led to the following URL: https://osf.io/r7g9q/.  Using the output from this URL for the next few tests...
+INFO: Link Header and Meta Link parsing complete.  Back in main thread.
+
+INFO: Found html text/html type of content when resolving https://osf.io/r7g9q/ using HTTP Accept header {""Accept""=>""*/*""}.
+
+INFO: parsing as HTML. 
+
+INFO: Now attempting to use the extruct parser. 
+
+INFO:  Using 'extruct' to try to extract metadata from return value (message body) of https://osf.io/r7g9q/.
+
+INFO: the extruct tool found parseable data at https://osf.io/r7g9q/
+
+INFO: Now attempting to use the Kellogg's Distiller parser. 
+
+INFO: Note that, if the Distiller fails, you can view the output of its parse by visiting http://rdf.greggkellogg.net/distiller?command=serialize&url=https%3A%2F%2Fosf.io%2Fr7g9q%2F. 
+
+INFO: Using 'Kellog's Distiller' to try to extract metadata from return value (message body).
+
+INFO: The message body is being examined by Distiller
+
+INFO: The Distiller found parseable data.  Parsing as RDF
+
+CRITICAL: The Evaluator found what it believed to be RDF (sample:  {  ""@context"": {    ""as"": ""https://www.w3.org/ns/activitystreams#"",    ""cc"": ""http://creativecommons.org/ns#"",    ""csvw"": ""http://www.w3.org/ns/csvw#"",    ""ctag"": ""http://commontag.org/ns#"",    ""dc"": ""http://purl.org/dc/terms/"",    ""dc11"": ""http://purl.org/dc/elements/1.1/"",    ""dcat"": ""http:), but it could not find a parser.  Please report this error, along with the GUID of the resource, to the maintainer of the system.
+
+INFO: END OF HARVESTING
+
+INFO: Linked data was found.  Test proceeding
+
+INFO:  Testing resolution of predicates from the domain schema.org
+
+INFO:  testing resolution of predicate http://schema.org/creator
+
+INFO: http://schema.org/creator resolved.
+
+INFO:  Testing resolution of predicates from the domain ogp.me
+
+INFO:  testing resolution of predicate http://ogp.me/ns#description
+
+FAILURE: 9 of a total of 19 predicates discovered in the metadata resolved to Linked Data data.  The minimum to pass this test is 2/3 (with a minimum of 3 predicates in total).";1;"INFO: TEST VERSION 'Hvst-1.4.4:Tst-0.2.3'
+
+INFO: Found a URI.
+
+INFO:  Attempting to resolve https://osf.io/r7g9q/ using HTTP Headers {""Accept""=>""text/turtle, application/ld+json, application/rdf+xml, text/xhtml+xml, application/n3, application/rdf+n3, application/turtle, application/x-turtle, text/n3, text/turtle, text/rdf+n3, text/rdf+turtle, application/n-triples""}.
+
+INFO: following redirection using this header led to the following URL: https://osf.io/r7g9q/.  Using the output from this URL for the next few tests...
+INFO: Link Header and Meta Link parsing complete.  Back in main thread.
+
+INFO: Found html text/html type of content when resolving https://osf.io/r7g9q/ using HTTP Accept header {""Accept""=>""text/turtle, application/ld+json, application/rdf+xml, text/xhtml+xml, application/n3, application/rdf+n3, application/turtle, application/x-turtle, text/n3, text/turtle, text/rdf+n3, text/rdf+turtle, application/n-triples""}.
+
+INFO: parsing as HTML. 
+
+INFO: Now attempting to use the extruct parser. 
+
+INFO:  Using 'extruct' to try to extract metadata from return value (message body) of https://osf.io/r7g9q/.
+
+INFO: the extruct tool found parseable data at https://osf.io/r7g9q/
+
+INFO: The response message body component appears to contain JSON::LD::Format.
+
+INFO: The response message body component appears to contain JSON::LD::Format.
+
+INFO: Now attempting to use the Kellogg's Distiller parser. 
+
+INFO: Note that, if the Distiller fails, you can view the output of its parse by visiting http://rdf.greggkellogg.net/distiller?command=serialize&url=https%3A%2F%2Fosf.io%2Fr7g9q%2F. 
+
+INFO: Using 'Kellog's Distiller' to try to extract metadata from return value (message body).
+
+INFO: The message body is being examined by Distiller
+
+INFO: The Distiller found parseable data.  Parsing as RDF
+
+CRITICAL: The Evaluator found what it believed to be RDF (sample:  {  ""@context"": {    ""as"": ""https://www.w3.org/ns/activitystreams#"",    ""cc"": ""http://creativecommons.org/ns#"",    ""csvw"": ""http://www.w3.org/ns/csvw#"",    ""ctag"": ""http://commontag.org/ns#"",    ""dc"": ""http://purl.org/dc/terms/"",    ""dc11"": ""http://purl.org/dc/elements/1.1/"",    ""dcat"": ""http:), but it could not find a parser.  Please report this error, along with the GUID of the resource, to the maintainer of the system.
+
+INFO:  Attempting to resolve https://osf.io/r7g9q/ using HTTP Headers text/xhtml,text/xml.
+
+INFO: following redirection using this header led to the following URL: https://osf.io/r7g9q/.  Using the output from this URL for the next few tests...
+INFO: Link Header and Meta Link parsing complete.  Back in main thread.
+
+INFO: Found html text/html type of content when resolving https://osf.io/r7g9q/ using HTTP Accept header {""Accept""=>""text/xhtml,text/xml""}.
+
+INFO: parsing as HTML. 
+
+INFO: Now attempting to use the extruct parser. 
+
+INFO:  Using 'extruct' to try to extract metadata from return value (message body) of https://osf.io/r7g9q/.
+
+INFO: the extruct tool found parseable data at https://osf.io/r7g9q/
+
+INFO: Now attempting to use the Kellogg's Distiller parser. 
+
+INFO: Note that, if the Distiller fails, you can view the output of its parse by visiting http://rdf.greggkellogg.net/distiller?command=serialize&url=https%3A%2F%2Fosf.io%2Fr7g9q%2F. 
+
+INFO: Using 'Kellog's Distiller' to try to extract metadata from return value (message body).
+
+INFO: The message body is being examined by Distiller
+
+INFO: The Distiller found parseable data.  Parsing as RDF
+
+CRITICAL: The Evaluator found what it believed to be RDF (sample:  {  ""@context"": {    ""as"": ""https://www.w3.org/ns/activitystreams#"",    ""cc"": ""http://creativecommons.org/ns#"",    ""csvw"": ""http://www.w3.org/ns/csvw#"",    ""ctag"": ""http://commontag.org/ns#"",    ""dc"": ""http://purl.org/dc/terms/"",    ""dc11"": ""http://purl.org/dc/elements/1.1/"",    ""dcat"": ""http:), but it could not find a parser.  Please report this error, along with the GUID of the resource, to the maintainer of the system.
+
+INFO:  Attempting to resolve https://osf.io/r7g9q/ using HTTP Headers application/json.
+
+INFO: following redirection using this header led to the following URL: https://osf.io/r7g9q/.  Using the output from this URL for the next few tests...
+INFO: Link Header and Meta Link parsing complete.  Back in main thread.
+
+INFO: Found html text/html type of content when resolving https://osf.io/r7g9q/ using HTTP Accept header {""Accept""=>""application/json""}.
+
+INFO: parsing as HTML. 
+
+INFO: Now attempting to use the extruct parser. 
+
+INFO:  Using 'extruct' to try to extract metadata from return value (message body) of https://osf.io/r7g9q/.
+
+INFO: the extruct tool found parseable data at https://osf.io/r7g9q/
+
+INFO: Now attempting to use the Kellogg's Distiller parser. 
+
+INFO: Note that, if the Distiller fails, you can view the output of its parse by visiting http://rdf.greggkellogg.net/distiller?command=serialize&url=https%3A%2F%2Fosf.io%2Fr7g9q%2F. 
+
+INFO: Using 'Kellog's Distiller' to try to extract metadata from return value (message body).
+
+INFO: The message body is being examined by Distiller
+
+INFO: The Distiller found parseable data.  Parsing as RDF
+
+CRITICAL: The Evaluator found what it believed to be RDF (sample:  {  ""@context"": {    ""as"": ""https://www.w3.org/ns/activitystreams#"",    ""cc"": ""http://creativecommons.org/ns#"",    ""csvw"": ""http://www.w3.org/ns/csvw#"",    ""ctag"": ""http://commontag.org/ns#"",    ""dc"": ""http://purl.org/dc/terms/"",    ""dc11"": ""http://purl.org/dc/elements/1.1/"",    ""dcat"": ""http:), but it could not find a parser.  Please report this error, along with the GUID of the resource, to the maintainer of the system.
+
+INFO:  Attempting to resolve https://osf.io/r7g9q/ using HTTP Headers 'Accept: */*'.
+
+INFO: following redirection using this header led to the following URL: https://osf.io/r7g9q/.  Using the output from this URL for the next few tests...
+INFO: Link Header and Meta Link parsing complete.  Back in main thread.
+
+INFO: Found html text/html type of content when resolving https://osf.io/r7g9q/ using HTTP Accept header {""Accept""=>""*/*""}.
+
+INFO: parsing as HTML. 
+
+INFO: Now attempting to use the extruct parser. 
+
+INFO:  Using 'extruct' to try to extract metadata from return value (message body) of https://osf.io/r7g9q/.
+
+INFO: the extruct tool found parseable data at https://osf.io/r7g9q/
+
+INFO: Now attempting to use the Kellogg's Distiller parser. 
+
+INFO: Note that, if the Distiller fails, you can view the output of its parse by visiting http://rdf.greggkellogg.net/distiller?command=serialize&url=https%3A%2F%2Fosf.io%2Fr7g9q%2F. 
+
+INFO: Using 'Kellog's Distiller' to try to extract metadata from return value (message body).
+
+INFO: The message body is being examined by Distiller
+
+INFO: The Distiller found parseable data.  Parsing as RDF
+
+CRITICAL: The Evaluator found what it believed to be RDF (sample:  {  ""@context"": {    ""as"": ""https://www.w3.org/ns/activitystreams#"",    ""cc"": ""http://creativecommons.org/ns#"",    ""csvw"": ""http://www.w3.org/ns/csvw#"",    ""ctag"": ""http://commontag.org/ns#"",    ""dc"": ""http://purl.org/dc/terms/"",    ""dc11"": ""http://purl.org/dc/elements/1.1/"",    ""dcat"": ""http:), but it could not find a parser.  Please report this error, along with the GUID of the resource, to the maintainer of the system.
+
+INFO: END OF HARVESTING
+
+INFO: Linked data was found.
+
+INFO: Testing http://schema.org/Dataset.
+
+INFO: Testing https://osf.io/r7g9q.
+
+INFO: Testing http://schema.org/Person.
+
+INFO: Testing http://schema.org/Person.
+
+INFO: Testing http://schema.org/Person.
+
+INFO: Testing http://schema.org/Person.
+
+INFO: Testing http://schema.org/Person.
+
+INFO: Testing http://schema.org/CreativeWork.
+
+INFO: Testing https://creativecommons.org/licenses/by/4.0/legalcode.
+
+INFO: Testing http://schema.org/Organization.
+
+INFO: Testing http://schema.org/Dataset.
+
+INFO: Testing https://osf.io/r7g9q.
+
+INFO: Testing http://schema.org/Person.
+
+INFO: Testing http://schema.org/Person.
+
+INFO: Testing http://schema.org/Person.
+
+INFO: Testing http://schema.org/Person.
+
+INFO: Testing http://schema.org/Person.
+
+INFO: Testing http://schema.org/CreativeWork.
+
+INFO: Testing https://creativecommons.org/licenses/by/4.0/legalcode.
+
+INFO: Testing http://schema.org/Organization.
+
+INFO: Testing http://schema.org/Dataset.
+
+INFO: Testing https://osf.io/r7g9q.
+
+INFO: Testing http://schema.org/Person.
+
+INFO: Testing http://schema.org/Person.
+
+INFO: Testing http://schema.org/Person.
+
+INFO: Testing http://schema.org/Person.
+
+INFO: Testing http://schema.org/Person.
+
+INFO: Testing http://schema.org/CreativeWork.
+
+INFO: Testing https://creativecommons.org/licenses/by/4.0/legalcode.
+
+INFO: Testing http://schema.org/Organization.
+
+INFO: Testing http://schema.org/Dataset.
+
+INFO: Testing https://osf.io/r7g9q.
+
+INFO: Testing http://schema.org/Person.
+
+INFO: Testing http://schema.org/Person.
+
+INFO: Testing http://schema.org/Person.
+
+INFO: Testing http://schema.org/Person.
+
+INFO: Testing http://schema.org/Person.
+
+INFO: Testing http://schema.org/CreativeWork.
+
+INFO: Testing https://creativecommons.org/licenses/by/4.0/legalcode.
+
+INFO: Testing http://schema.org/Organization.
+
+SUCCESS: 36 of the 40 triples discovered in the linked metadata pointed to resources hosted elsewhere.";0;"INFO: TEST VERSION 'Hvst-1.4.4:Tst-0.2.2'
+
+INFO: Found a URI.
+
+INFO:  Attempting to resolve https://osf.io/r7g9q/ using HTTP Headers {""Accept""=>""text/turtle, application/ld+json, application/rdf+xml, text/xhtml+xml, application/n3, application/rdf+n3, application/turtle, application/x-turtle, text/n3, text/turtle, text/rdf+n3, text/rdf+turtle, application/n-triples""}.
+
+INFO: following redirection using this header led to the following URL: https://osf.io/r7g9q/.  Using the output from this URL for the next few tests...
+INFO: Link Header and Meta Link parsing complete.  Back in main thread.
+
+INFO: Found html text/html type of content when resolving https://osf.io/r7g9q/ using HTTP Accept header {""Accept""=>""text/turtle, application/ld+json, application/rdf+xml, text/xhtml+xml, application/n3, application/rdf+n3, application/turtle, application/x-turtle, text/n3, text/turtle, text/rdf+n3, text/rdf+turtle, application/n-triples""}.
+
+INFO: parsing as HTML. 
+
+INFO: Now attempting to use the extruct parser. 
+
+INFO:  Using 'extruct' to try to extract metadata from return value (message body) of https://osf.io/r7g9q/.
+
+INFO: the extruct tool found parseable data at https://osf.io/r7g9q/
+
+INFO: The response message body component appears to contain JSON::LD::Format.
+
+INFO: The response message body component appears to contain JSON::LD::Format.
+
+INFO: Now attempting to use the Kellogg's Distiller parser. 
+
+INFO: Note that, if the Distiller fails, you can view the output of its parse by visiting http://rdf.greggkellogg.net/distiller?command=serialize&url=https%3A%2F%2Fosf.io%2Fr7g9q%2F. 
+
+INFO: Using 'Kellog's Distiller' to try to extract metadata from return value (message body).
+
+INFO: The message body is being examined by Distiller
+
+INFO: The Distiller found parseable data.  Parsing as RDF
+
+CRITICAL: The Evaluator found what it believed to be RDF (sample:  {  ""@context"": {    ""as"": ""https://www.w3.org/ns/activitystreams#"",    ""cc"": ""http://creativecommons.org/ns#"",    ""csvw"": ""http://www.w3.org/ns/csvw#"",    ""ctag"": ""http://commontag.org/ns#"",    ""dc"": ""http://purl.org/dc/terms/"",    ""dc11"": ""http://purl.org/dc/elements/1.1/"",    ""dcat"": ""http:), but it could not find a parser.  Please report this error, along with the GUID of the resource, to the maintainer of the system.
+
+INFO:  Attempting to resolve https://osf.io/r7g9q/ using HTTP Headers text/xhtml,text/xml.
+
+INFO: following redirection using this header led to the following URL: https://osf.io/r7g9q/.  Using the output from this URL for the next few tests...
+INFO: Link Header and Meta Link parsing complete.  Back in main thread.
+
+INFO: Found html text/html type of content when resolving https://osf.io/r7g9q/ using HTTP Accept header {""Accept""=>""text/xhtml,text/xml""}.
+
+INFO: parsing as HTML. 
+
+INFO: Now attempting to use the extruct parser. 
+
+INFO:  Using 'extruct' to try to extract metadata from return value (message body) of https://osf.io/r7g9q/.
+
+INFO: the extruct tool found parseable data at https://osf.io/r7g9q/
+
+INFO: Now attempting to use the Kellogg's Distiller parser. 
+
+INFO: Note that, if the Distiller fails, you can view the output of its parse by visiting http://rdf.greggkellogg.net/distiller?command=serialize&url=https%3A%2F%2Fosf.io%2Fr7g9q%2F. 
+
+INFO: Using 'Kellog's Distiller' to try to extract metadata from return value (message body).
+
+INFO: The message body is being examined by Distiller
+
+INFO: The Distiller found parseable data.  Parsing as RDF
+
+CRITICAL: The Evaluator found what it believed to be RDF (sample:  {  ""@context"": {    ""as"": ""https://www.w3.org/ns/activitystreams#"",    ""cc"": ""http://creativecommons.org/ns#"",    ""csvw"": ""http://www.w3.org/ns/csvw#"",    ""ctag"": ""http://commontag.org/ns#"",    ""dc"": ""http://purl.org/dc/terms/"",    ""dc11"": ""http://purl.org/dc/elements/1.1/"",    ""dcat"": ""http:), but it could not find a parser.  Please report this error, along with the GUID of the resource, to the maintainer of the system.
+
+INFO:  Attempting to resolve https://osf.io/r7g9q/ using HTTP Headers application/json.
+
+INFO: following redirection using this header led to the following URL: https://osf.io/r7g9q/.  Using the output from this URL for the next few tests...
+INFO: Link Header and Meta Link parsing complete.  Back in main thread.
+
+INFO: Found html text/html type of content when resolving https://osf.io/r7g9q/ using HTTP Accept header {""Accept""=>""application/json""}.
+
+INFO: parsing as HTML. 
+
+INFO: Now attempting to use the extruct parser. 
+
+INFO:  Using 'extruct' to try to extract metadata from return value (message body) of https://osf.io/r7g9q/.
+
+INFO: the extruct tool found parseable data at https://osf.io/r7g9q/
+
+INFO: Now attempting to use the Kellogg's Distiller parser. 
+
+INFO: Note that, if the Distiller fails, you can view the output of its parse by visiting http://rdf.greggkellogg.net/distiller?command=serialize&url=https%3A%2F%2Fosf.io%2Fr7g9q%2F. 
+
+INFO: Using 'Kellog's Distiller' to try to extract metadata from return value (message body).
+
+INFO: The message body is being examined by Distiller
+
+INFO: The Distiller found parseable data.  Parsing as RDF
+
+CRITICAL: The Evaluator found what it believed to be RDF (sample:  {  ""@context"": {    ""as"": ""https://www.w3.org/ns/activitystreams#"",    ""cc"": ""http://creativecommons.org/ns#"",    ""csvw"": ""http://www.w3.org/ns/csvw#"",    ""ctag"": ""http://commontag.org/ns#"",    ""dc"": ""http://purl.org/dc/terms/"",    ""dc11"": ""http://purl.org/dc/elements/1.1/"",    ""dcat"": ""http:), but it could not find a parser.  Please report this error, along with the GUID of the resource, to the maintainer of the system.
+
+INFO:  Attempting to resolve https://osf.io/r7g9q/ using HTTP Headers 'Accept: */*'.
+
+INFO: following redirection using this header led to the following URL: https://osf.io/r7g9q/.  Using the output from this URL for the next few tests...
+INFO: Link Header and Meta Link parsing complete.  Back in main thread.
+
+INFO: Found html text/html type of content when resolving https://osf.io/r7g9q/ using HTTP Accept header {""Accept""=>""*/*""}.
+
+INFO: parsing as HTML. 
+
+INFO: Now attempting to use the extruct parser. 
+
+INFO:  Using 'extruct' to try to extract metadata from return value (message body) of https://osf.io/r7g9q/.
+
+INFO: the extruct tool found parseable data at https://osf.io/r7g9q/
+
+INFO: Now attempting to use the Kellogg's Distiller parser. 
+
+INFO: Note that, if the Distiller fails, you can view the output of its parse by visiting http://rdf.greggkellogg.net/distiller?command=serialize&url=https%3A%2F%2Fosf.io%2Fr7g9q%2F. 
+
+INFO: Using 'Kellog's Distiller' to try to extract metadata from return value (message body).
+
+INFO: The message body is being examined by Distiller
+
+INFO: The Distiller found parseable data.  Parsing as RDF
+
+CRITICAL: The Evaluator found what it believed to be RDF (sample:  {  ""@context"": {    ""as"": ""https://www.w3.org/ns/activitystreams#"",    ""cc"": ""http://creativecommons.org/ns#"",    ""csvw"": ""http://www.w3.org/ns/csvw#"",    ""ctag"": ""http://commontag.org/ns#"",    ""dc"": ""http://purl.org/dc/terms/"",    ""dc11"": ""http://purl.org/dc/elements/1.1/"",    ""dcat"": ""http:), but it could not find a parser.  Please report this error, along with the GUID of the resource, to the maintainer of the system.
+
+INFO: END OF HARVESTING
+
+INFO: Linked data found.  Testing for one of the following predicates: [""http://www.w3.org/1999/xhtml/vocab#license"", ""https://www.w3.org/1999/xhtml/vocab#license"", ""http://purl.org/ontology/dvia#hasLicense"", ""https://purl.org/ontology/dvia#hasLicense"", ""http://purl.org/dc/terms/license"", ""https://purl.org/dc/terms/license"", ""http://creativecommons.org/ns#license"", ""https://creativecommons.org/ns#license"", ""http://reference.data.gov.au/def/ont/dataset#hasLicense"", ""https://reference.data.gov.au/def/ont/dataset#hasLicense""].
+
+INFO:  Testing for <https://schema.org/license>.
+
+WARN: did not find a schema:license predicate that followed the Schema.org license range structure.
+
+FAILURE: No License property was found in the metadata.";0;"INFO: TEST VERSION 'Hvst-1.4.4:Tst-0.2.1'
+
+INFO: Found a URI.
+
+INFO:  Attempting to resolve https://osf.io/r7g9q/ using HTTP Headers {""Accept""=>""text/turtle, application/ld+json, application/rdf+xml, text/xhtml+xml, application/n3, application/rdf+n3, application/turtle, application/x-turtle, text/n3, text/turtle, text/rdf+n3, text/rdf+turtle, application/n-triples""}.
+
+INFO: following redirection using this header led to the following URL: https://osf.io/r7g9q/.  Using the output from this URL for the next few tests...
+INFO: Link Header and Meta Link parsing complete.  Back in main thread.
+
+INFO: Found html text/html type of content when resolving https://osf.io/r7g9q/ using HTTP Accept header {""Accept""=>""text/turtle, application/ld+json, application/rdf+xml, text/xhtml+xml, application/n3, application/rdf+n3, application/turtle, application/x-turtle, text/n3, text/turtle, text/rdf+n3, text/rdf+turtle, application/n-triples""}.
+
+INFO: parsing as HTML. 
+
+INFO: Now attempting to use the extruct parser. 
+
+INFO:  Using 'extruct' to try to extract metadata from return value (message body) of https://osf.io/r7g9q/.
+
+INFO: the extruct tool found parseable data at https://osf.io/r7g9q/
+
+INFO: The response message body component appears to contain JSON::LD::Format.
+
+INFO: The response message body component appears to contain JSON::LD::Format.
+
+INFO: Now attempting to use the Kellogg's Distiller parser. 
+
+INFO: Note that, if the Distiller fails, you can view the output of its parse by visiting http://rdf.greggkellogg.net/distiller?command=serialize&url=https%3A%2F%2Fosf.io%2Fr7g9q%2F. 
+
+INFO: Using 'Kellog's Distiller' to try to extract metadata from return value (message body).
+
+INFO: The message body is being examined by Distiller
+
+INFO: The Distiller found parseable data.  Parsing as RDF
+
+CRITICAL: The Evaluator found what it believed to be RDF (sample:  {  ""@context"": {    ""as"": ""https://www.w3.org/ns/activitystreams#"",    ""cc"": ""http://creativecommons.org/ns#"",    ""csvw"": ""http://www.w3.org/ns/csvw#"",    ""ctag"": ""http://commontag.org/ns#"",    ""dc"": ""http://purl.org/dc/terms/"",    ""dc11"": ""http://purl.org/dc/elements/1.1/"",    ""dcat"": ""http:), but it could not find a parser.  Please report this error, along with the GUID of the resource, to the maintainer of the system.
+
+INFO:  Attempting to resolve https://osf.io/r7g9q/ using HTTP Headers text/xhtml,text/xml.
+
+INFO: following redirection using this header led to the following URL: https://osf.io/r7g9q/.  Using the output from this URL for the next few tests...
+INFO: Link Header and Meta Link parsing complete.  Back in main thread.
+
+INFO: Found html text/html type of content when resolving https://osf.io/r7g9q/ using HTTP Accept header {""Accept""=>""text/xhtml,text/xml""}.
+
+INFO: parsing as HTML. 
+
+INFO: Now attempting to use the extruct parser. 
+
+INFO:  Using 'extruct' to try to extract metadata from return value (message body) of https://osf.io/r7g9q/.
+
+INFO: the extruct tool found parseable data at https://osf.io/r7g9q/
+
+INFO: Now attempting to use the Kellogg's Distiller parser. 
+
+INFO: Note that, if the Distiller fails, you can view the output of its parse by visiting http://rdf.greggkellogg.net/distiller?command=serialize&url=https%3A%2F%2Fosf.io%2Fr7g9q%2F. 
+
+INFO: Using 'Kellog's Distiller' to try to extract metadata from return value (message body).
+
+INFO: The message body is being examined by Distiller
+
+INFO: The Distiller found parseable data.  Parsing as RDF
+
+CRITICAL: The Evaluator found what it believed to be RDF (sample:  {  ""@context"": {    ""as"": ""https://www.w3.org/ns/activitystreams#"",    ""cc"": ""http://creativecommons.org/ns#"",    ""csvw"": ""http://www.w3.org/ns/csvw#"",    ""ctag"": ""http://commontag.org/ns#"",    ""dc"": ""http://purl.org/dc/terms/"",    ""dc11"": ""http://purl.org/dc/elements/1.1/"",    ""dcat"": ""http:), but it could not find a parser.  Please report this error, along with the GUID of the resource, to the maintainer of the system.
+
+INFO:  Attempting to resolve https://osf.io/r7g9q/ using HTTP Headers application/json.
+
+INFO: following redirection using this header led to the following URL: https://osf.io/r7g9q/.  Using the output from this URL for the next few tests...
+INFO: Link Header and Meta Link parsing complete.  Back in main thread.
+
+INFO: Found html text/html type of content when resolving https://osf.io/r7g9q/ using HTTP Accept header {""Accept""=>""application/json""}.
+
+INFO: parsing as HTML. 
+
+INFO: Now attempting to use the extruct parser. 
+
+INFO:  Using 'extruct' to try to extract metadata from return value (message body) of https://osf.io/r7g9q/.
+
+INFO: the extruct tool found parseable data at https://osf.io/r7g9q/
+
+INFO: Now attempting to use the Kellogg's Distiller parser. 
+
+INFO: Note that, if the Distiller fails, you can view the output of its parse by visiting http://rdf.greggkellogg.net/distiller?command=serialize&url=https%3A%2F%2Fosf.io%2Fr7g9q%2F. 
+
+INFO: Cached data is already parsed.  Returning
+
+INFO:  Attempting to resolve https://osf.io/r7g9q/ using HTTP Headers 'Accept: */*'.
+
+INFO: following redirection using this header led to the following URL: https://osf.io/r7g9q/.  Using the output from this URL for the next few tests...
+INFO: Link Header and Meta Link parsing complete.  Back in main thread.
+
+INFO: Found html text/html type of content when resolving https://osf.io/r7g9q/ using HTTP Accept header {""Accept""=>""*/*""}.
+
+INFO: parsing as HTML. 
+
+INFO: Now attempting to use the extruct parser. 
+
+INFO:  Using 'extruct' to try to extract metadata from return value (message body) of https://osf.io/r7g9q/.
+
+INFO: the extruct tool found parseable data at https://osf.io/r7g9q/
+
+INFO: Now attempting to use the Kellogg's Distiller parser. 
+
+INFO: Note that, if the Distiller fails, you can view the output of its parse by visiting http://rdf.greggkellogg.net/distiller?command=serialize&url=https%3A%2F%2Fosf.io%2Fr7g9q%2F. 
+
+INFO: Cached data is already parsed.  Returning
+
+INFO: END OF HARVESTING
+
+INFO:  searching hash-style metadata for a match with /license/ in any case.
+
+INFO:  searching linked data metadata for one of the following predicates: [""http://www.w3.org/1999/xhtml/vocab#license"", ""https://www.w3.org/1999/xhtml/vocab#license"", ""http://purl.org/ontology/dvia#hasLicense"", ""https://purl.org/ontology/dvia#hasLicense"", ""http://purl.org/dc/terms/license"", ""https://purl.org/dc/terms/license"", ""http://creativecommons.org/ns#license"", ""https://creativecommons.org/ns#license"", ""http://reference.data.gov.au/def/ont/dataset#hasLicense"", ""https://reference.data.gov.au/def/ont/dataset#hasLicense""].
+
+INFO:  Testing for <https://schema.org/license>.
+
+INFO:  Testing for <http://schema.org/license>.
+
+WARN: Found the Schema license predicate, but it does not have a Resource as its value.  While this is compliant with Schema, it is not best-practice.  Please update your metadata to point to a URL containing the license. 
+FAILURE: No License property was found in the metadata.";50;100;0;0;50;0;0;50;0;50;0;70,83;75;100;33,33;83,33;100;50;100;100;50;50;0;100;100;50;2;

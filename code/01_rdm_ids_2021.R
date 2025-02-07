@@ -37,7 +37,7 @@ charite_rd_2021 <- charite_rd_2021 |>
 # Load dataframe with repository names ----
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-repository_names <- read_delim("input/re3data_categories.csv", 
+repository_names <- read_delim("./input/re3data_categories.csv", 
                                delim = ";", escape_double = FALSE, trim_ws = TRUE, show_col_types = FALSE)
 
 repository_names <- repository_names |>

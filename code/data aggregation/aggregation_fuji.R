@@ -97,16 +97,33 @@ save(fuji_metrics_tests, file = "./output/Rdata/fuji/fuji_metrics_tests_2021_202
 
 # Make FsF metrics scores wider for join with F-UJI summary df
 fuji_metrics_tests_long <- fuji_metrics_tests |>
-  mutate(score_earned = score_earned / score_total * 100) |>
-  mutate(metric_identifier = factor(metric_identifier, levels = c(
+  mutate(fuji_score_earned = score_earned / score_total * 100) |>
+  mutate(fuji_metric_identifier = factor(metric_identifier, levels = c(
     "FsF-F1-01D", "FsF-F1-02D", "FsF-F2-01M", "FsF-F3-01M", "FsF-F4-01M",
     "FsF-A1-01M", "FsF-A1-02M", "FsF-A1-03D", 
-    "FsF-I1-01M", "FsF-I1-02M", "FsF-I2-01M", "FsF-I3-01M",
+    "FsF-I1-01M", "FsF-I2-01M", "FsF-I3-01M", # "FsF-I1-02M",
     "FsF-R1-01MD", "FsF-R1.1-01M", "FsF-R1.2-01M", "FsF-R1.3-01M", "FsF-R1.3-02D"
   ))) |>
-  arrange(metric_identifier) |>
-  select(guid, metric_identifier, score_earned) |>
-  pivot_wider(names_from = metric_identifier, values_from = score_earned)
+  arrange(fuji_metric_identifier) |>
+  select(guid, fuji_metric_identifier, score_earned) |>
+  pivot_wider(names_from = fuji_metric_identifier, values_from = score_earned) |>
+  rename(fuji_FsF_F1_01D = "FsF-F1-01D", 
+         fuji_FsF_F1_02D = "FsF-F1-02D", 
+         fuji_FsF_F2_01M = "FsF-F2-01M", 
+         fuji_FsF_F3_01M = "FsF-F3-01M", 
+         fuji_FsF_F4_01M = "FsF-F4-01M",
+         fuji_FsF_A1_01M = "FsF-A1-01M", 
+         fuji_FsF_A1_02M = "FsF-A1-02M", 
+         fuji_FsF_A1_03D = "FsF-A1-03D", 
+         fuji_FsF_I1_01M = "FsF-I1-01M", 
+         # fuji_FsF_I1_02M = "FsF-I1-02M", 
+         fuji_FsF_I2_01M = "FsF-I2-01M", 
+         fuji_FsF_I3_01M = "FsF-I3-01M",
+         fuji_FsF_R1_01MD = "FsF-R1-01MD", 
+         fuji_FsF_R1.1_01M = "FsF-R1.1-01M", 
+         fuji_FsF_R1.2_01M = "FsF-R1.2-01M", 
+         fuji_FsF_R1.3_01M = "FsF-R1.3-01M", 
+         fuji_FsF_R1.3_02D = "FsF-R1.3-02D")
 
 
 fuji_summary_results_all <- fuji_summary_results_all |> 
@@ -150,15 +167,15 @@ df_sum <- fuji_metrics_tests |>
 fuji_results_all <- charite_rd_2021 |>
   left_join(fuji_summary_results_all,
             by = c("best_identifier" = "rd_id")) |>
-  left_join(fuji_guid_scheme, by = c("best_identifier" = "rd_id")) |>
+#  left_join(fuji_guid_scheme, by = c("best_identifier" = "rd_id")) |>
   select(-id)
    
-save(fuji_results_all, file = "./output/Rdata/fuji/aggregated_fuji_results_all_2021_2024_05_11.Rdata")
+save(fuji_results_all, file = "./output/Rdata/fuji/aggregated_fuji_results_all_2021_2024_11_02.Rdata")
 write.csv2(fuji_results_all, 
-           file = "./output/csv/fuji_df_2021_2024_05_11.csv", row.names = F
+           file = "./output/csv/fuji_df_2021_2024_11_02.csv", row.names = F
            )
 
-save.image(file = "./output/Rdata/fuji/fuji_all_aggregations_2021_2024_05_11.Rdata")
+save.image(file = "./output/Rdata/fuji/fuji_all_aggregations_2021_2024_11_02.Rdata")
 
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # End ----
